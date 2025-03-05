@@ -5,11 +5,20 @@
     <ClCompile Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\solutions\win64\Code_uber.cpp">
       <Filter>UBER FILES</Filter>
     </ClCompile>
+    <ClCompile Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\solutions\win64\Components_uber.cpp">
+      <Filter>UBER FILES</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\GamePlugin.cpp" />
     <ClInclude Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\GamePlugin.h" />
     <ClInclude Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\StdAfx.h" />
+    <ClInclude Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\Components\Character.h">
+      <Filter>Components\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\Components\Character.cpp">
+      <Filter>Components\Character</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\CMakeLists.txt" />
@@ -20,6 +29,12 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
+    <Filter Include="Components">
+      <UniqueIdentifier>{5CC5E0BC-9C42-3F06-A654-6A9C5ED38F8C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Character">
+      <UniqueIdentifier>{A26324E9-7EA1-3A27-8862-CD95486BFF03}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Resource Files">
       <UniqueIdentifier>{24153BC0-625F-30B2-9C33-E15A6BF50E28}</UniqueIdentifier>
     </Filter>

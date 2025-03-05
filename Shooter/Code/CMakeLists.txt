@@ -22,6 +22,12 @@ add_sources("Code_uber.cpp"
 		"GamePlugin.h"
 		"StdAfx.h"
 )
+add_sources("Components_uber.cpp"
+    PROJECTS Game
+    SOURCE_GROUP "Components\\\\Character"
+        "Components/Character.h"
+        "Components/Character.cpp"
+)
 
 if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/CVarOverrides.h")
     add_sources("NoUberFile"
