@@ -2,5 +2,7 @@
 // This file is auto generated, do not manually edit it.
 
 #include <StdAfx.h>
+#include <D:/.GameDev/Projects/CRYENGINE projects/CryShooter/Shooter/Code/Components/PlayerController.cpp>
 #include <D:/.GameDev/Projects/CRYENGINE projects/CryShooter/Shooter/Code/Components/Character.cpp>
+#include <D:/.GameDev/Projects/CRYENGINE projects/CryShooter/Shooter/Code/Components/Player.cpp>
 

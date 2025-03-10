@@ -24,9 +24,15 @@ add_sources("Code_uber.cpp"
 )
 add_sources("Components_uber.cpp"
     PROJECTS Game
+    SOURCE_GROUP "Components\\\\Controllers"
+        "Components/PlayerController.h"
+        "Components/PlayerController.cpp"
     SOURCE_GROUP "Components\\\\Character"
         "Components/Character.h"
         "Components/Character.cpp"
+    SOURCE_GROUP "Components\\\\Character\\\\Player"
+        "Components/Player.h"
+        "Components/Player.cpp"
 )
 
 if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/CVarOverrides.h")
