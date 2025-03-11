@@ -25,12 +25,6 @@
     <ClInclude Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\Components\Character.cpp">
       <Filter>Components\Character</Filter>
     </ClInclude>
-    <ClInclude Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\Components\Player.h">
-      <Filter>Components\Character\Player</Filter>
-    </ClInclude>
-    <ClInclude Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\Components\Player.cpp">
-      <Filter>Components\Character\Player</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\CMakeLists.txt" />
@@ -46,9 +40,6 @@
     </Filter>
     <Filter Include="Components\Character">
       <UniqueIdentifier>{A26324E9-7EA1-3A27-8862-CD95486BFF03}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Components\Character\Player">
-      <UniqueIdentifier>{38DB19CE-1A20-3496-BA72-23044530CC1E}</UniqueIdentifier>
     </Filter>
     <Filter Include="Components\Controllers">
       <UniqueIdentifier>{11FF94D0-D907-3040-A631-F3A4F9EA5CEA}</UniqueIdentifier>
