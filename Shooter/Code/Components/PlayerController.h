@@ -18,7 +18,7 @@ public:
 		desc.SetEditorCategory("Characters/Controllers");
 		desc.SetLabel("Player Controller");
 		desc.SetDescription("Makes Camera and recieves player input. Takes control over Character component or creates it's own");
-		desc.AddMember(&CPlayerController::m_MouseSensitivity, 'msns', "mousesensitivity", "Mouse Sensitivity", "Mouse Sensitivity", 0.2f);
+		desc.AddMember(&CPlayerController::m_MouseSensitivity, 'msns', "mousesensitivity", "Mouse Sensitivity", "Mouse Sensitivity", 0.002f);
 		desc.AddMember(&CPlayerController::m_CameraDefaultHeight, 'cmdh', "camdefh", "Camera Default Height", "Default height of the camera", 2);
 	}
 
@@ -37,6 +37,6 @@ private:
 	Vec2 m_MovementInput;
 	Vec2 m_LookInput;
 
-	float m_MouseSensitivity=0.2f;
+	float m_MouseSensitivity=0.002f;
 	float m_CameraDefaultHeight =2;
 };

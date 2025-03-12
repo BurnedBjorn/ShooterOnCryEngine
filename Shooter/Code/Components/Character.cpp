@@ -1,6 +1,8 @@
 #include <StdAfx.h>
 #include "Character.h"
 
+
+#include <DefaultComponents/Cameras/CameraComponent.h>
 //Start registration stuff
 #include <CrySchematyc/Reflection/TypeDesc.h>
 #include <CrySchematyc/Utils/EnumFlags.h>
@@ -44,21 +46,36 @@ void CCharacterComponent::ProcessEvent(const SEntityEvent& event)
 
     }
     break;
-
+    
     case Cry::Entity::EEvent::Update:
     {
         MovementUpdate();
+        
+        Ang3 NewRotation = CCamera::CreateAnglesYPR(Matrix33(m_LookOrientation));
+        
+        NewRotation.x += m_LookInput.x;
+        NewRotation.y += m_LookInput.y;
+        NewRotation.z = 0;
+        
+        m_LookOrientation = Quat(CCamera::CreateOrientationYPR(NewRotation));
+     
+        
+        m_pEntity->SetRotation(m_LookOrientation);
+        
         
     }
     break;
     case Cry::Entity::EEvent::Reset:
     {
-        
+        CryLog("Reset");
+        m_LookOrientation = IDENTITY;
     }
     break;
     case Cry::Entity::EEvent::GameplayStarted:
     {
         
+        //m_LookOrientation = IDENTITY;
+       
     }
     break;
     default:
@@ -79,6 +96,22 @@ Cry::Entity::EventFlags CCharacterComponent::GetEventMask() const
 void CCharacterComponent::MovementUpdate()
 {
     Vec3 MovementDirection = Vec3(m_MovementDirection.x, m_MovementDirection.y, 0);
-    MovementDirection.Normalize();
-    m_pCharacterController->SetVelocity(m_pEntity->GetWorldRotation()*MovementDirection*m_MovementSpeed);
+    if (MovementDirection.GetLength()>0)
+    {
+        MovementDirection.Normalize();
+    }
+    else
+    {
+        MovementDirection = Vec3(0, 0, 0);
+    }
+    Vec3 Velocity = MovementDirection * m_MovementSpeed;
+    if (m_pEntity->GetWorldRotation().IsValid())
+    {
+        Velocity = m_pEntity->GetWorldRotation()*Velocity;
+    }
+    else
+    {
+        Velocity = m_LookOrientation* Velocity;
+    }
+    m_pCharacterController->SetVelocity(Velocity);
 }

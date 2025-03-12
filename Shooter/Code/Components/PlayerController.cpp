@@ -94,10 +94,10 @@ void CPlayerController::InitializeInput()
     m_pInputComponent->RegisterAction("PlayerMovement", "Left", [this](int activationMode, float value) {m_pControlledCharacter->m_MovementDirection.x = -value; });
     m_pInputComponent->BindAction("PlayerMovement", "Left", eAID_KeyboardMouse, eKI_A);
 
-    m_pInputComponent->RegisterAction("PlayerLooking", "Vertical", [this](int activationMode, float value) {m_LookInput.y = -value; });
+    m_pInputComponent->RegisterAction("PlayerLooking", "Vertical", [this](int activationMode, float value) {m_pControlledCharacter->m_LookInput.y = -value*m_MouseSensitivity; });
     m_pInputComponent->BindAction("PlayerLooking", "Vertical", eAID_KeyboardMouse, eKI_MouseY);
 
-    m_pInputComponent->RegisterAction("PlayerLooking", "Horisontal", [this](int activationMode, float value) {m_LookInput.x = -value; });
+    m_pInputComponent->RegisterAction("PlayerLooking", "Horisontal", [this](int activationMode, float value) {m_pControlledCharacter->m_LookInput.x = -value* m_MouseSensitivity; });
     m_pInputComponent->BindAction("PlayerLooking", "Horisontal", eAID_KeyboardMouse, eKI_MouseX);
 
 }
