@@ -1,6 +1,12 @@
 #pragma once
 #include <StdAfx.h>
+#include "Character.h"
+
 #include <CryEntitySystem/IEntityComponent.h>
+
+
+#include <DefaultComponents/Input/InputComponent.h>
+#include <DefaultComponents/Cameras/CameraComponent.h>
 class CPlayerController :public IEntityComponent
 {
 public:
@@ -9,11 +15,28 @@ public:
 	static void ReflectType(Schematyc::CTypeDesc<CPlayerController>& desc)
 	{
 		desc.SetGUID("{6018EE90-642B-448B-96A6-4E9B456DD4FF}"_cry_guid);
-		desc.SetEditorCategory("Characters");
-		desc.SetLabel("Base Character Component");
-		desc.SetDescription("Character component that can be controlled with a controller");
-		
+		desc.SetEditorCategory("Characters/Controllers");
+		desc.SetLabel("Player Controller");
+		desc.SetDescription("Makes Camera and recieves player input. Takes control over Character component or creates it's own");
+		desc.AddMember(&CPlayerController::m_MouseSensitivity, 'msns', "mousesensitivity", "Mouse Sensitivity", "Mouse Sensitivity", 0.2f);
+		desc.AddMember(&CPlayerController::m_CameraDefaultHeight, 'cmdh', "camdefh", "Camera Default Height", "Default height of the camera", 2);
 	}
+
+	virtual void Initialize() override;
+	virtual void ProcessEvent(const SEntityEvent& event) override;
+	virtual Cry::Entity::EventFlags GetEventMask() const override;
+
+	void InitializeInput();
 protected:
+	
 private:
+	CCharacterComponent* m_pControlledCharacter = nullptr;
+	Cry::DefaultComponents::CCameraComponent* m_pCameraComponent= nullptr;
+	Cry::DefaultComponents::CInputComponent* m_pInputComponent = nullptr;
+
+	Vec2 m_MovementInput;
+	Vec2 m_LookInput;
+
+	float m_MouseSensitivity=0.2f;
+	float m_CameraDefaultHeight =2;
 };

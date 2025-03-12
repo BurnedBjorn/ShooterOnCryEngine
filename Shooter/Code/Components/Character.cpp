@@ -31,8 +31,8 @@ void CCharacterComponent::Initialize()
 {
     m_pCharacterController = m_pEntity->GetOrCreateComponent<Cry::DefaultComponents::CCharacterControllerComponent>();
     m_pAdvancedAnimationController = m_pEntity->GetOrCreateComponent< Cry::DefaultComponents::CAdvancedAnimationComponent>();
+ 
 
-    ChildInitialize();
 }
 
 void CCharacterComponent::ProcessEvent(const SEntityEvent& event)
@@ -47,9 +47,17 @@ void CCharacterComponent::ProcessEvent(const SEntityEvent& event)
 
     case Cry::Entity::EEvent::Update:
     {
-        const float frameTime = 1;
-        RotaionUpdate(frameTime);
-        MovementUpdate(frameTime);
+        MovementUpdate();
+        
+    }
+    break;
+    case Cry::Entity::EEvent::Reset:
+    {
+        
+    }
+    break;
+    case Cry::Entity::EEvent::GameplayStarted:
+    {
         
     }
     break;
@@ -61,23 +69,16 @@ void CCharacterComponent::ProcessEvent(const SEntityEvent& event)
 Cry::Entity::EventFlags CCharacterComponent::GetEventMask() const
 {
     return Cry::Entity::EEvent::Update |
-    Cry::Entity::EEvent::Initialize
+    Cry::Entity::EEvent::Initialize |
+    Cry::Entity::EEvent::Reset |
+    Cry::Entity::EEvent::GameplayStarted
     ;
 }
 
-void CCharacterComponent::MovementUpdate(const float frameTime)
-{
-    Vec3 MovDir = ZERO;
-    MovDir.x = m_MovementDirection.x;
-    MovDir.y = m_MovementDirection.y;
-    CryLog("ft %.2f",frameTime);
-    MovDir.NormalizeSafe();
-    m_pCharacterController->AddVelocity(GetEntity()->GetWorldRotation() * MovDir*frameTime); 
-}
 
-void CCharacterComponent::RotaionUpdate(const float frameTime)
+void CCharacterComponent::MovementUpdate()
 {
-    Quat DeltaX = ZERO;
-    DeltaX.CreateRotationX(m_LookDirectionDelta.x);
-    m_pEntity->SetRotation(m_pEntity->GetRotation() + DeltaX*frameTime);
+    Vec3 MovementDirection = Vec3(m_MovementDirection.x, m_MovementDirection.y, 0);
+    MovementDirection.Normalize();
+    m_pCharacterController->SetVelocity(m_pEntity->GetWorldRotation()*MovementDirection*m_MovementSpeed);
 }
