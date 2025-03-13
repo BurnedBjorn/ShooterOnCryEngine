@@ -42,6 +42,7 @@ private:
 	float m_MouseSensitivity=0.002f;
 	float m_CameraDefaultHeight =2;
 
+
 	void SendMovementUpdate();
 	void EntityRotationUpdate();
 	void CameraRotationUpdate();
