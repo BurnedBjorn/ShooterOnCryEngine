@@ -82,23 +82,28 @@ Cry::Entity::EventFlags CPlayerController::GetEventMask() const
 void CPlayerController::InitializeInput()
 {
     
-    m_pInputComponent->RegisterAction("PlayerMovement", "Forward", [this](int activationMode, float value) {m_pControlledCharacter->m_MovementDirection.y = value;CryLog("Input"); });
+    m_pInputComponent->RegisterAction("PlayerMovement", "Forward", [this](int activationMode, float value) {m_MovementInput.y = value; SendMovementUpdate(); });
     m_pInputComponent->BindAction("PlayerMovement", "Forward", eAID_KeyboardMouse, eKI_W);
 
-    m_pInputComponent->RegisterAction("PlayerMovement", "Back", [this](int activationMode, float value) { m_pControlledCharacter->m_MovementDirection.y = -value; });
+    m_pInputComponent->RegisterAction("PlayerMovement", "Back", [this](int activationMode, float value) { m_MovementInput.y = -value; SendMovementUpdate(); });
     m_pInputComponent->BindAction("PlayerMovement", "Back", eAID_KeyboardMouse, eKI_S);
 
-    m_pInputComponent->RegisterAction("PlayerMovement", "Right", [this](int activationMode, float value) {m_pControlledCharacter->m_MovementDirection.x = value; });
+    m_pInputComponent->RegisterAction("PlayerMovement", "Right", [this](int activationMode, float value) {m_MovementInput.x = value; SendMovementUpdate(); });
     m_pInputComponent->BindAction("PlayerMovement", "Right", eAID_KeyboardMouse, eKI_D);
 
-    m_pInputComponent->RegisterAction("PlayerMovement", "Left", [this](int activationMode, float value) {m_pControlledCharacter->m_MovementDirection.x = -value; });
+    m_pInputComponent->RegisterAction("PlayerMovement", "Left", [this](int activationMode, float value) {m_MovementInput.x = -value; SendMovementUpdate(); });
     m_pInputComponent->BindAction("PlayerMovement", "Left", eAID_KeyboardMouse, eKI_A);
-
+    /*
     m_pInputComponent->RegisterAction("PlayerLooking", "Vertical", [this](int activationMode, float value) {m_pControlledCharacter->m_LookInput.y = -value * m_MouseSensitivity;  });
     m_pInputComponent->BindAction("PlayerLooking", "Vertical", eAID_KeyboardMouse, eKI_MouseY);
 
     m_pInputComponent->RegisterAction("PlayerLooking", "Horisontal", [this](int activationMode, float value) {m_pControlledCharacter->m_LookInput.x = -value* m_MouseSensitivity; });
     m_pInputComponent->BindAction("PlayerLooking", "Horisontal", eAID_KeyboardMouse, eKI_MouseX);
+    */
+}
 
+void CPlayerController::SendMovementUpdate()
+{
+    m_pControlledCharacter->MovementInput(m_MovementInput);
 }
 

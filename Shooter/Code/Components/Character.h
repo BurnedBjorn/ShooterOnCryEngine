@@ -26,10 +26,11 @@ public:
 	
 	virtual Cry::Entity::EventFlags GetEventMask() const override;
 
-	
+	void MovementInput(Vec2 NewInput);
 
-	Vec2 m_MovementDirection; //Direction of movement relative to character's rotation
-	Vec2 m_LookInput;
+	Vec3 m_MovementDirection; 
+	Vec2 m_MovementInput;
+	
 protected:
 
 	
@@ -40,9 +41,5 @@ private:
 
 	float m_MovementSpeed = 20.0f;
 
-
-	void MovementUpdate();
-	Quat m_LookOrientation;
-
-	bool m_Gameplay = false;
+	
 };

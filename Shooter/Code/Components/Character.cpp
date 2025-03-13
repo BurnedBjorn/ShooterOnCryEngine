@@ -41,47 +41,20 @@ void CCharacterComponent::ProcessEvent(const SEntityEvent& event)
 {
     switch (event.event)
     {
-    case Cry::Entity::EEvent::Initialize:
+    case Cry::Entity::EEvent::GameplayStarted:
     {
-        CryLog("Initialize");
+        
     }
     break;
-    
     case Cry::Entity::EEvent::Update:
     {
-        if (m_Gameplay)
-        {
-            
-            MovementUpdate();
-
-            Ang3 NewRotation = CCamera::CreateAnglesYPR(Matrix33(m_LookOrientation));
-
-            NewRotation.x += m_LookInput.x;
-            NewRotation.y += m_LookInput.y;
-            NewRotation.z = 0;
-
-
-            m_LookOrientation = IDENTITY;
-            m_LookOrientation = Quat(CCamera::CreateOrientationYPR(NewRotation));
-            m_pEntity->SetRotation(m_LookOrientation);
-        }
-        
-        
         
     }
     break;
     case Cry::Entity::EEvent::Reset:
     {
-        CryLog("Reset");
-        m_Gameplay = false;
-        m_LookOrientation = IDENTITY;
-    }
-    break;
-    case Cry::Entity::EEvent::GameplayStarted:
-    {
-        m_Gameplay = true;
-        CryLog("GameplayStarted");
-       
+        m_MovementDirection = ZERO;
+        m_MovementInput = ZERO;
     }
     break;
     default:
@@ -89,35 +62,38 @@ void CCharacterComponent::ProcessEvent(const SEntityEvent& event)
     }
 }
 
+
+
 Cry::Entity::EventFlags CCharacterComponent::GetEventMask() const
 {
     return Cry::Entity::EEvent::Update |
-    Cry::Entity::EEvent::Initialize |
     Cry::Entity::EEvent::Reset |
     Cry::Entity::EEvent::GameplayStarted
     ;
 }
 
-
-void CCharacterComponent::MovementUpdate()
+void CCharacterComponent::MovementInput(Vec2 NewInput)
 {
-    Vec3 MovementDirection = Vec3(m_MovementDirection.x, m_MovementDirection.y, 0);
-    if (MovementDirection.GetLength()>0)
+    if (NewInput==m_MovementInput)
     {
-        MovementDirection.Normalize();
+        return;
+    }
+    m_MovementInput = NewInput;
+    if (m_MovementInput==ZERO)
+    {
+        m_MovementDirection = ZERO;
     }
     else
     {
-        MovementDirection = Vec3(0, 0, 0);
+        m_MovementDirection.x = m_MovementInput.x;
+        m_MovementDirection.y = m_MovementInput.y;
+        m_MovementDirection.z = 0;
+        m_MovementDirection = m_pEntity->GetWorldRotation() * m_MovementDirection;
+        m_MovementDirection.Normalize();
     }
-    Vec3 Velocity = MovementDirection * m_MovementSpeed;
-    if (m_pEntity->GetWorldRotation().IsValid())
-    {
-        Velocity = m_pEntity->GetWorldRotation()*Velocity;
-    }
-    else
-    {
-        Velocity = m_LookOrientation* Velocity;
-    }
-    m_pCharacterController->SetVelocity(Velocity);
+    Vec3 NewVelocity = m_MovementDirection * m_MovementSpeed;
+    m_pCharacterController->SetVelocity(NewVelocity);
+    //CryLog("Updated movement Direction: %f,%f,%f", m_MovementDirection.x,m_MovementDirection.y,m_MovementDirection.z);
 }
+
+
