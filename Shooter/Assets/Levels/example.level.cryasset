@@ -1,4 +1,4 @@
-<AssetMetadata version="0" type="Level" guid="984fcd77-e594-2b34-fbf5-414a47e0d684" source="" timestamp="1741711021">
+<AssetMetadata version="0" type="Level" guid="984fcd77-e594-2b34-fbf5-414a47e0d684" source="" timestamp="1741883441">
  <Files>
   <File path="example/example.level"/>
  </Files>
@@ -24,9 +24,9 @@
   <Path>%engine%/engineassets/texturemsg/defaultsolids.mtl</Path>
   <Path>%engine%/engineassets/textures/skys/night/half_moon.dds</Path>
   <Path>%engine%/engineassets/textures/white.dds</Path>
-  <Path>animations/motusanims/jog_bck_3p.caf</Path>
   <Path>engineassets/materials/water/ocean_default.mtl</Path>
   <Path usageCount="1">libs/environmentpresets/example.env</Path>
+  <Path>scripts/ai/factions.xml</Path>
   <Path>textures/cubemaps/example/environmentprobe1_cm.dds</Path>
   <Path>textures/cubemaps/example/environmentprobe1_cm_diff.dds</Path>
  </Dependencies>

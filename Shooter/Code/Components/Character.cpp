@@ -74,10 +74,7 @@ Cry::Entity::EventFlags CCharacterComponent::GetEventMask() const
 
 void CCharacterComponent::MovementInput(Vec2 NewInput)
 {
-    if (NewInput==m_MovementInput)
-    {
-        return;
-    }
+    
     m_MovementInput = NewInput;
     if (m_MovementInput==ZERO)
     {
@@ -93,7 +90,7 @@ void CCharacterComponent::MovementInput(Vec2 NewInput)
     }
     Vec3 NewVelocity = m_MovementDirection * m_MovementSpeed;
     m_pCharacterController->SetVelocity(NewVelocity);
-    //CryLog("Updated movement Direction: %f,%f,%f", m_MovementDirection.x,m_MovementDirection.y,m_MovementDirection.z);
+    //CryLog("Updated movement Direction: %f,%f,%f", m_MovementDirection.x,m_MovementDirection.y,m_MovementDirection.z);m
 }
 
 

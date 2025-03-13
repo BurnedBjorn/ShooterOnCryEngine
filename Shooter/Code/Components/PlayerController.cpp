@@ -45,12 +45,12 @@ void CPlayerController::ProcessEvent(const SEntityEvent& event)
     break;
     case Cry::Entity::EEvent::GameplayStarted:
     {
-        m_MovementInput = ZERO;
-        m_LookInput = ZERO;
+        
         if (m_pControlledCharacter && m_pInputComponent)
         {
             InitializeInput();
         }
+        m_EntityOrientation = m_pEntity->GetRotation();
         
     }
     break;
@@ -58,13 +58,13 @@ void CPlayerController::ProcessEvent(const SEntityEvent& event)
     {
         m_MovementInput = ZERO;
         m_LookInput = ZERO;
+        m_EntityOrientation = IDENTITY;
 
-        Matrix34 CameraDefaultTransform;
         Vec3 CameraDefaultLocation = ZERO;
         CameraDefaultLocation.z = m_CameraDefaultHeight;
-        CameraDefaultTransform.SetTranslation(CameraDefaultLocation);
-        CameraDefaultTransform.SetRotation33(Matrix33(m_pEntity->GetWorldRotation()));
-        m_pCameraComponent->SetTransformMatrix(CameraDefaultTransform);
+        m_CameraTransform.SetTranslation(CameraDefaultLocation);
+        m_CameraTransform.SetRotation33(Matrix33(m_pEntity->GetWorldRotation()));
+        m_pCameraComponent->SetTransformMatrix(m_CameraTransform);
     }
     break;
     default:
@@ -93,17 +93,36 @@ void CPlayerController::InitializeInput()
 
     m_pInputComponent->RegisterAction("PlayerMovement", "Left", [this](int activationMode, float value) {m_MovementInput.x = -value; SendMovementUpdate(); });
     m_pInputComponent->BindAction("PlayerMovement", "Left", eAID_KeyboardMouse, eKI_A);
-    /*
-    m_pInputComponent->RegisterAction("PlayerLooking", "Vertical", [this](int activationMode, float value) {m_pControlledCharacter->m_LookInput.y = -value * m_MouseSensitivity;  });
+    
+    m_pInputComponent->RegisterAction("PlayerLooking", "Vertical", [this](int activationMode, float value) {m_LookInput.y = -value; CameraRotationUpdate();  });
     m_pInputComponent->BindAction("PlayerLooking", "Vertical", eAID_KeyboardMouse, eKI_MouseY);
 
-    m_pInputComponent->RegisterAction("PlayerLooking", "Horisontal", [this](int activationMode, float value) {m_pControlledCharacter->m_LookInput.x = -value* m_MouseSensitivity; });
+    m_pInputComponent->RegisterAction("PlayerLooking", "Horisontal", [this](int activationMode, float value) {m_LookInput.x = -value; EntityRotationUpdate(); });
     m_pInputComponent->BindAction("PlayerLooking", "Horisontal", eAID_KeyboardMouse, eKI_MouseX);
-    */
+    
 }
 
 void CPlayerController::SendMovementUpdate()
 {
     m_pControlledCharacter->MovementInput(m_MovementInput);
 }
+
+void CPlayerController::EntityRotationUpdate()
+{
+    
+    Ang3 NewEntityAngles = CCamera::CreateAnglesYPR(Matrix33(m_EntityOrientation));
+    NewEntityAngles.x += m_LookInput.x * m_MouseSensitivity;
+    NewEntityAngles.z = 0;
+    m_EntityOrientation = Quat(CCamera::CreateOrientationYPR(NewEntityAngles));
+    m_pEntity->SetRotation(m_EntityOrientation);
+}
+
+void CPlayerController::CameraRotationUpdate()
+{
+    Ang3 NewCameraAngles = CCamera::CreateAnglesYPR(Matrix33(Quat(m_CameraTransform)));
+    NewCameraAngles.y += m_LookInput.y * m_MouseSensitivity;
+    m_CameraTransform.SetRotation33(Matrix33(CCamera::CreateOrientationYPR(NewCameraAngles)));
+    m_pCameraComponent->SetTransformMatrix(m_CameraTransform);
+}
+
 
