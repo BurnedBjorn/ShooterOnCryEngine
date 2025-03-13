@@ -43,4 +43,6 @@ private:
 
 	void MovementUpdate();
 	Quat m_LookOrientation;
+
+	bool m_Gameplay = false;
 };

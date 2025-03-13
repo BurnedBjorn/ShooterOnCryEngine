@@ -43,24 +43,29 @@ void CCharacterComponent::ProcessEvent(const SEntityEvent& event)
     {
     case Cry::Entity::EEvent::Initialize:
     {
-
+        CryLog("Initialize");
     }
     break;
     
     case Cry::Entity::EEvent::Update:
     {
-        MovementUpdate();
+        if (m_Gameplay)
+        {
+            
+            MovementUpdate();
+
+            Ang3 NewRotation = CCamera::CreateAnglesYPR(Matrix33(m_LookOrientation));
+
+            NewRotation.x += m_LookInput.x;
+            NewRotation.y += m_LookInput.y;
+            NewRotation.z = 0;
+
+
+            m_LookOrientation = IDENTITY;
+            m_LookOrientation = Quat(CCamera::CreateOrientationYPR(NewRotation));
+            m_pEntity->SetRotation(m_LookOrientation);
+        }
         
-        Ang3 NewRotation = CCamera::CreateAnglesYPR(Matrix33(m_LookOrientation));
-        
-        NewRotation.x += m_LookInput.x;
-        NewRotation.y += m_LookInput.y;
-        NewRotation.z = 0;
-        
-        m_LookOrientation = Quat(CCamera::CreateOrientationYPR(NewRotation));
-     
-        
-        m_pEntity->SetRotation(m_LookOrientation);
         
         
     }
@@ -68,13 +73,14 @@ void CCharacterComponent::ProcessEvent(const SEntityEvent& event)
     case Cry::Entity::EEvent::Reset:
     {
         CryLog("Reset");
+        m_Gameplay = false;
         m_LookOrientation = IDENTITY;
     }
     break;
     case Cry::Entity::EEvent::GameplayStarted:
     {
-        
-        //m_LookOrientation = IDENTITY;
+        m_Gameplay = true;
+        CryLog("GameplayStarted");
        
     }
     break;
