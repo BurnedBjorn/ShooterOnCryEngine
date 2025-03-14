@@ -25,6 +25,12 @@
     <ClInclude Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\Components\Character.cpp">
       <Filter>Components\Character</Filter>
     </ClInclude>
+    <ClInclude Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\Components\WeaponComponent.h">
+      <Filter>Components\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\Components\WeaponComponent.cpp">
+      <Filter>Components\Weapons</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\CMakeLists.txt" />
@@ -43,6 +49,9 @@
     </Filter>
     <Filter Include="Components\Controllers">
       <UniqueIdentifier>{11FF94D0-D907-3040-A631-F3A4F9EA5CEA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Weapons">
+      <UniqueIdentifier>{D40FE18F-ED06-3CD3-8036-1A4378DC08C8}</UniqueIdentifier>
     </Filter>
     <Filter Include="Resource Files">
       <UniqueIdentifier>{24153BC0-625F-30B2-9C33-E15A6BF50E28}</UniqueIdentifier>
