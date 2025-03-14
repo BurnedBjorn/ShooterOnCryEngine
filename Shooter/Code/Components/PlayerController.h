@@ -9,6 +9,11 @@
 #include <DefaultComponents/Cameras/CameraComponent.h>
 class CPlayerController :public IEntityComponent
 {
+private:
+	static constexpr float DEFAULT_MOUSE_SENSITIVITY = 0.002f;
+	static constexpr float DEFAULT_CAMERA_HEIGHT = 2.0f;
+	static constexpr float DEFAULT_CAMERA_MAX_ROTATION = 1.5f;
+	static constexpr float DEFAULT_CAMERA_MIN_ROTATION = -1.5f;
 public:
 	CPlayerController() = default;
 	virtual ~CPlayerController() {};
@@ -18,8 +23,10 @@ public:
 		desc.SetEditorCategory("Characters/Controllers");
 		desc.SetLabel("Player Controller");
 		desc.SetDescription("Makes Camera and recieves player input. Takes control over Character component or creates it's own");
-		desc.AddMember(&CPlayerController::m_MouseSensitivity, 'msns', "mousesensitivity", "Mouse Sensitivity", "Mouse Sensitivity", 0.002f);
-		desc.AddMember(&CPlayerController::m_CameraDefaultHeight, 'cmdh', "camdefh", "Camera Default Height", "Default height of the camera", 2);
+		desc.AddMember(&CPlayerController::m_MouseSensitivity, 'msns', "mousesensitivity", "Mouse Sensitivity", "Mouse Sensitivity", DEFAULT_MOUSE_SENSITIVITY);
+		desc.AddMember(&CPlayerController::m_CameraDefaultHeight, 'cmdh', "camdefh", "Camera Default Height", "Default height of the camera", DEFAULT_CAMERA_HEIGHT);
+		desc.AddMember(&CPlayerController::m_CamYRotMax, 'crmx', "cammaxrot", "Camera Max Rotation", "Maximal rotation on y axix", DEFAULT_CAMERA_MAX_ROTATION);
+		desc.AddMember(&CPlayerController::m_CamYRotMin, 'crmn', "camminrot", "Camera Min Rotation", "Maximal rotation on y axis", DEFAULT_CAMERA_MIN_ROTATION);
 	}
 
 	virtual void Initialize() override;
@@ -41,6 +48,8 @@ private:
 
 	float m_MouseSensitivity=0.002f;
 	float m_CameraDefaultHeight =2;
+	float m_CamYRotMax = 1.5f;
+	float m_CamYRotMin = -1.5f;
 
 
 	void SendMovementUpdate();

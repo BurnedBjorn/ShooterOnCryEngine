@@ -120,7 +120,7 @@ void CPlayerController::EntityRotationUpdate()
 void CPlayerController::CameraRotationUpdate()
 {
     Ang3 NewCameraAngles = CCamera::CreateAnglesYPR(Matrix33(Quat(m_CameraTransform)));
-    NewCameraAngles.y += m_LookInput.y * m_MouseSensitivity;
+    NewCameraAngles.y = CLAMP(NewCameraAngles.y+m_LookInput.y * m_MouseSensitivity,m_CamYRotMin,m_CamYRotMax);
     m_CameraTransform.SetRotation33(Matrix33(CCamera::CreateOrientationYPR(NewCameraAngles)));
     m_pCameraComponent->SetTransformMatrix(m_CameraTransform);
 }
