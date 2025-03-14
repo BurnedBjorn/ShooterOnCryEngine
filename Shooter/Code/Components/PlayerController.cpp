@@ -1,5 +1,10 @@
 #include <StdAfx.h>
 #include "PlayerController.h"
+
+
+#include <CryRenderer/IRenderAuxGeom.h>
+
+
 //Start registration stuff
 #include <CrySchematyc/Reflection/TypeDesc.h>
 #include <CrySchematyc/Utils/EnumFlags.h>
@@ -40,7 +45,16 @@ void CPlayerController::ProcessEvent(const SEntityEvent& event)
     {
     case Cry::Entity::EEvent::Update:
     {
-        
+        ray_hit ViewRay;
+        Vec3 CamDir = gEnv->pSystem->GetViewCamera().GetViewdir();
+        Vec3 CamLoc = gEnv->pSystem->GetViewCamera().GetPosition();
+        static const unsigned int RayFlags = rwi_stop_at_pierceable | rwi_colltype_any;
+        if (gEnv->pPhysicalWorld->RayWorldIntersection(CamLoc, (CamDir*1000),ent_all, RayFlags, &ViewRay, 1,m_pEntity->GetPhysicalEntity()))
+        {
+            gEnv->pRenderer->GetIRenderAuxGeom()->DrawLine(ViewRay.pt - Vec3(0, 0, 0.5), ColorB(0, 0, 255), ViewRay.pt + Vec3(0, 0, 0.5), ColorB(0, 0, 255), 6.0f);
+            gEnv->pRenderer->GetIRenderAuxGeom()->DrawLine(ViewRay.pt - Vec3(0, 0.5, 0), ColorB(0, 0, 255), ViewRay.pt + Vec3(0, 0.5, 0), ColorB(0, 0, 255), 6.0f);
+            gEnv->pRenderer->GetIRenderAuxGeom()->DrawLine(ViewRay.pt - Vec3(0.5, 0, 0), ColorB(0, 0, 255), ViewRay.pt + Vec3(0.5, 0, 0), ColorB(0, 0, 255), 6.0f);
+        }
     }
     break;
     case Cry::Entity::EEvent::GameplayStarted:
