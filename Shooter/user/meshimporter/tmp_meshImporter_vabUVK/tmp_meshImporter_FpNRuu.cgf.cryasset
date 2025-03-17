@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="67ac8e36-2123-549a-da24-bf6f48f976ca" source="LowEffortPistol.fbx">
+ <Files>
+  <File path="tmp_meshImporter_FpNRuu.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">344</Detail>
+  <Detail name="vertexCount">562</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">%ENGINE%/EngineAssets/Materials/material_default.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

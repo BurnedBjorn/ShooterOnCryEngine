@@ -1,5 +1,5 @@
 <ObjectLayer>
- <Layer Name="Main" FullName="Main" GUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Hidden="0" Frozen="0" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1741795362">
+ <Layer Name="Main" FullName="Main" GUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Hidden="0" Frozen="0" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1742213953">
   <LayerObjects>
    <Object Type="EntityWithComponent" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="93909fb0-ad23-1343-ffa7-36e46cff9dde" Name="EnvironmentProbe1" Pos="64,64,96" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
@@ -58,6 +58,29 @@
      <UVIslands />
     </Brush>
     <Mesh Version="2" BinaryData="AAAAAAAAAAAYAAAAGAAAACQAAAAYAAAAAQAAAMSQu79t0fxAAACApcSQu79t0fxAAACAwMSQu79g0fzAAACAwMSQu79g0fzAAACApey/tj9t0fxAAACAwOy/tj9t0fxAAACApey/tj9g0fzAAACApey/tj9g0fzAAACAwOy/tj9t0fxAAACApcSQu79t0fxAAACApcSQu79g0fzAAACApey/tj9g0fzAAACApcSQu79t0fxAAACAwMSQu79t0fxAAACApey/tj9t0fxAAACApey/tj9t0fxAAACAwOy/tj9g0fzAAACAwOy/tj9g0fzAAACApcSQu79g0fzAAACApcSQu79g0fzAAACAwMSQu79t0fxAAACAwOy/tj9t0fxAAACAwOy/tj9g0fzAAACAwMSQu79g0fzAAACAwAAAgL8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAAAAAAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAAAAAAAAAAAAAAACAvwAAAAAAAAAAAACAvwAAAAAAAAAAAACAvwAAAAAAAAAAAACAv2zR/MAAAAAAbNH8wAAAgEBg0fxAAACAQGDR/EAAAAAAbNH8QAAAgEBs0fxAAAAAAGDR/MAAAAAAYNH8wAAAgEDsv7Y/bNH8wMSQu79s0fzAxJC7v2DR/EDsv7Y/YNH8QMSQuz8AAIBAxJC7PwAAAADsv7a/AAAAAOy/tr8AAIBA7L+2PwAAgEDsv7Y/AAAAAMSQu78AAAAAxJC7vwAAgEDEkLs/bNH8QOy/tr9s0fxA7L+2v2DR/MDEkLs/YNH8wAAAAQACAAAAAgADAAQABQAGAAQABgAHAAgACQAKAAgACgALAAwADQAOAAwADgAPABAAEQASABAAEgATABQAFQAWABQAFgAXAAAAAoAAAAGAAAAAAAKAAYAAAAKAAAABgAAAAAACgAGAAAACgAAAAYAAAAAAAoABgAAAAoAAAAGAAAAAAAKAAYAAAP5/AAABgAAAAAACgAGAAAD+fwAAAYAAAAAAAoABgAAA/n8AAAGAAAAAAAKAAYAAAP5/AAABgAAAAAACgAGA/n8AAAAAAYAAAAKAAAABgP5/AAAAAAGAAAACgAAAAYD+fwAAAAABgAAAAoAAAAGA/n8AAAAAAYAAAAKAAAABgAKAAAAAAAGAAAAAAAKAAYACgAAAAAABgAAAAAACgAGAAoAAAAAAAYAAAAAAAoABgAKAAAAAAAGAAAAAAAKAAYD+fwAAAAABgAAAAAACgAGA/n8AAAAAAYAAAAAAAoABgP5/AAAAAAGAAAAAAAKAAYD+fwAAAAABgAAAAAACgAGAAoAAAAAA/38AAP5/AAD/fwKAAAAAAP9/AAD+fwAA/38CgAAAAAD/fwAA/n8AAP9/AoAAAAAA/38AAP5/AAD/fwAbmrwAAFA2AAAAwD5vBEEAAAAAAAAAACQAAAAAAAAAGAAAAAAAAAAAAAAAABAAAA=="/>
+   </Object>
+   <Object Type="EntityWithComponent" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="f001ec74-15c4-cabc-6500-f0fe0f2d9a9d" Name="Entity-13" Pos="70.729309,54.222691,32.834126" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
+    <Properties />
+    <Components>
+     <Component CryXmlVersion="2" TypeGUID="9877d70e-3fd6-4721-90f5-1b41fc93a496" TypeName="CWeaponComponent" GUID="ceff3c50-89c5-2c8f-9a72-70c76fbaa1ff" Name="" UserAdded="true">
+      <Transform>
+       <translation>
+        <position>
+         <element element="0"/>
+         <element element="0"/>
+         <element element="0"/>
+        </position>
+       </translation>
+       <rotation x="0" y="-0" z="0"/>
+       <scale>
+        <element element="1"/>
+        <element element="1"/>
+        <element element="1"/>
+       </scale>
+      </Transform>
+      <properties />
+     </Component>
+    </Components>
    </Object>
    <Object Type="EntityWithComponent" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="bd3d4f27-0065-9b3a-bc49-683f52cd27b4" Name="RigidBodyEx7" Pos="69,56.5,33.5" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Entity" HasEntity="1">
     <Properties />
@@ -386,7 +409,7 @@
     <Properties />
     <Components>
      <Component CryXmlVersion="2" TypeGUID="6018ee90-642b-448b-96a6-4e9b456dd4ff" TypeName="CPlayerController" GUID="80d012a8-51f1-5795-28c2-79c2d14fc33e" Name="" UserAdded="true">
-      <properties mousesensitivity="0.0049999999" camdefh="2"/>
+      <properties mousesensitivity="0.001" camdefh="2" cammaxrot="1.5" camminrot="-1.5"/>
      </Component>
      <Component CryXmlVersion="2" TypeGUID="a4cb0508-5f07-46b4-b6d4-ab76bfd550f4" TypeName="Cry::DefaultComponents::CCameraComponent" GUID="a826c617-e2fb-16ef-d095-b4985df1e813" Name="" UserAdded="false">
       <Transform>
@@ -397,7 +420,7 @@
          <element element="2"/>
         </position>
        </translation>
-       <rotation x="0" y="-0" z="0"/>
+       <rotation x="0" y="-0" z="60.779572"/>
        <scale>
         <element element="1"/>
         <element element="1"/>

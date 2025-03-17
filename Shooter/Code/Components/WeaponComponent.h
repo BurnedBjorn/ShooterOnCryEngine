@@ -5,6 +5,7 @@
 
 #include <CryEntitySystem/IEntitySystem.h>
 #include <CryGame/IGameFramework.h>
+#include "Character.h"
 
 
 class CWeaponComponent : public IEntityComponent // Best practice: Classes start with a 'C'
@@ -25,8 +26,17 @@ public:
 		desc.SetEditorCategory("Weapons");
 		desc.SetLabel("WeaponComponent");
 	}
-	
+	virtual void Initialize() override;
+	virtual Cry::Entity::EventFlags GetEventMask() const override;
+	virtual void ProcessEvent(const SEntityEvent& event) override;
+	Vec3 GetBarrelWorldPos();
+	void CheckBarrelLocation(Vec3 Location);
 protected:
-
+	
 private:
+	CCharacterComponent* m_pOwner = nullptr;
+	enum EGeometrySlots {
+		WEAPON = 0
+	};
+	
 };

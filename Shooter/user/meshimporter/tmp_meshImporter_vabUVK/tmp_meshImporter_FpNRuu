@@ -1,0 +1,92 @@
+{
+	"version": 1,
+	"source_filename": "d:/.gamedev/projects/cryengine projects/cryshooter/shooter/assets/Objects/Weapons/Test/LowEffortPistol.fbx",
+	"output_ext": "cgf",
+	"material_filename": "%ENGINE%/EngineAssets/Materials/material_default",
+	"unit_size": "mm",
+	"scale": 1.0,
+	"forward_up_axes": "+Z+Y",
+	"merge_all_nodes": false,
+	"scene_origin": false,
+	"ignore_custom_normals": true,
+	"ignore_uv": true,
+	"materials": [
+		{
+			"name": "",
+			"file": "",
+			"physicalize": "no",
+			"sub_index": 0,
+			"ui_autoflag": true
+		}
+	],
+	"nodes": [
+		{
+			"name": "Armature",
+			"path": [ "Armature" ],
+			"mass": -1.0,
+			"density": -1.0
+		},
+		{
+			"name": "Cube",
+			"path": [ "Cube" ],
+			"mass": -1.0,
+			"density": -1.0,
+			"nodes": [
+				{
+					"name": "Barrel",
+					"path": [ "Cube", "Barrel" ],
+					"mass": -1.0,
+					"density": -1.0
+				}
+			]
+		}
+	],
+	"animation": {
+		"name": "",
+		"motionNodePath": [ ],
+		"startFrame": -1,
+		"endFrame": -1
+	},
+	"globalSettings": {
+		"general_settings": {
+			"input_filename": "LowEffortPistol",
+			"output_filename": ""
+		},
+		"static_mesh_settings": {
+			"merge_all_nodes": false,
+			"scene_origin": false,
+			"compute_normals": true,
+			"compute_uv": true
+		},
+		"conversion_settings": {
+			"unit": "millimeters",
+			"scale": 1.0,
+			"forward": "+Z",
+			"up": "+Y"
+		},
+		"output_settings": { "use_32_bit_positions": false }
+	},
+	"editorNodeMeta": [ ],
+	"editorMaterialMeta": [
+		{
+			"name": "<unassigned>",
+			"physicalize_setting": "no",
+			"sub_material_index": 0,
+			"auto_id": true,
+			"color": { "r": 0.51868, "g": 0.43421, "b": 0.61332, "a": 1.0 }
+		}
+	],
+	"use_32_bit_positions": false,
+	"autolodsettings": {
+		"globalparams": {
+			"viewresolution": 26.69321,
+			"viewsaround": 12,
+			"viewelevations": 3,
+			"silhouetteweight": 5.0,
+			"vertexwelding": 0.001,
+			"checktopology": true,
+			"objecthasbase": false
+		},
+		"nodeparams": [ ]
+	}
+}

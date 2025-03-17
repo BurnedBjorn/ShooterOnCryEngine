@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="643e64ea-cd82-b4ad-ff8b-d2e0c2df9dc0" source="LowEffortPistol.fbx">
+ <Files>
+  <File path="assets.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">344</Detail>
+  <Detail name="vertexCount">542</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">%ENGINE%/EngineAssets/Materials/material_default.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

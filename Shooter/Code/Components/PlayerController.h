@@ -2,7 +2,7 @@
 #include <StdAfx.h>
 #include "Character.h"
 
-#include <CryEntitySystem/IEntityComponent.h>
+#include <CryEntitySystem/IEntitySystem.h>
 
 
 #include <DefaultComponents/Input/InputComponent.h>
