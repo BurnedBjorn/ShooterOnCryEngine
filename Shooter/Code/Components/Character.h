@@ -4,6 +4,7 @@
 #include <CryEntitySystem/IEntityComponent.h>
 #include <DefaultComponents/Physics/CharacterControllerComponent.h>
 #include <DefaultComponents/Geometry/AdvancedAnimationComponent.h>
+#include "WeaponComponent.h"
 
 
 class CCharacterComponent :public IEntityComponent
@@ -33,6 +34,8 @@ public:
 	Vec3 m_MovementDirection; 
 	Vec2 m_MovementInput;
 	
+	void PickUpWeapon(CWeaponComponent* NewWeapon);
+	void DropWeapon();
 protected:
 
 	
@@ -43,5 +46,6 @@ private:
 
 	float m_MovementSpeed = 10.0f;
 
-	
+	//inventory will be implemented later
+	CWeaponComponent* m_pWeapon = nullptr;
 };

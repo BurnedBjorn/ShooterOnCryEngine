@@ -45,6 +45,7 @@ void CPlayerController::ProcessEvent(const SEntityEvent& event)
     {
     case Cry::Entity::EEvent::Update:
     {
+        /*
         ray_hit ViewRay;
         Vec3 CamDir = gEnv->pSystem->GetViewCamera().GetViewdir();
         Vec3 CamLoc = gEnv->pSystem->GetViewCamera().GetPosition();
@@ -55,6 +56,7 @@ void CPlayerController::ProcessEvent(const SEntityEvent& event)
             gEnv->pRenderer->GetIRenderAuxGeom()->DrawLine(ViewRay.pt - Vec3(0, 0.5, 0), ColorB(0, 0, 255), ViewRay.pt + Vec3(0, 0.5, 0), ColorB(0, 0, 255), 6.0f);
             gEnv->pRenderer->GetIRenderAuxGeom()->DrawLine(ViewRay.pt - Vec3(0.5, 0, 0), ColorB(0, 0, 255), ViewRay.pt + Vec3(0.5, 0, 0), ColorB(0, 0, 255), 6.0f);
         }
+        */
     }
     break;
     case Cry::Entity::EEvent::GameplayStarted:
@@ -113,7 +115,47 @@ void CPlayerController::InitializeInput()
 
     m_pInputComponent->RegisterAction("PlayerLooking", "Horisontal", [this](int activationMode, float value) {m_LookInput.x = -value; EntityRotationUpdate(); });
     m_pInputComponent->BindAction("PlayerLooking", "Horisontal", eAID_KeyboardMouse, eKI_MouseX);
+
+    m_pInputComponent->RegisterAction("PlayerAction", "Use", [this](int activationMode, float value) {Use(); });
+    m_pInputComponent->BindAction("PlayerAction", "Use", eAID_KeyboardMouse, eKI_E);
+
+    m_pInputComponent->RegisterAction("PlayerAction", "Drop", [this](int activationMode, float value) {Drop(); });
+    m_pInputComponent->BindAction("PlayerAction", "Drop", eAID_KeyboardMouse, eKI_G);
     
+}
+
+void CPlayerController::Use()
+{
+    ray_hit Ray;
+    Vec3 CamDir = gEnv->pSystem->GetViewCamera().GetViewdir();
+    Vec3 CamLoc = gEnv->pSystem->GetViewCamera().GetPosition();
+    static const unsigned int RayFlags = rwi_stop_at_pierceable | rwi_colltype_any;
+    if (gEnv->pPhysicalWorld->RayWorldIntersection(CamLoc, (CamDir * 5), ent_all, RayFlags, &Ray, 1, m_pEntity->GetPhysicalEntity())) {
+        if (Ray.pCollider)
+        {
+            if (IEntity* pColliderEntity=gEnv->pEntitySystem->GetEntityFromPhysics(Ray.pCollider))
+            {
+                if (CWeaponComponent* pWeaponComponent = pColliderEntity->GetComponent<CWeaponComponent>())
+                {
+                    gEnv->pRenderer->GetIRenderAuxGeom()->RenderText(Ray.pt, SDrawTextInfo(),"Test",va_list());
+                    PickUp(pWeaponComponent);
+                }
+            }
+        }
+        gEnv->pRenderer->GetIRenderAuxGeom()->DrawLine(Ray.pt - Vec3(0, 0, 0.5), ColorB(0, 0, 255), Ray.pt + Vec3(0, 0, 0.5), ColorB(0, 0, 255), 6.0f);
+        gEnv->pRenderer->GetIRenderAuxGeom()->DrawLine(Ray.pt - Vec3(0, 0.5, 0), ColorB(0, 0, 255), Ray.pt + Vec3(0, 0.5, 0), ColorB(0, 0, 255), 6.0f);
+        gEnv->pRenderer->GetIRenderAuxGeom()->DrawLine(Ray.pt - Vec3(0.5, 0, 0), ColorB(0, 0, 255), Ray.pt + Vec3(0.5, 0, 0), ColorB(0, 0, 255), 6.0f);
+    }
+}
+
+void CPlayerController::PickUp(CWeaponComponent* pWeapon)
+{
+    m_pControlledCharacter->PickUpWeapon(pWeapon);
+}
+
+void CPlayerController::Drop()
+{
+    m_pControlledCharacter->DropWeapon();
 }
 
 void CPlayerController::SendMovementUpdate()

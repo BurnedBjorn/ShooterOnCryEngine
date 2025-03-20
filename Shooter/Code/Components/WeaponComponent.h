@@ -6,7 +6,7 @@
 #include <CryEntitySystem/IEntitySystem.h>
 #include <CryGame/IGameFramework.h>
 #include "Character.h"
-
+class CCharacterComponent;
 
 class CWeaponComponent : public IEntityComponent // Best practice: Classes start with a 'C'
 
@@ -27,10 +27,19 @@ public:
 		desc.SetLabel("WeaponComponent");
 	}
 	virtual void Initialize() override;
+	
 	virtual Cry::Entity::EventFlags GetEventMask() const override;
 	virtual void ProcessEvent(const SEntityEvent& event) override;
 	Vec3 GetBarrelWorldPos();
 	void CheckBarrelLocation(Vec3 Location);
+
+	bool HasOwner() { return (m_pOwner!=nullptr); }
+	//void SetOwner(CCharacterComponent* pNewOwner) { if (pNewOwner) { m_pOwner = pNewOwner; } }
+
+	void PickUp(CCharacterComponent* pNewOwner);
+	void Drop();
+
+	void SetPhysics(bool on);
 protected:
 	
 private:
@@ -39,4 +48,8 @@ private:
 		WEAPON = 0
 	};
 	
+	SEntityPhysicalizeParams m_DefaultPhysParams;
+	Vec3 m_DefaultLocation;
+
+	const float m_mass = 1;
 };

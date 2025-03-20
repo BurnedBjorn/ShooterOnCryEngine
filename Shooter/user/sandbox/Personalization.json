@@ -679,8 +679,8 @@
     "Import Mesh": {
         "Recent Files": [
             "Objects/Weapons/Test/assets.cgf.cryasset",
-            "Objects/Weapons/Test/LEP.skin.cryasset",
             "Objects/Weapons/Test/LowEffortPistol.cgf.cryasset",
+            "Objects/Weapons/Test/LEP.skin.cryasset",
             "Objects/Weapons/Test/Gun.cgf.cryasset"
         ]
     },

@@ -47,8 +47,10 @@ void CCharacterComponent::ProcessEvent(const SEntityEvent& event)
     break;
     case Cry::Entity::EEvent::Reset:
     {
+
         m_MovementDirection = ZERO;
         m_MovementInput = ZERO;
+        DropWeapon();
     }
     break;
     default:
@@ -84,7 +86,41 @@ void CCharacterComponent::MovementInput(Vec2 NewInput)
     }
     Vec3 NewVelocity = m_MovementDirection * m_MovementSpeed;
     m_pCharacterController->SetVelocity(NewVelocity);
-    //CryLog("Updated movement Direction: %f,%f,%f", m_MovementDirection.x,m_MovementDirection.y,m_MovementDirection.z);m
+    
+}
+
+void CCharacterComponent::PickUpWeapon(CWeaponComponent* NewWeapon)
+{
+    if (!m_pWeapon&&(NewWeapon!=nullptr)&&(!NewWeapon->HasOwner()))
+    {
+        m_pWeapon = NewWeapon;
+        m_pWeapon->PickUp(this);
+        m_pEntity->AttachChild(m_pWeapon->GetEntity());
+        
+        Matrix34 WeaponNewTm = m_pWeapon->GetEntity()->GetWorldTM();
+        Quat NewRotation = m_pEntity->GetWorldRotation();
+        Vec3 NewTranslation = m_pEntity->GetWorldTM().GetTranslation()+gEnv->pSystem->GetViewCamera().GetViewdir() + Vec3(0,0,2);
+        WeaponNewTm.SetTranslation(NewTranslation);
+        WeaponNewTm.SetRotation33(Matrix33(NewRotation));
+        m_pWeapon->GetEntity()->SetWorldTM(WeaponNewTm);
+    }
+    else
+    {
+        if (m_pWeapon)
+        {
+            CryLog("WeaponAlreadyEquipped");
+        }
+    }
+}
+
+void CCharacterComponent::DropWeapon()
+{
+    if (m_pWeapon)
+    {
+        m_pWeapon->Drop();
+        m_pWeapon = nullptr;
+
+    }
 }
 
 

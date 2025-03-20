@@ -1,6 +1,7 @@
 #pragma once
 #include <StdAfx.h>
 #include "Character.h"
+#include "WeaponComponent.h"
 
 #include <CryEntitySystem/IEntitySystem.h>
 
@@ -34,6 +35,11 @@ public:
 	virtual Cry::Entity::EventFlags GetEventMask() const override;
 
 	void InitializeInput();
+
+	void Use();
+	void PickUp(CWeaponComponent* pWeapon);
+
+	void Drop();
 protected:
 	
 private:

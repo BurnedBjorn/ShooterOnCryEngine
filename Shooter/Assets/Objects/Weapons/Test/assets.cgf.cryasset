@@ -1,11 +1,11 @@
-<AssetMetadata version="0" type="Mesh" guid="643e64ea-cd82-b4ad-ff8b-d2e0c2df9dc0" source="LowEffortPistol.fbx">
+<AssetMetadata version="0" type="Mesh" guid="d1ad4ece-1126-aa05-f86c-94082cf48158" source="LowEffortPistol.fbx">
  <Files>
   <File path="assets.cgf"/>
  </Files>
  <Details>
-  <Detail name="materialCount">2</Detail>
+  <Detail name="materialCount">4</Detail>
   <Detail name="triangleCount">344</Detail>
-  <Detail name="vertexCount">542</Detail>
+  <Detail name="vertexCount">562</Detail>
   <Detail name="16BitPrecision">false</Detail>
  </Details>
  <Dependencies>

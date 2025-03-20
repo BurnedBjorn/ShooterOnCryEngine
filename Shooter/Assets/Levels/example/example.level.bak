@@ -1,5 +1,5 @@
 <Level WaterColor="16711680" SandboxVersion="5.7.1.3146">
- <View ViewerPos="69.680206,52.923622,33.700958" ViewerAngles="-0.073993936,0,-1.4155468"/>
+ <View ViewerPos="76.960869,52.645252,33.420956" ViewerAngles="-0.38199961,0,-1.6760007"/>
  <Fog Fog="" Terrain="" EnvState="" VolFogShadows="" VolumetricCloud="" Ocean="" OceanAnimation="" DynTexSource=""/>
  <Missions Current="Mission0">
   <Mission Name="Mission0" Description="" PlayerEquipPack="" Script="" MissionTime="12:00">

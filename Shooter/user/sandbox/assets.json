@@ -5247,8 +5247,8 @@
 			"type": "Animation",
 			"guid": "127507fd-d79c-1091-33fb-38eac631da57",
 			"name": "jog_bck_3p",
-			"timestamp": 132973673600170000,
-			"files": [ "animations/motusanims/jog_bck_3p.caf" ],
+			"timestamp": 1652893760,
+			"files": [ "Animations/motusAnims/jog_bck_3p.caf" ],
 			"workFiles": [ ],
 			"source": "",
 			"metadata": "Animations/motusAnims/jog_bck_3p.caf.cryasset",
@@ -5811,21 +5811,15 @@
 			"type": "Level",
 			"guid": "984fcd77-e594-2b34-fbf5-414a47e0d684",
 			"name": "example",
-			"timestamp": 1742207784,
+			"timestamp": 1742497342,
 			"files": [ "Levels/example/example.level" ],
 			"workFiles": [ ],
 			"source": "",
 			"metadata": "Levels/example.level.cryasset",
 			"details": [ ],
 			"dependencies": [
-				{ "path": "%editor%/materials/areasolid.dds", "usageCount": 0 },
-				{ "path": "%editor%/materials/areasolid.mtl", "usageCount": 0 },
-				{ "path": "%editor%/materials/shaderlist.xml", "usageCount": 0 },
 				{ "path": "%editor%/objects/envcube.cgf", "usageCount": 0 },
 				{ "path": "%editor%/objects/envcube.mtl", "usageCount": 0 },
-				{ "path": "%editor%/objects/mtlobjects.mtl", "usageCount": 0 },
-				{ "path": "%editor%/objects/mtlplane.cgf", "usageCount": 0 },
-				{ "path": "%editor%/objects/mtlsphere.cgf", "usageCount": 0 },
 				{
 					"path": "%engine%/engineassets/icons/averagememoryusage.dds",
 					"usageCount": 0
@@ -5875,14 +5869,6 @@
 					"usageCount": 0
 				},
 				{
-					"path": "%engine%/engineassets/materials/meshimporter/mi_previewvertexalpha.mtl",
-					"usageCount": 0
-				},
-				{
-					"path": "%engine%/engineassets/materials/meshimporter/mi_previewvertexcolor.mtl",
-					"usageCount": 0
-				},
-				{
 					"path": "%engine%/engineassets/materials/water/wateroceanbottom.mtl",
 					"usageCount": 0
 				},
@@ -5895,10 +5881,6 @@
 					"usageCount": 0
 				},
 				{
-					"path": "%engine%/engineassets/texturemsg/color_black.dds",
-					"usageCount": 0
-				},
-				{
 					"path": "%engine%/engineassets/texturemsg/defaultnouvs.dds",
 					"usageCount": 0
 				},
@@ -5907,286 +5889,16 @@
 					"usageCount": 0
 				},
 				{
-					"path": "%engine%/engineassets/textures/default_probe_cm.dds",
-					"usageCount": 0
-				},
-				{
-					"path": "%engine%/engineassets/textures/default_probe_cm_diff.dds",
-					"usageCount": 0
-				},
-				{
 					"path": "%engine%/engineassets/textures/skys/night/half_moon.dds",
 					"usageCount": 0
 				},
 				{ "path": "%engine%/engineassets/textures/white.dds", "usageCount": 0 },
 				{
-					"path": "animations/motusanims/ide2move/idle_to_jog_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/ide2move/idle_to_run_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/ide2move/idle_to_walk_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/ide2move/jog_to_idle_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/ide2move/run_to_idle_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/ide2move/walk_to_idle_3p.caf",
-					"usageCount": 0
-				},
-				{ "path": "animations/motusanims/idle_3p.caf", "usageCount": 0 },
-				{ "path": "animations/motusanims/jog_bck_3p.caf", "usageCount": 0 },
-				{ "path": "animations/motusanims/jog_fwd_3p.caf", "usageCount": 0 },
-				{
-					"path": "animations/motusanims/rifleanims/rifleaim_idle_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/rifleanims/riflewalkaim_bwd_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/rifleanims/riflewalkaim_fwd_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/rifleanims/steprifleaimrotate_lft_90_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/rifleanims/steprifleaimrotate_rgt_90_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/rifleanims/walkcrossrifleaim_bck_lft_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/rifleanims/walkcrossrifleaim_bck_rgt_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/rifleanims/walkcrossrifleaim_fwd_lft_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/rifleanims/walkcrossrifleaim_fwd_rgt_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/rifleanims/walkstraferifleaim_lft_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/rifleanims/walkstraferifleaim_rgt_3p.caf",
-					"usageCount": 0
-				},
-				{ "path": "animations/motusanims/run_fwd_3p.caf", "usageCount": 0 },
-				{
-					"path": "animations/motusanims/steprotate/steprotate_lft_135_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/steprotate/steprotate_lft_180_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/steprotate/steprotate_lft_45_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/steprotate/steprotate_lft_90_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/steprotate/steprotate_rgt_135_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/steprotate/steprotate_rgt_180_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/steprotate/steprotate_rgt_45_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/steprotate/steprotate_rgt_90_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/strafe/jogcross_bck_lft_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/strafe/jogcross_bck_rgt_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/strafe/jogcross_fwd_lft_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/strafe/jogcross_fwd_rgt_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/strafe/jogstrafe_lft_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/strafe/jogstrafe_rgt_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/strafe/runcross_fwd_lft_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/strafe/runcross_fwd_rgt_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/strafe/runstrafe_lft_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/strafe/runstrafe_rgt_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/strafe/walkcross_bck_lft_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/strafe/walkcross_bck_rgt_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/strafe/walkcross_fwd_lft_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/strafe/walkcross_fwd_rgt_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/strafe/walkstrafe_lft_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/strafe/walkstrafe_rgt_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/turns/jogturn_lft_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/turns/jogturn_rgt_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/turns/runturn_lft_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/turns/runturn_rgt_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/turns/walkturn_lft_3p.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "animations/motusanims/turns/walkturn_rgt_3p.caf",
-					"usageCount": 0
-				},
-				{ "path": "animations/motusanims/walk_bck_3p.caf", "usageCount": 0 },
-				{ "path": "animations/motusanims/walk_fwd_3p.caf", "usageCount": 0 },
-				{
-					"path": "editor/resourcecache/objects/characters/samplecharacter/mcg_ddna.dds",
-					"usageCount": 0
-				},
-				{
-					"path": "editor/resourcecache/objects/characters/samplecharacter/mcg_diff.dds",
-					"usageCount": 0
-				},
-				{
-					"path": "editor/resourcecache/objects/characters/samplecharacter/mcg_spec.dds",
-					"usageCount": 0
-				},
-				{
 					"path": "engineassets/materials/water/ocean_default.mtl",
 					"usageCount": 0
 				},
 				{ "path": "libs/environmentpresets/example.env", "usageCount": 1 },
-				{ "path": "materials/bullet.mtl", "usageCount": 0 },
-				{ "path": "materials/gun.mtl", "usageCount": 0 },
-				{ "path": "materials/gun.mtl", "usageCount": 0 },
-				{
-					"path": "objects/characters/samplecharacter/firstperson.cdf",
-					"usageCount": 0
-				},
-				{
-					"path": "objects/characters/samplecharacter/mcg_ddna.dds",
-					"usageCount": 0
-				},
-				{
-					"path": "objects/characters/samplecharacter/mcg_diff.dds",
-					"usageCount": 0
-				},
-				{
-					"path": "objects/characters/samplecharacter/mcg_spec.dds",
-					"usageCount": 0
-				},
-				{
-					"path": "objects/characters/samplecharacter/motusbodyheadless.skin",
-					"usageCount": 0
-				},
-				{
-					"path": "objects/characters/samplecharacter/motusbodymat.mtl",
-					"usageCount": 0
-				},
-				{
-					"path": "objects/characters/samplecharacter/skelproxy.chr",
-					"usageCount": 0
-				},
-				{
-					"path": "objects/weapons/sampleweapon/defaultweapon.cgf",
-					"usageCount": 0
-				},
-				{
-					"path": "objects/weapons/sampleweapon/defaultweapon.cgf",
-					"usageCount": 0
-				},
-				{
-					"path": "objects/weapons/sampleweapon/defaultweapon.mtl",
-					"usageCount": 0
-				},
-				{
-					"path": "objects/weapons/sampleweapon/motusweapon.cgf",
-					"usageCount": 0
-				},
-				{
-					"path": "objects/weapons/sampleweapon/motusweapon.cgf",
-					"usageCount": 0
-				},
-				{
-					"path": "objects/weapons/sampleweapon/motusweaponmat.mtl",
-					"usageCount": 0
-				},
-				{ "path": "objects/weapons/test/gun.cgf", "usageCount": 0 },
-				{ "path": "objects/weapons/test/gun.cgf", "usageCount": 0 },
+				{ "path": "objects/weapons/test/assets.cgf", "usageCount": 0 },
 				{ "path": "scripts/ai/factions.xml", "usageCount": 0 },
 				{
 					"path": "textures/cubemaps/example/environmentprobe1_cm.dds",
@@ -6652,18 +6364,18 @@
 		},
 		{
 			"type": "Mesh",
-			"guid": "643e64ea-cd82-b4ad-ff8b-d2e0c2df9dc0",
+			"guid": "d1ad4ece-1126-aa05-f86c-94082cf48158",
 			"name": "assets",
-			"timestamp": 1742209312,
+			"timestamp": 1742490601,
 			"files": [ "Objects/Weapons/Test/assets.cgf" ],
 			"workFiles": [ ],
 			"source": "Objects/Weapons/Test/LowEffortPistol.fbx",
 			"metadata": "Objects/Weapons/Test/assets.cgf.cryasset",
 			"details": [
 				{ "key": "16BitPrecision", "value": "false" },
-				{ "key": "materialCount", "value": "2" },
+				{ "key": "materialCount", "value": "4" },
 				{ "key": "triangleCount", "value": "344" },
-				{ "key": "vertexCount", "value": "542" }
+				{ "key": "vertexCount", "value": "562" }
 			],
 			"dependencies": [
 				{
