@@ -125,6 +125,22 @@ void CCharacterComponent::DropWeapon()
 
 void CCharacterComponent::Attack(Vec3 Target, int activationMode)
 {
+    if (activationMode == EActionActivationMode::eAAM_OnPress)
+    {
+        if (m_pWeapon)
+        {
+            
+                //CryLog("Press");
+                m_pWeapon->TriggerTest();
+            
+
+        }
+        else
+        {
+            CryLog("NO WEAPON");
+        }
+    }
+    
 }
 
 

@@ -123,7 +123,7 @@ void CPlayerController::InitializeInput()
     m_pInputComponent->BindAction("PlayerAction", "Drop", eAID_KeyboardMouse, eKI_G);
     
 
-    m_pInputComponent->RegisterAction("PlayerAction", "Attack", [this](int activationMode, float value) {Attack(activationMode); });
+    m_pInputComponent->RegisterAction("PlayerAction", "Attack", [this](int activationMode, float value) {Attack(activationMode);  });
     m_pInputComponent->BindAction("PlayerAction", "Attack", eAID_KeyboardMouse, eKI_Mouse1);
     
 }
@@ -177,13 +177,16 @@ void CPlayerController::Attack(int activationMode)
     {
         AttackTarget = CamLoc + CamDir * 1000;
     }
-    
+    if (m_pControlledCharacter)
+    {
+        m_pControlledCharacter->Attack(AttackTarget, activationMode);
+    }
 }
 
 void CPlayerController::SendMovementUpdate()
 {
     m_pControlledCharacter->MovementInput(m_MovementInput);
-    EActionActivationMode::
+    //EActionActivationMode::
 }
 
 void CPlayerController::EntityRotationUpdate()

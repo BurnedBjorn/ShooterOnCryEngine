@@ -25,6 +25,8 @@ void CWeaponComponent::Initialize()
 	SetPhysics(true);
 	m_DefaultLocation = m_pEntity->GetWorldPos();
 	CryLog("Initialize");
+
+	m_RoundInChamber = true;
 	
 }
 
@@ -60,7 +62,19 @@ void CWeaponComponent::ProcessEvent(const SEntityEvent& event)
 		}
 		
 	}
+
 	break;
+	case Cry::Entity::EEvent::TimerExpired:
+	{
+		int id = int(event.nParam[0]);
+		CryLog("%d", id);
+		if (event.nParam[0]== 'atk')
+		{
+			CryLog("Timer balls");
+			m_RoundInChamber = true;
+		}
+	}
+	
 	break;
 	default:
 		break;
@@ -120,13 +134,24 @@ void CWeaponComponent::SetPhysics(bool on)
 	if (on)
 	{
 		params.type = PE_RIGID;
-		CryLog("Physics ON");
+		//CryLog("Physics ON");
 	}
 	else
 	{
 		params.type = PE_NONE;
-		CryLog("PhysicsOFF");
+		//CryLog("PhysicsOFF");
 	}
 	params.mass = m_mass;
 	m_pEntity->Physicalize(params);
 }
+
+void CWeaponComponent::TriggerTest()
+{
+	if (m_RoundInChamber)
+	{
+		CryLog("Attack");
+		m_RoundInChamber = false;
+		m_pEntity->SetTimer(this, GetEntityId(),m_pEntity->GetGuid(),'atk',1000);
+	}
+}
+

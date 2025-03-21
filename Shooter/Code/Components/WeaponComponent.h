@@ -40,16 +40,35 @@ public:
 	void Drop();
 
 	void SetPhysics(bool on);
+
+	void TriggerTest();
 protected:
 	
 private:
+	//Technical
 	CCharacterComponent* m_pOwner = nullptr;
 	enum EGeometrySlots {
 		WEAPON = 0
 	};
 	
-	SEntityPhysicalizeParams m_DefaultPhysParams;
+	
 	Vec3 m_DefaultLocation;
 
 	const float m_mass = 1;
+
+
+	//
+	enum class ETrigger {
+		UP,
+		DOWN
+	};
+	enum class EFireType {
+		AUTOMATIC,
+		SEMIAUTOMATIC,
+		SINGLEACTION
+	};
+
+	bool m_RoundInChamber = false;
+	bool m_MagazineIN = false;
+	int m_Magazine = 0;
 };
