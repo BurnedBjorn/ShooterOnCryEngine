@@ -123,4 +123,8 @@ void CCharacterComponent::DropWeapon()
     }
 }
 
+void CCharacterComponent::Attack(Vec3 Target, int activationMode)
+{
+}
+
 

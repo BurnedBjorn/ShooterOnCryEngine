@@ -40,6 +40,8 @@ public:
 	void PickUp(CWeaponComponent* pWeapon);
 
 	void Drop();
+
+	void Attack(int activationMode);
 protected:
 	
 private:

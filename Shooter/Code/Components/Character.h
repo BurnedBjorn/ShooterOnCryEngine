@@ -36,6 +36,8 @@ public:
 	
 	void PickUpWeapon(CWeaponComponent* NewWeapon);
 	void DropWeapon();
+
+	void Attack(Vec3 Target, int activationMode);
 protected:
 
 	

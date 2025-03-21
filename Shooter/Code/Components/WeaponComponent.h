@@ -35,7 +35,7 @@ public:
 
 	bool HasOwner() { return (m_pOwner!=nullptr); }
 	//void SetOwner(CCharacterComponent* pNewOwner) { if (pNewOwner) { m_pOwner = pNewOwner; } }
-
+	
 	void PickUp(CCharacterComponent* pNewOwner);
 	void Drop();
 

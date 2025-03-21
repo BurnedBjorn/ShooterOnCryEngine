@@ -122,6 +122,10 @@ void CPlayerController::InitializeInput()
     m_pInputComponent->RegisterAction("PlayerAction", "Drop", [this](int activationMode, float value) {Drop(); });
     m_pInputComponent->BindAction("PlayerAction", "Drop", eAID_KeyboardMouse, eKI_G);
     
+
+    m_pInputComponent->RegisterAction("PlayerAction", "Attack", [this](int activationMode, float value) {Attack(activationMode); });
+    m_pInputComponent->BindAction("PlayerAction", "Attack", eAID_KeyboardMouse, eKI_Mouse1);
+    
 }
 
 void CPlayerController::Use()
@@ -158,9 +162,28 @@ void CPlayerController::Drop()
     m_pControlledCharacter->DropWeapon();
 }
 
+void CPlayerController::Attack(int activationMode)
+{
+    ray_hit target;
+    Vec3 CamDir = gEnv->pSystem->GetViewCamera().GetViewdir();
+    Vec3 CamLoc = gEnv->pSystem->GetViewCamera().GetPosition();
+    Vec3 AttackTarget;
+    static const unsigned int RayFlags = rwi_stop_at_pierceable | rwi_colltype_any;
+    if (gEnv->pPhysicalWorld->RayWorldIntersection(CamLoc, (CamDir * 1000), ent_all, RayFlags, &target, 1, m_pEntity->GetPhysicalEntity()))
+    {
+        AttackTarget = target.pt;
+    }
+    else
+    {
+        AttackTarget = CamLoc + CamDir * 1000;
+    }
+    
+}
+
 void CPlayerController::SendMovementUpdate()
 {
     m_pControlledCharacter->MovementInput(m_MovementInput);
+    EActionActivationMode::
 }
 
 void CPlayerController::EntityRotationUpdate()
