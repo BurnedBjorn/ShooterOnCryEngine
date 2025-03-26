@@ -33,6 +33,7 @@ add_sources("Components_uber.cpp"
     SOURCE_GROUP "Components\\\\Weapons"
         "Components/WeaponComponent.h"
         "Components/WeaponComponent.cpp"
+        "Components/WeaponProperties.h"
         
 )
 

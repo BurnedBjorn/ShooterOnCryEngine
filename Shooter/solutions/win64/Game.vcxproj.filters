@@ -31,6 +31,9 @@
     <ClInclude Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\Components\WeaponComponent.cpp">
       <Filter>Components\Weapons</Filter>
     </ClInclude>
+    <ClInclude Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\Components\WeaponProperties.h">
+      <Filter>Components\Weapons</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\CMakeLists.txt" />

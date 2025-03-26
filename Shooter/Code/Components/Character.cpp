@@ -125,6 +125,21 @@ void CCharacterComponent::DropWeapon()
 
 void CCharacterComponent::Attack(Vec3 Target, int activationMode)
 {
+    if (m_pWeapon)
+    {
+        m_pWeapon->SetTarget(Target);
+        if ( activationMode == eAAM_OnPress || activationMode == eAAM_OnRelease)
+        {
+            m_pWeapon->Trigger(activationMode);
+        }
+    }
+    
+    
+    
+    
+    
+    
+    //Testing
     if (activationMode == EActionActivationMode::eAAM_OnPress)
     {
         if (m_pWeapon)

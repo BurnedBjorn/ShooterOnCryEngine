@@ -155,3 +155,11 @@ void CWeaponComponent::TriggerTest()
 	}
 }
 
+void CWeaponComponent::Trigger(int activationMode)
+{
+
+}
+
+void CWeaponComponent::SetTarget(Vec3 NewTarget)
+{
+}

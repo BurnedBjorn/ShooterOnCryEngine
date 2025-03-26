@@ -6,6 +6,8 @@
 #include <CryEntitySystem/IEntitySystem.h>
 #include <CryGame/IGameFramework.h>
 #include "Character.h"
+
+#include "WeaponProperties.h"
 class CCharacterComponent;
 
 class CWeaponComponent : public IEntityComponent // Best practice: Classes start with a 'C'
@@ -42,6 +44,9 @@ public:
 	void SetPhysics(bool on);
 
 	void TriggerTest();
+
+	void Trigger(int activationMode);
+	void SetTarget(Vec3 NewTarget);
 protected:
 	
 private:
@@ -71,4 +76,6 @@ private:
 	bool m_RoundInChamber = false;
 	bool m_MagazineIN = false;
 	int m_Magazine = 0;
+
+	SWeaponProperties WeaponProperties;
 };
