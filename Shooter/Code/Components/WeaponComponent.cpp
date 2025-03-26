@@ -157,9 +157,40 @@ void CWeaponComponent::TriggerTest()
 
 void CWeaponComponent::Trigger(int activationMode)
 {
-
+	switch (activationMode)
+	{
+	case eAAM_OnPress:
+	{
+		m_Trigger = ETrigger::DOWN;
+		ShootLoop();
+	}
+	break;
+	case eAAM_OnRelease:
+	{
+		m_Trigger = ETrigger::UP;
+	}
+	break;
+	default:
+		break;
+	}
 }
 
 void CWeaponComponent::SetTarget(Vec3 NewTarget)
 {
+	m_Target = NewTarget;
 }
+
+void CWeaponComponent::ShootLoop()
+{
+	switch (m_WeaponProperties.eFireMode)
+	{
+	case EFireMode::AUTOMATIC:
+	case EFireMode::SEMIAUTOMATIC:
+	case EFireMode::SINGLEACTION:
+	case EFireMode::NONE:
+
+	default:
+		break;
+	}
+}
+

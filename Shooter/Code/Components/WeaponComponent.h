@@ -8,6 +8,12 @@
 #include "Character.h"
 
 #include "WeaponProperties.h"
+
+enum class ETrigger {
+	UP,
+	DOWN
+};
+
 class CCharacterComponent;
 
 class CWeaponComponent : public IEntityComponent // Best practice: Classes start with a 'C'
@@ -27,6 +33,7 @@ public:
 		// These set the label and categogory in the editor interface. 
 		desc.SetEditorCategory("Weapons");
 		desc.SetLabel("WeaponComponent");
+		desc.AddMember(&CWeaponComponent::m_WeaponProperties, 'wprt', "weaponproperties", "Weapon Properties", "Weapon Properties", SWeaponProperties());
 	}
 	virtual void Initialize() override;
 	
@@ -47,6 +54,9 @@ public:
 
 	void Trigger(int activationMode);
 	void SetTarget(Vec3 NewTarget);
+
+	void ShootLoop();
+	
 protected:
 	
 private:
@@ -63,19 +73,12 @@ private:
 
 
 	//
-	enum class ETrigger {
-		UP,
-		DOWN
-	};
-	enum class EFireType {
-		AUTOMATIC,
-		SEMIAUTOMATIC,
-		SINGLEACTION
-	};
+	Vec3 m_Target;
 
 	bool m_RoundInChamber = false;
 	bool m_MagazineIN = false;
 	int m_Magazine = 0;
 
-	SWeaponProperties WeaponProperties;
+	ETrigger m_Trigger;
+	SWeaponProperties m_WeaponProperties;
 };
