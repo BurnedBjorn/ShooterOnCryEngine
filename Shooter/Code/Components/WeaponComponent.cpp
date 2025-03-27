@@ -4,6 +4,7 @@
 #include <CrySchematyc/Env/IEnvRegistrar.h>
 #include <CrySchematyc/Env/Elements/EnvComponent.h>
 #include <CryCore/StaticInstanceList.h>
+#include <CryAction/IActionMapManager.h>
 
 
 
@@ -49,6 +50,7 @@ void CWeaponComponent::ProcessEvent(const SEntityEvent& event)
 	break;
 	case Cry::Entity::EEvent::Reset:
 	{
+		m_RoundInChamber = true;
 		if (HasOwner())
 		{
 			SetPhysics(false);
@@ -66,12 +68,43 @@ void CWeaponComponent::ProcessEvent(const SEntityEvent& event)
 	break;
 	case Cry::Entity::EEvent::TimerExpired:
 	{
-		int id = int(event.nParam[0]);
-		CryLog("%d", id);
-		if (event.nParam[0]== 'atk')
+		switch (event.nParam[0])
 		{
-			CryLog("Timer balls");
-			m_RoundInChamber = true;
+		case 'shot':
+		{
+			switch (m_WeaponProperties.eFireMode)
+			{
+			case SINGLEACTION:
+			{
+				CryLog("SingleAction is not yet implemented");
+			}
+			case SEMIAUTOMATIC:
+			{
+				m_RoundInChamber = true;
+			}
+			break;
+			case AUTOMATIC:
+			{
+				m_RoundInChamber = true;
+				if (m_Trigger==ETrigger::DOWN)
+				{
+					Shoot();
+				}
+			}
+			break;
+			case NONE:
+			{
+				m_RoundInChamber = true;
+				
+			}
+			break;
+			default:
+				break;
+			}
+		}
+		break;
+		default:
+			break;
 		}
 	}
 	
@@ -157,12 +190,15 @@ void CWeaponComponent::TriggerTest()
 
 void CWeaponComponent::Trigger(int activationMode)
 {
+	
 	switch (activationMode)
 	{
+
 	case eAAM_OnPress:
 	{
+		
 		m_Trigger = ETrigger::DOWN;
-		ShootLoop();
+		Shoot();
 	}
 	break;
 	case eAAM_OnRelease:
@@ -180,17 +216,36 @@ void CWeaponComponent::SetTarget(Vec3 NewTarget)
 	m_Target = NewTarget;
 }
 
-void CWeaponComponent::ShootLoop()
+ray_hit CWeaponComponent::Raycast(Vec3 Start, Vec3 End)
 {
-	switch (m_WeaponProperties.eFireMode)
-	{
-	case EFireMode::AUTOMATIC:
-	case EFireMode::SEMIAUTOMATIC:
-	case EFireMode::SINGLEACTION:
-	case EFireMode::NONE:
+	Vec3 Direction = End - Start;
+	ray_hit Hit;
+	static const unsigned int RayFlags = rwi_stop_at_pierceable | rwi_colltype_any;
+	gEnv->pPhysicalWorld->RayWorldIntersection(Start, Direction, ent_all, RayFlags, &Hit, 1, m_pEntity->GetPhysicalEntity());
+	return Hit;
+}
 
-	default:
-		break;
+void CWeaponComponent::Shoot()
+{
+	
+	if (m_RoundInChamber)
+	{
+		Vec3 RayEnd = m_Target - GetBarrelWorldPos();
+		RayEnd.NormalizeSafe();
+		RayEnd *= 1000;
+		RayEnd += GetBarrelWorldPos();
+
+		ray_hit Hit = Raycast(GetBarrelWorldPos(), RayEnd);
+
+		Vec3 AttackTarget = Hit.pt;
+		gEnv->pRenderer->GetIRenderAuxGeom()->DrawLine(AttackTarget - Vec3(0, 0, 0.5), ColorB(255, 0, 0), AttackTarget + Vec3(0, 0, 0.5), ColorB(255, 0, 0), 6.0f);
+		gEnv->pRenderer->GetIRenderAuxGeom()->DrawLine(AttackTarget - Vec3(0, 0.5, 0), ColorB(255, 0, 0), AttackTarget + Vec3(0, 0.5, 0), ColorB(255, 0, 0), 6.0f);
+		gEnv->pRenderer->GetIRenderAuxGeom()->DrawLine(AttackTarget - Vec3(0.5, 0, 0), ColorB(255, 0, 0), AttackTarget + Vec3(0.5, 0, 0), ColorB(255, 0, 0), 6.0f);
+
+		m_RoundInChamber = false;
+		m_pEntity->SetTimer(this, m_pEntity->GetId(), "{4976AF5F-3077-46FD-ABD8-ADD14DF6CB5A}"_cry_guid, 'shot', int(m_WeaponProperties.fShootDelay * 1000));
 	}
 }
+
+
 

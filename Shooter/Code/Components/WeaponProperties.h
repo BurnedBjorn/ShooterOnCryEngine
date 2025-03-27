@@ -30,7 +30,7 @@ struct SWeaponProperties
 	Schematyc::GeomFileName sGeometryPath;
 	Schematyc::MaterialFileName sMaterialPath;
 	EFireMode eFireMode;
-	
+	float fShootDelay =0.1;
 	
 	
 };
@@ -41,5 +41,6 @@ static void ReflectType(Schematyc::CTypeDesc<SWeaponProperties>& desc) {
 	desc.AddMember(&SWeaponProperties::sGeometryPath, 'geom', "geometrypath", "Geometry Path", "Path to geometry file for this weapon", "");
 	desc.AddMember(&SWeaponProperties::sMaterialPath, 'mat', "materialpath", "Material Path", "Path to material file for this weapon", "");
 	desc.AddMember(&SWeaponProperties::eFireMode, 'frmd', "firemode", "Fire Mode", "Fire mode setting", EFireMode::SEMIAUTOMATIC);
+	desc.AddMember(&SWeaponProperties::fShootDelay, 'shdl', "shootdelay", "Shoot Delay", "Delay between the shots", 0.1f);
 	
 }

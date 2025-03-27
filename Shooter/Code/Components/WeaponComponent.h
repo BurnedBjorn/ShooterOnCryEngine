@@ -55,7 +55,8 @@ public:
 	void Trigger(int activationMode);
 	void SetTarget(Vec3 NewTarget);
 
-	void ShootLoop();
+	ray_hit Raycast(Vec3 Start, Vec3 End);
+	void Shoot();
 	
 protected:
 	
@@ -76,8 +77,9 @@ private:
 	Vec3 m_Target;
 
 	bool m_RoundInChamber = false;
-	bool m_MagazineIN = false;
-	int m_Magazine = 0;
+	//bool m_Cocked = false; //for single action
+	//bool m_MagazineIN = false;
+	//int m_Magazine = 0;
 
 	ETrigger m_Trigger;
 	SWeaponProperties m_WeaponProperties;

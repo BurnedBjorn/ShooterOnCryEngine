@@ -1,5 +1,5 @@
 <ObjectLayer>
- <Layer Name="Main" FullName="Main" GUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Hidden="0" Frozen="0" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1742969697">
+ <Layer Name="Main" FullName="Main" GUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Hidden="0" Frozen="0" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1743076469">
   <LayerObjects>
    <Object Type="Designer" Layer="Main" LayerGUID="1dd3a559-e494-4742-a501-7dab4afbbf72" Id="4ccb90a3-1dbb-4500-99bf-25286ff6daf7" Name="Designer Box3" Pos="74.526169,66,32" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" Material="%ENGINE%/EngineAssets/Materials/material_default" MinSpec="0" RndFlags="1073741832" StaticObjFlags="0" ViewDistRatio="100">
     <Brush DesignerModeFlags="0" SubdivisionLevel="0" SubdivisionSmoothingGroup="0" MirrorPlaneNormal="0,0,0" MirrorPlaneDistance="0">
@@ -63,7 +63,9 @@
     <Properties />
     <Components>
      <Component CryXmlVersion="2" TypeGUID="9877d70e-3fd6-4721-90f5-1b41fc93a496" TypeName="CWeaponComponent" GUID="b3fd55e3-469f-b423-70b3-88b48692142e" Name="" UserAdded="true">
-      <properties />
+      <properties>
+       <weaponproperties geometrypath="" materialpath="" firemode="Single Action" shootdelay="0.1"/>
+      </properties>
      </Component>
     </Components>
    </Object>
@@ -405,7 +407,7 @@
          <element element="2"/>
         </position>
        </translation>
-       <rotation x="0" y="0" z="-62.509647"/>
+       <rotation x="0" y="0" z="-90.068497"/>
        <scale>
         <element element="1"/>
         <element element="1"/>
