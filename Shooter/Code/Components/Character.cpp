@@ -159,4 +159,12 @@ void CCharacterComponent::Attack(Vec3 Target, int activationMode)
     */
 }
 
+void CCharacterComponent::HitDebug()
+{
+    if (string nm = m_pEntity->GetName())
+    {
+        CryLog("Hit " + nm);
+    }
+}
+
 

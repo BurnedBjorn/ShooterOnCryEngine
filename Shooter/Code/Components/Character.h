@@ -38,6 +38,8 @@ public:
 	void DropWeapon();
 
 	void Attack(Vec3 Target, int activationMode);
+
+	void HitDebug();
 protected:
 
 	

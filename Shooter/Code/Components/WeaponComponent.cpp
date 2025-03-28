@@ -236,6 +236,18 @@ void CWeaponComponent::Shoot()
 		RayEnd += GetBarrelWorldPos();
 
 		ray_hit Hit = Raycast(GetBarrelWorldPos(), RayEnd);
+		if (IPhysicalEntity* pPhysEntity = Hit.pCollider)
+		{
+			if (IEntity* pEntity = gEnv->pEntitySystem->GetEntityFromPhysics(pPhysEntity))
+			{
+				if (CCharacterComponent* pCharacterComponent = pEntity->GetComponent<CCharacterComponent>())
+				{
+					pCharacterComponent->HitDebug();
+				}
+			}
+		}
+
+
 
 		Vec3 AttackTarget = Hit.pt;
 		gEnv->pRenderer->GetIRenderAuxGeom()->DrawLine(AttackTarget - Vec3(0, 0, 0.5), ColorB(255, 0, 0), AttackTarget + Vec3(0, 0, 0.5), ColorB(255, 0, 0), 6.0f);
