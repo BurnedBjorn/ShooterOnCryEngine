@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="d5e1cfeb-a3dc-ab49-29d3-367c3fdc3708" source="SKM_YBot.fbx">
+ <Files>
+  <File path="SKM_YBot.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">55320</Detail>
+  <Detail name="vertexCount">35451</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./SKM_YBot.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

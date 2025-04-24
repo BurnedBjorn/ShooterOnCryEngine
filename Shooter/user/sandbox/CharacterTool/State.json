@@ -4,17 +4,17 @@
 			"playbackOptions": {
 				"loopAnimation": true,
 				"restartOnAnimationSelection": true,
-				"playFromTheStart": false,
+				"playFromTheStart": true,
 				"firstFrameAtEndOfTimeline": false,
-				"wrapTimelineSlider": false,
-				"smoothTimelineSlider": false,
+				"wrapTimelineSlider": true,
+				"smoothTimelineSlider": true,
 				"playbackSpeed": 1.0
 			},
 			"displayOptions": {
 				"attachmentGizmos": true,
 				"poseModifierGizmos": true,
 				"animation": {
-					"movement": "inplace",
+					"movement": "continuous",
 					"compressionPreview": "compressed",
 					"animationEventGizmos": true,
 					"showTrail": true,
@@ -71,16 +71,16 @@
 					"cubemapMultiplier": 3.0,
 					"cubemapColor": { "r": 255, "g": 255, "b": 255, "a": 255 },
 					"rotatelight": false,
-					"lightMultiplier": 3.0,
+					"lightMultiplier": 1.02273,
 					"directionalLightColor": { "r": 255, "g": 255, "b": 255, "a": 255 }
 				},
 				"background": {
 					"useGradient": true,
-					"topColor": { "r": 128, "g": 128, "b": 128, "a": 255 },
-					"bottomColor": { "r": 32, "g": 32, "b": 32, "a": 255 }
+					"topColor": { "r": 128, "g": 0, "b": 107, "a": 255 },
+					"bottomColor": { "r": 0, "g": 122, "b": 133, "a": 255 }
 				}
 			},
-			"playbackTime": 0.0
+			"playbackTime": 0.25053
 		}
 	},
 	"dockWidgetManager": {
@@ -90,7 +90,7 @@
 				"type": "ExplorerPanel",
 				"widget": {
 					"explorerRootIndex": 0,
-					"filterMode": false,
+					"filterMode": true,
 					"filterOptions": {
 						"Infolder": true,
 						"Inpak": true,
@@ -105,24 +105,40 @@
 						"expandedItems": [
 							"Characters",
 							"Skeletons",
-							"Animations",
+							"Animations (objects/characters/ybot/)",
 							"Compression (Animations/)",
 							"Compression (Animations/)|Compression Presets",
 							"Compression (Animations/)|DBA Table",
+							"Animations (objects/characters/ybot/)|Movement2D",
+							"Animations (objects/characters/ybot/)|SKM_YBot_YBot_A_SKMYbot_B_Walk_Measured",
+							"Animations (objects/characters/ybot/)|SKM_YBot_YBot_A_SKMYbot_BL_Walking_Measured",
+							"Animations (objects/characters/ybot/)|SKM_YBot_YBot_A_SKMYbot_BR_Walking_Measured",
+							"Animations (objects/characters/ybot/)|SKM_YBot_YBot_A_SKMYbot_F_Walk_Measured",
+							"Animations (objects/characters/ybot/)|SKM_YBot_YBot_A_SKMYbot_FL_Walk_Measured",
+							"Animations (objects/characters/ybot/)|SKM_YBot_YBot_A_SKMYbot_FR_Walk_Measured",
+							"Animations (objects/characters/ybot/)|SKM_YBot_YBot_A_SKMYbot_Idle_Measured",
+							"Animations (objects/characters/ybot/)|SKM_YBot_YBot_A_SKMYbot_L_Walking_Measured",
+							"Animations (objects/characters/ybot/)|SKM_YBot_YBot_A_SKMYbot_R_Walking_Measured",
+							"Animations (objects/characters/ybot/)|SKM_YBot_YBot_A_YBot_Default_Pose",
+							"Animations (objects/characters/ybot/)|SKM_YBot_YBot_A_YBot_Idle_Passive_Animation",
+							"Animations (objects/characters/ybot/)|SKM_YBot_YBot_A_YBot_Idle_Passive_Pose",
+							"Animations (objects/characters/ybot/)|SKM_YBot_YBot_AllAnimations",
 							"Skeletons|Objects",
-							"Skeletons|Objects|Weapons",
-							"Skeletons|Objects|Weapons|Test",
 							"Characters|Objects",
 							"Characters|Objects|Characters",
-							"Characters|Objects|Characters|SampleCharacter"
+							"Characters|Objects|Characters|YBot"
 						],
 						"selectedItems": [
-							"Skeletons|Objects|Weapons|Test|LEPistol.chrparams",
-							"Skeletons|Objects|Weapons|Test"
+							"Animations (objects/characters/ybot/)|Movement2D",
+							"Animations (objects/characters/ybot/)",
+							"Animations (objects/characters/ybot/)|2 KB",
+							"Animations (objects/characters/ybot/)|46",
+							"Animations (objects/characters/ybot/)",
+							"Animations (objects/characters/ybot/)"
 						],
-						"currentItem": "Skeletons|Objects|Weapons|Test|LEPistol.chrparams",
-						"sectionsHidden": [ 1, 2, 3, 4, 5 ],
-						"sectionsVisible": [ 0 ]
+						"currentItem": "Animations (objects/characters/ybot/)|Movement2D",
+						"sectionsHidden": [ ],
+						"sectionsVisible": [ 0, 1, 2, 3, 4, 5 ]
 					}
 				}
 			}
@@ -130,27 +146,30 @@
 	},
 	"displayPanel": {
 		"propertyTree": {
-			"focusedRow": [ ],
-			"selection": [ ],
-			"expanded": [ 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+			"focusedRow": [ 4 ],
+			"selection": [ [ 4 ] ],
+			"expanded": [ 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0 ]
 		}
 	},
-	"displayParameterSplittersWidths": [ 400, 200 ],
+	"displayParameterSplittersWidths": [ 925, 200 ],
 	"displayOptionsVisible": false,
 	"playbackPanel": { "timeUnits": "seconds" },
 	"propertiesPanel": {
 		"propertyTree": {
 			"focusedRow": [ ],
 			"selection": [ ],
-			"expanded": [ 1, 1, 1, 1, 1, 1, 1 ]
+			"expanded": [
+				1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0,
+				0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1
+			]
 		},
 		"outlineMode": "oneTree"
 	},
 	"blendSpacePreview": {
 		"viewport": {
 			"cameraTarget": {
-				"q": { "x": 0.02034, "y": -0.1018, "z": 0.97532, "w": -0.19487 },
-				"t": { "x": -0.88123, "y": 2.19696, "z": 1.58522 }
+				"q": { "x": -0.45279, "y": 0.44851, "z": -0.5423, "w": 0.54748 },
+				"t": { "x": 0.02049, "y": 0.45026, "z": 2.52185 }
 			}
 		},
 		"characterScale": 0.5,
@@ -160,27 +179,33 @@
 		"palette": { "addWithSingleClick": false, "hotkeys": [ ] }
 	},
 	"recentCharacters": [
+		"Objects/Characters/YBot/SKM_YBot.cdf",
 		"Objects/Characters/SampleCharacter/firstperson.cdf",
+		"",
+		"Objects/Characters/YBot/YBot.cdf",
+		"Objects/Characters/YBot/TEST.cdf",
 		"Objects/Characters/SampleCharacter/thirdperson.cdf"
 	],
 	"windowGeometry": [
-		1, 217, 208, 203, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 231, 0, 0, 1, 172, 0, 0, 0, 0, 0, 0, 0, 0,
-		0, 0, 3, 231, 0, 0, 1, 172, 0, 0, 0, 0, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 231, 0, 0,
-		1, 172
+		1, 217, 208, 203, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 247, 0, 0, 6, 12, 0, 0, 0, 0, 0, 0, 0, 0,
+		0, 0, 9, 247, 0, 0, 6, 12, 0, 0, 0, 0, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 247, 0, 0,
+		6, 12
 	],
 	"windowState": [
-		0, 0, 0, 255, 0, 0, 0, 0, 253, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 209, 0, 0, 1, 65, 252, 2, 0, 0, 0, 1, 251,
+		0, 0, 0, 255, 0, 0, 0, 0, 253, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 1, 118, 0, 0, 5, 161, 252, 2, 0, 0, 0, 2, 251,
 		0, 0, 0, 30, 0, 69, 0, 120, 0, 112, 0, 108, 0, 111, 0, 114, 0, 101, 0, 114, 0, 80, 0, 97, 0, 110, 0, 101, 0, 108, 0, 45,
-		0, 48, 1, 0, 0, 0, 0, 0, 0, 1, 65, 0, 0, 0, 107, 0, 255, 255, 255, 0, 0, 0, 1, 0, 0, 0, 156, 0, 0, 1, 65, 252,
-		2, 0, 0, 0, 4, 251, 0, 0, 0, 32, 0, 115, 0, 99, 0, 101, 0, 110, 0, 101, 0, 95, 0, 112, 0, 97, 0, 114, 0, 97, 0, 109,
-		0, 101, 0, 116, 0, 101, 0, 114, 0, 115, 1, 0, 0, 0, 0, 0, 0, 0, 39, 0, 0, 0, 23, 0, 255, 255, 255, 251, 0, 0, 0, 20,
-		0, 112, 0, 114, 0, 111, 0, 112, 0, 101, 0, 114, 0, 116, 0, 105, 0, 101, 0, 115, 1, 0, 0, 0, 46, 0, 0, 1, 19, 0, 0, 0,
-		81, 0, 255, 255, 255, 251, 0, 0, 0, 38, 0, 98, 0, 108, 0, 101, 0, 110, 0, 100, 0, 95, 0, 115, 0, 112, 0, 97, 0, 99, 0, 101,
-		0, 95, 0, 112, 0, 114, 0, 101, 0, 118, 0, 105, 0, 101, 0, 119, 0, 0, 0, 0, 0, 255, 255, 255, 255, 0, 0, 0, 223, 0, 255, 255,
-		255, 251, 0, 0, 0, 36, 0, 97, 0, 110, 0, 105, 0, 109, 0, 95, 0, 101, 0, 118, 0, 101, 0, 110, 0, 116, 0, 95, 0, 112, 0, 114,
-		0, 101, 0, 115, 0, 101, 0, 116, 0, 115, 0, 0, 0, 0, 0, 255, 255, 255, 255, 0, 0, 0, 91, 0, 255, 255, 255, 0, 0, 0, 3, 0,
-		0, 3, 232, 0, 0, 0, 101, 252, 1, 0, 0, 0, 1, 251, 0, 0, 0, 16, 0, 112, 0, 108, 0, 97, 0, 121, 0, 98, 0, 97, 0, 99,
-		0, 107, 1, 0, 0, 0, 0, 0, 0, 3, 232, 0, 0, 1, 181, 0, 255, 255, 255, 0, 0, 2, 109, 0, 0, 1, 65, 0, 0, 0, 4, 0,
-		0, 0, 4, 0, 0, 0, 8, 0, 0, 0, 8, 252, 0, 0, 0, 0
+		0, 48, 1, 0, 0, 0, 0, 0, 0, 5, 161, 0, 0, 0, 194, 0, 255, 255, 255, 251, 0, 0, 0, 30, 0, 69, 0, 120, 0, 112, 0, 108,
+		0, 111, 0, 114, 0, 101, 0, 114, 0, 80, 0, 97, 0, 110, 0, 101, 0, 108, 0, 45, 0, 49, 1, 0, 0, 2, 212, 0, 0, 2, 205, 0,
+		0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 4, 11, 0, 0, 5, 161, 252, 2, 0, 0, 0, 4, 251, 0, 0, 0, 32, 0, 115,
+		0, 99, 0, 101, 0, 110, 0, 101, 0, 95, 0, 112, 0, 97, 0, 114, 0, 97, 0, 109, 0, 101, 0, 116, 0, 101, 0, 114, 0, 115, 1, 0,
+		0, 0, 0, 0, 0, 1, 32, 0, 0, 0, 23, 0, 255, 255, 255, 251, 0, 0, 0, 20, 0, 112, 0, 114, 0, 111, 0, 112, 0, 101, 0, 114,
+		0, 116, 0, 105, 0, 101, 0, 115, 1, 0, 0, 1, 39, 0, 0, 2, 18, 0, 0, 0, 81, 0, 255, 255, 255, 251, 0, 0, 0, 38, 0, 98,
+		0, 108, 0, 101, 0, 110, 0, 100, 0, 95, 0, 115, 0, 112, 0, 97, 0, 99, 0, 101, 0, 95, 0, 112, 0, 114, 0, 101, 0, 118, 0, 105,
+		0, 101, 0, 119, 1, 0, 0, 3, 64, 0, 0, 1, 58, 0, 0, 0, 223, 0, 255, 255, 255, 251, 0, 0, 0, 36, 0, 97, 0, 110, 0, 105,
+		0, 109, 0, 95, 0, 101, 0, 118, 0, 101, 0, 110, 0, 116, 0, 95, 0, 112, 0, 114, 0, 101, 0, 115, 0, 101, 0, 116, 0, 115, 1, 0,
+		0, 4, 129, 0, 0, 1, 32, 0, 0, 0, 92, 0, 255, 255, 255, 0, 0, 0, 3, 0, 0, 9, 248, 0, 0, 0, 101, 252, 1, 0, 0, 0,
+		1, 251, 0, 0, 0, 16, 0, 112, 0, 108, 0, 97, 0, 121, 0, 98, 0, 97, 0, 99, 0, 107, 1, 0, 0, 0, 0, 0, 0, 9, 248, 0,
+		0, 1, 181, 0, 255, 255, 255, 0, 0, 4, 105, 0, 0, 5, 161, 0, 0, 0, 4, 0, 0, 0, 4, 0, 0, 0, 8, 0, 0, 0, 8, 252,
+		0, 0, 0, 0
 	]
 }

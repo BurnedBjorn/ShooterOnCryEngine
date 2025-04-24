@@ -1,0 +1,110 @@
+{
+	"version": 1,
+	"source_filename": "d:/.gamedev/projects/cryengine projects/cryshooter/shooter/assets/Objects/Characters/YBot/SKM_YBot.fbx",
+	"output_ext": "cgf",
+	"material_filename": "objects/characters/ybot/SKM_YBot",
+	"unit_size": "cm",
+	"scale": 1.0,
+	"forward_up_axes": "+Y+Z",
+	"merge_all_nodes": false,
+	"scene_origin": false,
+	"ignore_custom_normals": false,
+	"ignore_uv": false,
+	"materials": [
+		{
+			"name": "Alpha_Body_MAT",
+			"file": "",
+			"physicalize": "no",
+			"sub_index": 0,
+			"ui_autoflag": true
+		},
+		{
+			"name": "Alpha_Joints_MAT",
+			"file": "",
+			"physicalize": "no",
+			"sub_index": 1,
+			"ui_autoflag": true
+		},
+		{
+			"name": "<unassigned>",
+			"file": "",
+			"physicalize": "no",
+			"sub_index": 2,
+			"ui_autoflag": true
+		}
+	],
+	"nodes": [
+		{
+			"name": "Alpha_Joints",
+			"path": [ "Alpha_Joints" ],
+			"mass": -1.0,
+			"density": -1.0
+		},
+		{
+			"name": "Alpha_Surface",
+			"path": [ "Alpha_Surface" ],
+			"mass": -1.0,
+			"density": -1.0
+		},
+		{ "name": "YBot", "path": [ "YBot" ], "mass": -1.0, "density": -1.0 }
+	],
+	"animation": {
+		"name": "",
+		"motionNodePath": [ ],
+		"startFrame": -1,
+		"endFrame": -1
+	},
+	"globalSettings": {
+		"general_settings": { "input_filename": "SKM_YBot", "output_filename": "" },
+		"static_mesh_settings": {
+			"merge_all_nodes": false,
+			"scene_origin": false,
+			"compute_normals": false,
+			"compute_uv": false
+		},
+		"conversion_settings": {
+			"unit": "centimeters",
+			"scale": 1.0,
+			"forward": "+Y",
+			"up": "+Z"
+		},
+		"output_settings": { "use_32_bit_positions": false }
+	},
+	"editorNodeMeta": [ ],
+	"editorMaterialMeta": [
+		{
+			"name": "Alpha_Body_MAT",
+			"physicalize_setting": "no",
+			"sub_material_index": 0,
+			"auto_id": true,
+			"color": { "r": 0.5636, "g": 0.5924, "b": 0.61454, "a": 1.0 }
+		},
+		{
+			"name": "Alpha_Joints_MAT",
+			"physicalize_setting": "no",
+			"sub_material_index": 1,
+			"auto_id": true,
+			"color": { "r": 0.73521, "g": 0.86009, "b": 0.75442, "a": 1.0 }
+		},
+		{
+			"name": "<unassigned>",
+			"physicalize_setting": "no",
+			"sub_material_index": 2,
+			"auto_id": true,
+			"color": { "r": 1.0, "g": 1.0, "b": 1.0, "a": 1.0 }
+		}
+	],
+	"use_32_bit_positions": false,
+	"autolodsettings": {
+		"globalparams": {
+			"viewresolution": 26.69321,
+			"viewsaround": 12,
+			"viewelevations": 3,
+			"silhouetteweight": 5.0,
+			"vertexwelding": 0.001,
+			"checktopology": true,
+			"objecthasbase": false
+		},
+		"nodeparams": [ ]
+	}
+}

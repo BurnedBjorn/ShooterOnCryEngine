@@ -1,6 +1,12 @@
 {
+    "Asset Browser": {
+        "RecentImportPath": "D:/.Blender/Projects/CharacterForShooter/SecondAttempt/BaseModel/"
+    },
     "AssetFolderModel": {
-        "AddedFolders": null
+        "AddedFolders": [
+            "Objects/Characters/ybot",
+            "Animations/ybot/measured"
+        ]
     },
     "CAssetPicker": {
         "LayoutCharacter": {
@@ -142,10 +148,163 @@
             "foldersSplitter": "AAAA/wAAAAEAAAACAAABAAAAAwAB/////wEAAAABAA==",
             "foldersView": {
                 "selected": [
-                    "Objects/Characters/SampleCharacter"
+                    "Objects/Characters/ybot"
                 ]
             },
             "mainViewSplitter": "AAAA/wAAAAEAAAACAAAAOgAAAQAB/////wEAAAABAA==",
+            "recursiveView": false,
+            "showFolders": true,
+            "thumbnailView": {
+                "size": {
+                    "height": 64,
+                    "width": 64
+                }
+            },
+            "viewMode": 1
+        },
+        "LayoutLevel": {
+            "adaptiveLayout": true,
+            "breadcrumbsVisible": true,
+            "detailsView": {
+                "columnData": {
+                    "Favorite": {
+                        "data": "Favorite",
+                        "visible": true,
+                        "visualIndex": 0,
+                        "width": 16
+                    },
+                    "Folder": {
+                        "data": "Folder",
+                        "visible": false,
+                        "visualIndex": 4,
+                        "width": 0
+                    },
+                    "Name": {
+                        "data": "Name",
+                        "visible": true,
+                        "visualIndex": 1,
+                        "width": 260
+                    },
+                    "Status": {
+                        "data": "Status",
+                        "visible": true,
+                        "visualIndex": 3,
+                        "width": 125
+                    },
+                    "Type": {
+                        "data": "Type",
+                        "visible": true,
+                        "visualIndex": 2,
+                        "width": 150
+                    },
+                    "Unique Id": {
+                        "data": "Unique Id",
+                        "visible": false,
+                        "visualIndex": 5,
+                        "width": 0
+                    },
+                    "_filter_string_": {
+                        "data": "_filter_string_",
+                        "visible": false,
+                        "visualIndex": 7,
+                        "width": 0
+                    },
+                    "_thumb_": {
+                        "data": "_thumb_",
+                        "visible": false,
+                        "visualIndex": 6,
+                        "width": 0
+                    }
+                },
+                "columnOrder": [
+                    "Favorite",
+                    "Name",
+                    "Type",
+                    "Status",
+                    "Folder",
+                    "Unique Id",
+                    "_thumb_",
+                    "_filter_string_"
+                ],
+                "headerSortingOrder": {
+                    "sortOrder": 0,
+                    "sortedSection": 1
+                },
+                "version": 1
+            },
+            "editorContent": {
+                "isLocked": true,
+                "toolBarArea": [
+                    {
+                        "items": [
+                            {
+                                "index": 0,
+                                "name": "FileToolBar",
+                                "type": 0,
+                                "visible": false
+                            }
+                        ]
+                    },
+                    {
+                        "items": [
+                        ]
+                    },
+                    {
+                        "items": [
+                        ]
+                    },
+                    {
+                        "items": [
+                            {
+                                "index": 0,
+                                "spacerType": 0,
+                                "type": 1
+                            },
+                            {
+                                "index": 1,
+                                "name": "ViewToolBar",
+                                "type": 0,
+                                "visible": false
+                            },
+                            {
+                                "index": 2,
+                                "spacerType": 1,
+                                "type": 1
+                            },
+                            {
+                                "index": 3,
+                                "name": "View TypeToolBar",
+                                "type": 0,
+                                "visible": false
+                            }
+                        ]
+                    }
+                ],
+                "toolBars": [
+                    {
+                        "area": 0,
+                        "name": "FileToolBar"
+                    },
+                    {
+                        "area": 3,
+                        "name": "View TypeToolBar"
+                    },
+                    {
+                        "area": 3,
+                        "name": "ViewToolBar"
+                    }
+                ]
+            },
+            "filters": {
+                "expanded": false
+            },
+            "foldersSplitter": "AAAA/wAAAAEAAAACAAABAAAAAwAB/////wEAAAABAA==",
+            "foldersView": {
+                "selected": [
+                    ""
+                ]
+            },
+            "mainViewSplitter": "AAAA/wAAAAEAAAAC/////wAAAQAB/////wEAAAABAA==",
             "recursiveView": false,
             "showFolders": true,
             "thumbnailView": {
@@ -309,10 +468,10 @@
             "foldersSplitter": "AAAA/wAAAAEAAAACAAABAAAAAwAB/////wEAAAABAA==",
             "foldersView": {
                 "selected": [
-                    "Materials"
+                    "Objects/Characters/ybot"
                 ]
             },
-            "mainViewSplitter": "AAAA/wAAAAEAAAAC/////wAAAQAB/////wEAAAABAA==",
+            "mainViewSplitter": "AAAA/wAAAAEAAAACAAAAOgAAAQAB/////wEAAAABAA==",
             "recursiveView": false,
             "showFolders": true,
             "thumbnailView": {
@@ -650,7 +809,7 @@
             "foldersSplitter": "AAAA/wAAAAEAAAACAAABAAAAAwAB/////wEAAAABAA==",
             "foldersView": {
                 "selected": [
-                    "Objects/Weapons/Test"
+                    "Objects/Characters/YBot"
                 ]
             },
             "mainViewSplitter": "AAAA/wAAAAEAAAACAAAAOgAAAQAB/////wEAAAABAA==",
@@ -663,21 +822,387 @@
                 }
             },
             "viewMode": 1
+        },
+        "LayoutSkeletonAnimatedMesh": {
+            "adaptiveLayout": true,
+            "breadcrumbsVisible": true,
+            "detailsView": {
+                "columnData": {
+                    "Bones count": {
+                        "data": "Bones count",
+                        "visible": false,
+                        "visualIndex": 8,
+                        "width": 0
+                    },
+                    "Favorite": {
+                        "data": "Favorite",
+                        "visible": true,
+                        "visualIndex": 0,
+                        "width": 16
+                    },
+                    "Folder": {
+                        "data": "Folder",
+                        "visible": false,
+                        "visualIndex": 4,
+                        "width": 0
+                    },
+                    "Name": {
+                        "data": "Name",
+                        "visible": true,
+                        "visualIndex": 1,
+                        "width": 260
+                    },
+                    "Status": {
+                        "data": "Status",
+                        "visible": true,
+                        "visualIndex": 3,
+                        "width": 125
+                    },
+                    "Type": {
+                        "data": "Type",
+                        "visible": true,
+                        "visualIndex": 2,
+                        "width": 150
+                    },
+                    "Unique Id": {
+                        "data": "Unique Id",
+                        "visible": false,
+                        "visualIndex": 5,
+                        "width": 0
+                    },
+                    "_filter_string_": {
+                        "data": "_filter_string_",
+                        "visible": false,
+                        "visualIndex": 7,
+                        "width": 0
+                    },
+                    "_thumb_": {
+                        "data": "_thumb_",
+                        "visible": false,
+                        "visualIndex": 6,
+                        "width": 0
+                    }
+                },
+                "columnOrder": [
+                    "Favorite",
+                    "Name",
+                    "Type",
+                    "Status",
+                    "Folder",
+                    "Unique Id",
+                    "_thumb_",
+                    "_filter_string_",
+                    "Bones count"
+                ],
+                "headerSortingOrder": {
+                    "sortOrder": 0,
+                    "sortedSection": 1
+                },
+                "version": 1
+            },
+            "editorContent": {
+                "isLocked": true,
+                "toolBarArea": [
+                    {
+                        "items": [
+                            {
+                                "index": 0,
+                                "name": "FileToolBar",
+                                "type": 0,
+                                "visible": false
+                            }
+                        ]
+                    },
+                    {
+                        "items": [
+                        ]
+                    },
+                    {
+                        "items": [
+                        ]
+                    },
+                    {
+                        "items": [
+                            {
+                                "index": 0,
+                                "spacerType": 0,
+                                "type": 1
+                            },
+                            {
+                                "index": 1,
+                                "name": "ViewToolBar",
+                                "type": 0,
+                                "visible": false
+                            },
+                            {
+                                "index": 2,
+                                "spacerType": 1,
+                                "type": 1
+                            },
+                            {
+                                "index": 3,
+                                "name": "View TypeToolBar",
+                                "type": 0,
+                                "visible": false
+                            }
+                        ]
+                    }
+                ],
+                "toolBars": [
+                    {
+                        "area": 0,
+                        "name": "FileToolBar"
+                    },
+                    {
+                        "area": 3,
+                        "name": "View TypeToolBar"
+                    },
+                    {
+                        "area": 3,
+                        "name": "ViewToolBar"
+                    }
+                ]
+            },
+            "filters": {
+                "expanded": false
+            },
+            "foldersSplitter": "AAAA/wAAAAEAAAACAAABAAAAAwAB/////wEAAAABAA==",
+            "foldersView": {
+                "selected": [
+                    "Objects/Characters/ybot"
+                ]
+            },
+            "mainViewSplitter": "AAAA/wAAAAEAAAACAAAAOgAAAQAB/////wEAAAABAA==",
+            "recursiveView": false,
+            "showFolders": true,
+            "thumbnailView": {
+                "size": {
+                    "height": 64,
+                    "width": 64
+                }
+            },
+            "viewMode": 1
+        },
+        "LayoutTexture": {
+            "adaptiveLayout": true,
+            "breadcrumbsVisible": true,
+            "detailsView": {
+                "columnData": {
+                    "Favorite": {
+                        "data": "Favorite",
+                        "visible": true,
+                        "visualIndex": 0,
+                        "width": 16
+                    },
+                    "Folder": {
+                        "data": "Folder",
+                        "visible": false,
+                        "visualIndex": 4,
+                        "width": 0
+                    },
+                    "Height": {
+                        "data": "Height",
+                        "visible": false,
+                        "visualIndex": 9,
+                        "width": 0
+                    },
+                    "Mip count": {
+                        "data": "Mip count",
+                        "visible": false,
+                        "visualIndex": 10,
+                        "width": 0
+                    },
+                    "Name": {
+                        "data": "Name",
+                        "visible": true,
+                        "visualIndex": 1,
+                        "width": 260
+                    },
+                    "Parent": {
+                        "data": "Parent",
+                        "visible": false,
+                        "visualIndex": 11,
+                        "width": 0
+                    },
+                    "Status": {
+                        "data": "Status",
+                        "visible": true,
+                        "visualIndex": 3,
+                        "width": 125
+                    },
+                    "Type": {
+                        "data": "Type",
+                        "visible": true,
+                        "visualIndex": 2,
+                        "width": 150
+                    },
+                    "Unique Id": {
+                        "data": "Unique Id",
+                        "visible": false,
+                        "visualIndex": 5,
+                        "width": 0
+                    },
+                    "Width": {
+                        "data": "Width",
+                        "visible": false,
+                        "visualIndex": 8,
+                        "width": 0
+                    },
+                    "_filter_string_": {
+                        "data": "_filter_string_",
+                        "visible": false,
+                        "visualIndex": 7,
+                        "width": 0
+                    },
+                    "_thumb_": {
+                        "data": "_thumb_",
+                        "visible": false,
+                        "visualIndex": 6,
+                        "width": 0
+                    }
+                },
+                "columnOrder": [
+                    "Favorite",
+                    "Name",
+                    "Type",
+                    "Status",
+                    "Folder",
+                    "Unique Id",
+                    "_thumb_",
+                    "_filter_string_",
+                    "Width",
+                    "Height",
+                    "Mip count",
+                    "Parent"
+                ],
+                "headerSortingOrder": {
+                    "sortOrder": 0,
+                    "sortedSection": 1
+                },
+                "version": 1
+            },
+            "editorContent": {
+                "isLocked": true,
+                "toolBarArea": [
+                    {
+                        "items": [
+                            {
+                                "index": 0,
+                                "name": "FileToolBar",
+                                "type": 0,
+                                "visible": false
+                            }
+                        ]
+                    },
+                    {
+                        "items": [
+                        ]
+                    },
+                    {
+                        "items": [
+                        ]
+                    },
+                    {
+                        "items": [
+                            {
+                                "index": 0,
+                                "spacerType": 0,
+                                "type": 1
+                            },
+                            {
+                                "index": 1,
+                                "name": "ViewToolBar",
+                                "type": 0,
+                                "visible": false
+                            },
+                            {
+                                "index": 2,
+                                "spacerType": 1,
+                                "type": 1
+                            },
+                            {
+                                "index": 3,
+                                "name": "View TypeToolBar",
+                                "type": 0,
+                                "visible": false
+                            }
+                        ]
+                    }
+                ],
+                "toolBars": [
+                    {
+                        "area": 0,
+                        "name": "FileToolBar"
+                    },
+                    {
+                        "area": 3,
+                        "name": "View TypeToolBar"
+                    },
+                    {
+                        "area": 3,
+                        "name": "ViewToolBar"
+                    }
+                ]
+            },
+            "filters": {
+                "expanded": false
+            },
+            "foldersSplitter": "AAAA/wAAAAEAAAACAAABAAAAAwAB/////wEAAAABAA==",
+            "foldersView": {
+                "selected": [
+                    "%engine%/engineassets/textures"
+                ]
+            },
+            "mainViewSplitter": "AAAA/wAAAAEAAAAC/////wAAAQAB/////wEAAAABAA==",
+            "recursiveView": false,
+            "showFolders": true,
+            "thumbnailView": {
+                "size": {
+                    "height": 64,
+                    "width": 64
+                }
+            },
+            "viewMode": 1
         }
+    },
+    "Dependency Graph": {
+        "Recent Files": [
+            "Objects/Characters/YBot/SKM_YBot.cdf.cryasset"
+        ]
     },
     "EngineFileDialog": {
         "favorites": [
         ],
         "history": [
             "/Materials",
-            "/Objects/Weapons/Test"
+            "/Objects/Weapons/Test",
+            "/Objects/Characters/MIxamo",
+            "/Animations/Mannequin/ADB",
+            "/Animations/Mannequin/Preview",
+            "/Objects/Characters/YBot",
+            "/Animations/YBot/Measured",
+            "/Animations/YBot/Preview",
+            "/Animations/YBot/ADB",
+            "/Animations/YBot"
         ]
     },
     "FavoritesHelper": {
         "Asset Browser": null
     },
+    "Import Animation": {
+        "Recent Files": [
+            "Objects/Characters/YBot/YBot_A_SKMYbot_BL_Walking_Measured.caf.cryasset",
+            "Objects/Characters/YBot/SKM_YBot.caf.cryasset",
+            "Objects/Characters/YBot/SKM_YBot_YBot_A_SKMYbot_BL_Walking_Measured.caf.cryasset",
+            "Objects/Characters/YBot/SKM_YBot_YBot_A_SKMYbot_F_Walk_Measured.caf.cryasset",
+            "Objects/Characters/MIxamo/Default take.caf.cryasset",
+            "Objects/Characters/MIxamo/YBot_Action.caf.cryasset"
+        ]
+    },
     "Import Mesh": {
         "Recent Files": [
+            "Objects/Characters/YBot/SKM_YBot.cgf.cryasset",
+            "Objects/Characters/MIxamo/MixamoCharacter.cgf.cryasset",
             "Objects/Weapons/Test/assets.cgf.cryasset",
             "Objects/Weapons/Test/LowEffortPistol.cgf.cryasset",
             "Objects/Weapons/Test/LEP.skin.cryasset",
@@ -686,6 +1211,7 @@
     },
     "Import Skeleton": {
         "Recent Files": [
+            "Objects/Characters/YBot/SKM_YBot.chr.cryasset",
             "Objects/Weapons/Test/LEPistol.chr.cryasset"
         ]
     },
@@ -696,6 +1222,10 @@
     },
     "Material Editor": {
         "Recent Files": [
+            "Objects/Characters/YBot/SKM_YBot.mtl.cryasset",
+            "Objects/Characters/YBot/skm_ybot.mtl.cryasset",
+            "Objects/Characters/MIxamo/skm_ybot.mtl.cryasset",
+            "Objects/Characters/Amogus.mtl.cryasset",
             "Objects/Weapons/Test/lepistol_hitmaterial.mtl.cryasset",
             "Objects/Weapons/Test/loweffortpistol_hitmaterial.mtl.cryasset",
             "Objects/Weapons/SampleWeapon/motusWeaponMAT.mtl.cryasset",

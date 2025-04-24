@@ -1,0 +1,101 @@
+{
+	"content": {
+		"footHeightMM": 17.75148,
+		"leftFootJoint": "Bip01 L Foot",
+		"rightFootJoint": "Bip01 R Foot",
+		"leftFootEvent": {
+			"startTime": -1.0,
+			"endTime": -1.0,
+			"type": "footstep",
+			"parameter": "",
+			"boneName": "Bip01 L Foot",
+			"offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+			"direction": { "x": 0.0, "y": 0.0, "z": 0.0 },
+			"model": ""
+		},
+		"rightFootEvent": {
+			"startTime": -1.0,
+			"endTime": -1.0,
+			"type": "footstep",
+			"parameter": "",
+			"boneName": "Bip01 R Foot",
+			"offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+			"direction": { "x": 0.0, "y": 0.0, "z": 0.0 },
+			"model": ""
+		},
+		"generateFoleys": true,
+		"foleyDelayFrames": 3,
+		"leftShuffleFoleyEvent": {
+			"startTime": -1.0,
+			"endTime": -1.0,
+			"type": "foley",
+			"parameter": "",
+			"boneName": "Bip01 L Foot",
+			"offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+			"direction": { "x": 0.0, "y": 0.0, "z": 0.0 },
+			"model": ""
+		},
+		"rightShuffleFoleyEvent": {
+			"startTime": -1.0,
+			"endTime": -1.0,
+			"type": "foley",
+			"parameter": "",
+			"boneName": "Bip01 R Foot",
+			"offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+			"direction": { "x": 0.0, "y": 0.0, "z": 0.0 },
+			"model": ""
+		},
+		"footShuffleUpperLimitMM": 275.0,
+		"leftShuffleEvent": {
+			"startTime": -1.0,
+			"endTime": -1.0,
+			"type": "foley",
+			"parameter": "",
+			"boneName": "Bip01 L Foot",
+			"offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+			"direction": { "x": 0.0, "y": 0.0, "z": 0.0 },
+			"model": ""
+		},
+		"rightShuffleEvent": {
+			"startTime": -1.0,
+			"endTime": -1.0,
+			"type": "foley",
+			"parameter": "",
+			"boneName": "Bip01 R Foot",
+			"offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+			"direction": { "x": 0.0, "y": 0.0, "z": 0.0 },
+			"model": ""
+		},
+		"shuffleFoleyDelayFrames": 3,
+		"leftFoleyEvent": {
+			"startTime": -1.0,
+			"endTime": -1.0,
+			"type": "foley",
+			"parameter": "",
+			"boneName": "Bip01 L Foot",
+			"offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+			"direction": { "x": 0.0, "y": 0.0, "z": 0.0 },
+			"model": ""
+		},
+		"rightFoleyEvent": {
+			"startTime": -1.0,
+			"endTime": -1.0,
+			"type": "foley",
+			"parameter": "",
+			"boneName": "Bip01 R Foot",
+			"offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+			"direction": { "x": 0.0, "y": 0.0, "z": 0.0 },
+			"model": ""
+		}
+	},
+	"geometry": [
+		1, -39, -48, -53, 0, 3, 0, 0, 0, 0, 0, 54, 0, 0, 2, -75, 0, 0, 2, -85, 0, 0, 3, 32, 0, 0, 0, 54, 0, 0, 2, -75,
+		0, 0, 2, -85, 0, 0, 3, 32, 0, 0, 0, 0, 0, 0, 0, 0, 10, 0, 0, 0, 0, 54, 0, 0, 2, -75, 0, 0, 2, -85, 0, 0,
+		3, 32
+	],
+	"propertyTree": {
+		"focusedRow": [ 0 ],
+		"selection": [ [ 0 ] ],
+		"expanded": [ 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0 ]
+	}
+}

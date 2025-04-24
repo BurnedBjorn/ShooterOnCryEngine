@@ -1,1 +1,32 @@
-{ "presets": [ ] }
+{
+	"presets": [
+		{
+			"name": "LFD",
+			"colorHue": 0.0,
+			"event": {
+				"startTime": -1.0,
+				"endTime": -1.0,
+				"type": "footstep",
+				"parameter": "LFD",
+				"boneName": "",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+				"direction": { "x": 0.0, "y": 0.0, "z": 0.0 },
+				"model": ""
+			}
+		},
+		{
+			"name": "RFD",
+			"colorHue": 0.5,
+			"event": {
+				"startTime": -1.0,
+				"endTime": -1.0,
+				"type": "footstep",
+				"parameter": "RFD",
+				"boneName": "",
+				"offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+				"direction": { "x": 0.0, "y": 0.0, "z": 0.0 },
+				"model": ""
+			}
+		}
+	]
+}

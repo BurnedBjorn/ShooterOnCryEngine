@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="a2c12e93-840e-0ae1-53a8-d6e83de1ca68" source="SKM_YBot.fbx">
+ <Files>
+  <File path="SKM_YBot_Alpha_Joints.skin"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">20840</Detail>
+  <Detail name="vertexCount">12473</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+  <Detail name="bonesCount">52</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./SKM_YBot.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

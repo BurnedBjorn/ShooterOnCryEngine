@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="ce75c3fc-4b09-6ec3-a323-245e0a48c6ff" source="SKM_YBot.fbx">
+ <Files>
+  <File path="tmp_meshImporter_lEUVNc.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">55320</Detail>
+  <Detail name="vertexCount">35451</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">objects/characters/ybot/SKM_YBot.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

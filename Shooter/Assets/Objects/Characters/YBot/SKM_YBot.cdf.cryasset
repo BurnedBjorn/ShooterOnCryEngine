@@ -1,0 +1,11 @@
+<AssetMetadata version="0" type="Character" guid="42473db1-49f3-dbfd-2054-8b5f56cb7c38">
+ <Files>
+  <File path="SKM_YBot.cdf"/>
+ </Files>
+ <Details />
+ <Dependencies>
+  <Path>Objects/Characters/ybot/SKM_YBot.chr</Path>
+  <Path>Objects/Characters/ybot/SKM_YBot_Alpha_Joints.skin</Path>
+  <Path>Objects/Characters/ybot/SKM_YBot_Alpha_Surface.skin</Path>
+ </Dependencies>
+</AssetMetadata>

@@ -1,3 +1,4 @@
 <SkeletonList>
  <Skeleton name="motusTest" file="Objects/Characters/SampleCharacter/skelProxy.chr"/>
+ <Skeleton name="motusYbot" file="Objects/Characters/YBot/SKM_YBot.chr"/>
 </SkeletonList>

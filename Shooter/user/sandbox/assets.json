@@ -5787,8 +5787,8 @@
 			"type": "Animation",
 			"guid": "a41303bf-bc0f-6509-b7c3-a8f3744539d9",
 			"name": "walk_fwd_3p",
-			"timestamp": 132973673640740000,
-			"files": [ "animations/motusanims/walk_fwd_3p.caf" ],
+			"timestamp": 1652893764,
+			"files": [ "Animations/motusAnims/walk_fwd_3p.caf" ],
 			"workFiles": [ ],
 			"source": "",
 			"metadata": "Animations/motusAnims/walk_fwd_3p.caf.cryasset",
@@ -5811,7 +5811,7 @@
 			"type": "Level",
 			"guid": "984fcd77-e594-2b34-fbf5-414a47e0d684",
 			"name": "example",
-			"timestamp": 1743069174,
+			"timestamp": 1745448796,
 			"files": [ "Levels/example/example.level" ],
 			"workFiles": [ ],
 			"source": "",
@@ -5877,10 +5877,6 @@
 					"usageCount": 0
 				},
 				{
-					"path": "%engine%/engineassets/objects/primitive_sphere.cgf",
-					"usageCount": 0
-				},
-				{
 					"path": "%engine%/engineassets/texturemsg/defaultnouvs.dds",
 					"usageCount": 0
 				},
@@ -5894,10 +5890,62 @@
 				},
 				{ "path": "%engine%/engineassets/textures/white.dds", "usageCount": 0 },
 				{
+					"path": "animations/ybot/adb/ybotcontrollerdefinition.xml",
+					"usageCount": 0
+				},
+				{ "path": "animations/ybot/adb/ybotfragmentids.xml", "usageCount": 0 },
+				{ "path": "animations/ybot/adb/ybottags.xml", "usageCount": 0 },
+				{ "path": "animations/ybot/preview/ybot.xml", "usageCount": 0 },
+				{
 					"path": "engineassets/materials/water/ocean_default.mtl",
 					"usageCount": 0
 				},
 				{ "path": "libs/environmentpresets/example.env", "usageCount": 1 },
+				{ "path": "objects/characters/ybot/skm_ybot.chr", "usageCount": 0 },
+				{
+					"path": "objects/characters/ybot/skm_ybot_alpha_joints.skin",
+					"usageCount": 0
+				},
+				{
+					"path": "objects/characters/ybot/skm_ybot_alpha_surface.skin",
+					"usageCount": 0
+				},
+				{
+					"path": "objects/characters/ybot/skm_ybot_ybot_a_skmybot_b_walk_measured.caf",
+					"usageCount": 0
+				},
+				{
+					"path": "objects/characters/ybot/skm_ybot_ybot_a_skmybot_bl_walking_measured.caf",
+					"usageCount": 0
+				},
+				{
+					"path": "objects/characters/ybot/skm_ybot_ybot_a_skmybot_br_walking_measured.caf",
+					"usageCount": 0
+				},
+				{
+					"path": "objects/characters/ybot/skm_ybot_ybot_a_skmybot_f_walk_measured.caf",
+					"usageCount": 0
+				},
+				{
+					"path": "objects/characters/ybot/skm_ybot_ybot_a_skmybot_fl_walk_measured.caf",
+					"usageCount": 0
+				},
+				{
+					"path": "objects/characters/ybot/skm_ybot_ybot_a_skmybot_fr_walk_measured.caf",
+					"usageCount": 0
+				},
+				{
+					"path": "objects/characters/ybot/skm_ybot_ybot_a_skmybot_l_walking_measured.caf",
+					"usageCount": 0
+				},
+				{
+					"path": "objects/characters/ybot/skm_ybot_ybot_a_skmybot_r_walking_measured.caf",
+					"usageCount": 0
+				},
+				{
+					"path": "objects/characters/ybot/skm_ybot_ybot_a_ybot_idle_passive_animation.caf",
+					"usageCount": 0
+				},
 				{ "path": "objects/weapons/test/assets.cgf", "usageCount": 0 },
 				{ "path": "scripts/ai/factions.xml", "usageCount": 0 },
 				{
@@ -6289,6 +6337,325 @@
 			]
 		},
 		{
+			"type": "Animation",
+			"guid": "4f6b80c1-d07d-e867-6f3d-515fe821713b",
+			"name": "SKM_YBot",
+			"timestamp": 1745458424,
+			"files": [ "Objects/Characters/YBot/OldYBot/SKM_YBot.caf" ],
+			"workFiles": [ ],
+			"source": "Objects/Characters/YBot/OldYBot/SKM_YBot.fbx",
+			"metadata": "Objects/Characters/YBot/OldYBot/SKM_YBot.caf.cryasset",
+			"details": [ ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Character",
+			"guid": "f3d5bf8f-eb3e-dd21-361a-13886a55f427",
+			"name": "SKM_YBot",
+			"timestamp": 1745445445,
+			"files": [ "Objects/Characters/YBot/OldYBot/SKM_YBot.cdf" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "Objects/Characters/YBot/OldYBot/SKM_YBot.cdf.cryasset",
+			"details": [ ],
+			"dependencies": [
+				{ "path": "Objects/Characters/ybot/SKM_YBot.chr", "usageCount": 0 },
+				{ "path": "Objects/Characters/YBot/SKM_YBot.mtl", "usageCount": 0 },
+				{
+					"path": "Objects/Characters/ybot/SKM_YBot_Alpha_Joints.skin",
+					"usageCount": 0
+				},
+				{
+					"path": "Objects/Characters/ybot/SKM_YBot_Alpha_Surface.skin",
+					"usageCount": 0
+				}
+			]
+		},
+		{
+			"type": "Mesh",
+			"guid": "5407081c-2d17-f3e3-730b-35879dcbd704",
+			"name": "SKM_YBot",
+			"timestamp": 1745424339,
+			"files": [ "Objects/Characters/YBot/OldYBot/SKM_YBot.cgf" ],
+			"workFiles": [ ],
+			"source": "Objects/Characters/YBot/OldYBot/SKM_YBot.fbx",
+			"metadata": "Objects/Characters/YBot/OldYBot/SKM_YBot.cgf.cryasset",
+			"details": [
+				{ "key": "16BitPrecision", "value": "false" },
+				{ "key": "materialCount", "value": "3" },
+				{ "key": "triangleCount", "value": "55320" },
+				{ "key": "vertexCount", "value": "35451" }
+			],
+			"dependencies": [
+				{
+					"path": "Objects/Characters/YBot/OldYBot/SKM_YBot.mtl",
+					"usageCount": 1
+				}
+			]
+		},
+		{
+			"type": "Skeleton",
+			"guid": "b3e8eb99-a865-be32-f1c9-2456bb30fa91",
+			"name": "SKM_YBot",
+			"timestamp": 1745424359,
+			"files": [
+				"Objects/Characters/YBot/OldYBot/SKM_YBot.chr",
+				"Objects/Characters/YBot/OldYBot/SKM_YBot.chrparams"
+			],
+			"workFiles": [ ],
+			"source": "Objects/Characters/YBot/OldYBot/SKM_YBot.fbx",
+			"metadata": "Objects/Characters/YBot/OldYBot/SKM_YBot.chr.cryasset",
+			"details": [ ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Material",
+			"guid": "ccece26d-e417-0f08-2402-f8e4eb2b1bd2",
+			"name": "SKM_YBot",
+			"timestamp": 1745424873,
+			"files": [ "Objects/Characters/YBot/OldYBot/SKM_YBot.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "Objects/Characters/YBot/OldYBot/SKM_YBot.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "SkinnedMesh",
+			"guid": "e4514c5e-0a55-902c-7593-1d6d2b72716a",
+			"name": "SKM_YBot_Alpha_Joints",
+			"timestamp": 1745424343,
+			"files": [ "Objects/Characters/YBot/OldYBot/SKM_YBot_Alpha_Joints.skin" ],
+			"workFiles": [ ],
+			"source": "Objects/Characters/YBot/OldYBot/SKM_YBot.fbx",
+			"metadata": "Objects/Characters/YBot/OldYBot/SKM_YBot_Alpha_Joints.skin.cryasset",
+			"details": [
+				{ "key": "16BitPrecision", "value": "false" },
+				{ "key": "bonesCount", "value": "52" },
+				{ "key": "materialCount", "value": "3" },
+				{ "key": "triangleCount", "value": "20840" },
+				{ "key": "vertexCount", "value": "12473" }
+			],
+			"dependencies": [
+				{
+					"path": "Objects/Characters/YBot/OldYBot/SKM_YBot.mtl",
+					"usageCount": 1
+				}
+			]
+		},
+		{
+			"type": "SkinnedMesh",
+			"guid": "86fc3581-a16c-fa8b-ee0a-fced2f3760dd",
+			"name": "SKM_YBot_Alpha_Surface",
+			"timestamp": 1745424342,
+			"files": [ "Objects/Characters/YBot/OldYBot/SKM_YBot_Alpha_Surface.skin" ],
+			"workFiles": [ ],
+			"source": "Objects/Characters/YBot/OldYBot/SKM_YBot.fbx",
+			"metadata": "Objects/Characters/YBot/OldYBot/SKM_YBot_Alpha_Surface.skin.cryasset",
+			"details": [
+				{ "key": "16BitPrecision", "value": "false" },
+				{ "key": "bonesCount", "value": "55" },
+				{ "key": "materialCount", "value": "3" },
+				{ "key": "triangleCount", "value": "34480" },
+				{ "key": "vertexCount", "value": "22978" }
+			],
+			"dependencies": [
+				{
+					"path": "Objects/Characters/YBot/OldYBot/SKM_YBot.mtl",
+					"usageCount": 1
+				}
+			]
+		},
+		{
+			"type": "Animation",
+			"guid": "368d26e8-6672-bd96-c2bc-f330a6108f2a",
+			"name": "SKM_YBot_YBot_A_SKMYbot_B_Walk_Measured",
+			"timestamp": 1745424346,
+			"files": [
+				"Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_A_SKMYbot_B_Walk_Measured.caf"
+			],
+			"workFiles": [ ],
+			"source": "Objects/Characters/YBot/OldYBot/SKM_YBot.fbx",
+			"metadata": "Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_A_SKMYbot_B_Walk_Measured.caf.cryasset",
+			"details": [ ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Animation",
+			"guid": "352746e8-ed2a-286f-42a5-9e9634a90a3c",
+			"name": "SKM_YBot_YBot_A_SKMYbot_BL_Walking_Measured",
+			"timestamp": 1745424344,
+			"files": [
+				"Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_A_SKMYbot_BL_Walking_Measured.caf"
+			],
+			"workFiles": [ ],
+			"source": "Objects/Characters/YBot/OldYBot/SKM_YBot.fbx",
+			"metadata": "Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_A_SKMYbot_BL_Walking_Measured.caf.cryasset",
+			"details": [ ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Animation",
+			"guid": "3f42a4be-1c1c-6d28-ff07-5e374b8915fa",
+			"name": "SKM_YBot_YBot_A_SKMYbot_BR_Walking_Measured",
+			"timestamp": 1745424345,
+			"files": [
+				"Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_A_SKMYbot_BR_Walking_Measured.caf"
+			],
+			"workFiles": [ ],
+			"source": "Objects/Characters/YBot/OldYBot/SKM_YBot.fbx",
+			"metadata": "Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_A_SKMYbot_BR_Walking_Measured.caf.cryasset",
+			"details": [ ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Animation",
+			"guid": "acec89c5-9abb-a3b9-0988-6f29c76ac99c",
+			"name": "SKM_YBot_YBot_A_SKMYbot_F_Walk_Measured",
+			"timestamp": 1745424350,
+			"files": [
+				"Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_A_SKMYbot_F_Walk_Measured.caf"
+			],
+			"workFiles": [ ],
+			"source": "Objects/Characters/YBot/OldYBot/SKM_YBot.fbx",
+			"metadata": "Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_A_SKMYbot_F_Walk_Measured.caf.cryasset",
+			"details": [ ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Animation",
+			"guid": "d3cbfb97-e66f-9810-c070-934edae72539",
+			"name": "SKM_YBot_YBot_A_SKMYbot_FL_Walk_Measured",
+			"timestamp": 1745424348,
+			"files": [
+				"Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_A_SKMYbot_FL_Walk_Measured.caf"
+			],
+			"workFiles": [ ],
+			"source": "Objects/Characters/YBot/OldYBot/SKM_YBot.fbx",
+			"metadata": "Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_A_SKMYbot_FL_Walk_Measured.caf.cryasset",
+			"details": [ ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Animation",
+			"guid": "21e29149-eb7e-d7b9-dd93-fe00ae407954",
+			"name": "SKM_YBot_YBot_A_SKMYbot_FR_Walk_Measured",
+			"timestamp": 1745424349,
+			"files": [
+				"Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_A_SKMYbot_FR_Walk_Measured.caf"
+			],
+			"workFiles": [ ],
+			"source": "Objects/Characters/YBot/OldYBot/SKM_YBot.fbx",
+			"metadata": "Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_A_SKMYbot_FR_Walk_Measured.caf.cryasset",
+			"details": [ ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Animation",
+			"guid": "b1881a8d-a84e-923e-8d31-0a932d483302",
+			"name": "SKM_YBot_YBot_A_SKMYbot_Idle_Measured",
+			"timestamp": 1745424351,
+			"files": [
+				"Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_A_SKMYbot_Idle_Measured.caf"
+			],
+			"workFiles": [ ],
+			"source": "Objects/Characters/YBot/OldYBot/SKM_YBot.fbx",
+			"metadata": "Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_A_SKMYbot_Idle_Measured.caf.cryasset",
+			"details": [ ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Animation",
+			"guid": "654e00fc-5252-a7c0-4731-3554ead4391a",
+			"name": "SKM_YBot_YBot_A_SKMYbot_L_Walking_Measured",
+			"timestamp": 1745424352,
+			"files": [
+				"Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_A_SKMYbot_L_Walking_Measured.caf"
+			],
+			"workFiles": [ ],
+			"source": "Objects/Characters/YBot/OldYBot/SKM_YBot.fbx",
+			"metadata": "Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_A_SKMYbot_L_Walking_Measured.caf.cryasset",
+			"details": [ ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Animation",
+			"guid": "2f621df7-f0ab-ab25-2821-fa81c420137d",
+			"name": "SKM_YBot_YBot_A_SKMYbot_R_Walking_Measured",
+			"timestamp": 1745424353,
+			"files": [
+				"Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_A_SKMYbot_R_Walking_Measured.caf"
+			],
+			"workFiles": [ ],
+			"source": "Objects/Characters/YBot/OldYBot/SKM_YBot.fbx",
+			"metadata": "Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_A_SKMYbot_R_Walking_Measured.caf.cryasset",
+			"details": [ ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Animation",
+			"guid": "d6ab8ab9-6c28-4215-3ca6-9c8edbeddcc6",
+			"name": "SKM_YBot_YBot_A_YBot_Default_Pose",
+			"timestamp": 1745424354,
+			"files": [
+				"Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_A_YBot_Default_Pose.caf"
+			],
+			"workFiles": [ ],
+			"source": "Objects/Characters/YBot/OldYBot/SKM_YBot.fbx",
+			"metadata": "Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_A_YBot_Default_Pose.caf.cryasset",
+			"details": [ ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Animation",
+			"guid": "8ac7d77f-347a-1ef8-20c2-e85dac1cedb2",
+			"name": "SKM_YBot_YBot_A_YBot_Idle_Passive_Animation",
+			"timestamp": 1745424356,
+			"files": [
+				"Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_A_YBot_Idle_Passive_Animation.caf"
+			],
+			"workFiles": [ ],
+			"source": "Objects/Characters/YBot/OldYBot/SKM_YBot.fbx",
+			"metadata": "Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_A_YBot_Idle_Passive_Animation.caf.cryasset",
+			"details": [ ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Animation",
+			"guid": "4c8f4b1d-9840-7832-39af-90196ca8f86e",
+			"name": "SKM_YBot_YBot_A_YBot_Idle_Passive_Pose",
+			"timestamp": 1745424357,
+			"files": [
+				"Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_A_YBot_Idle_Passive_Pose.caf"
+			],
+			"workFiles": [ ],
+			"source": "Objects/Characters/YBot/OldYBot/SKM_YBot.fbx",
+			"metadata": "Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_A_YBot_Idle_Passive_Pose.caf.cryasset",
+			"details": [ ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Animation",
+			"guid": "b86fa904-3b5d-bb42-791f-85ae09886a14",
+			"name": "SKM_YBot_YBot_AllAnimations",
+			"timestamp": 1745424358,
+			"files": [ "Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_AllAnimations.caf" ],
+			"workFiles": [ ],
+			"source": "Objects/Characters/YBot/OldYBot/SKM_YBot.fbx",
+			"metadata": "Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_AllAnimations.caf.cryasset",
+			"details": [ ],
+			"dependencies": [ ]
+		},
+		{
 			"type": "Mesh",
 			"guid": "c3a21ba0-72bd-18ae-4f00-d1c7fa5bc311",
 			"name": "defaultweapon",
@@ -6478,6 +6845,21 @@
 		},
 		{
 			"type": "Material",
+			"guid": "29c3be09-0e99-037b-700a-a7aea0df3c18",
+			"name": "mi_caf_material",
+			"timestamp": 1745421069,
+			"files": [ "user/meshimporter/tmp_meshimporter_atvuvj/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_atvuvj/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "0" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Material",
 			"guid": "85e2a87c-c74f-363e-c44a-7deb7d2f96f7",
 			"name": "mi_caf_material",
 			"timestamp": 1742208206,
@@ -6490,6 +6872,42 @@
 				{ "key": "textureCount", "value": "0" }
 			],
 			"dependencies": [ ]
+		},
+		{
+			"type": "Material",
+			"guid": "8800239a-d491-eeb3-02e0-53b1804a8988",
+			"name": "mi_caf_material",
+			"timestamp": 1743162248,
+			"files": [ "user/meshimporter/tmp_meshimporter_bwfpai/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_bwfpai/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "0" }
+			],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Material",
+			"guid": "e1727849-3279-06db-2bab-e0829c43a338",
+			"name": "mi_caf_material",
+			"timestamp": 1743504022,
+			"files": [ "user/meshimporter/tmp_meshimporter_cootug/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_cootug/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
 		},
 		{
 			"type": "Material",
@@ -6508,6 +6926,48 @@
 		},
 		{
 			"type": "Material",
+			"guid": "84cf0303-7913-1f66-e922-0ae1e95d3ae3",
+			"name": "mi_caf_material",
+			"timestamp": 1745419116,
+			"files": [ "user/meshimporter/tmp_meshimporter_ibbuic/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_ibbuic/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "98b1dca3-0ce0-9ecf-9e0a-82ae48325ce1",
+			"name": "mi_caf_material",
+			"timestamp": 1743162214,
+			"files": [ "user/meshimporter/tmp_meshimporter_lmcuog/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_lmcuog/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
 			"guid": "3ef9b28e-875e-484a-35dc-c62005854b87",
 			"name": "mi_caf_material",
 			"timestamp": 1742208220,
@@ -6523,6 +6983,27 @@
 		},
 		{
 			"type": "Material",
+			"guid": "cef2bda6-3996-706a-d0e6-903038fbd714",
+			"name": "mi_caf_material",
+			"timestamp": 1743505794,
+			"files": [ "user/meshimporter/tmp_meshimporter_odlqsf/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_odlqsf/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
 			"guid": "d30da145-51dd-b8f6-c526-d492257bab40",
 			"name": "mi_caf_material",
 			"timestamp": 1742208340,
@@ -6535,6 +7016,153 @@
 				{ "key": "textureCount", "value": "0" }
 			],
 			"dependencies": [ ]
+		},
+		{
+			"type": "Material",
+			"guid": "a2139a4c-16c6-54f9-c3f2-ea6b3b0a0481",
+			"name": "mi_caf_material",
+			"timestamp": 1745419246,
+			"files": [ "user/meshimporter/tmp_meshimporter_qmvtha/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_qmvtha/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "6bc2a2f0-6ce0-cdc4-554e-49b3eda6b746",
+			"name": "mi_caf_material",
+			"timestamp": 1745420126,
+			"files": [ "user/meshimporter/tmp_meshimporter_qveqzr/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_qveqzr/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "929b24e1-5660-2d4c-04cf-30ce483cfa73",
+			"name": "mi_caf_material",
+			"timestamp": 1743506598,
+			"files": [ "user/meshimporter/tmp_meshimporter_rlsjen/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_rlsjen/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "0" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 1 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 1
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "a7441853-0623-0b1c-3efe-51ea46d26ee0",
+			"name": "mi_caf_material",
+			"timestamp": 1743162035,
+			"files": [ "user/meshimporter/tmp_meshimporter_syopuo/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_syopuo/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "af13842c-2c37-9162-76a0-200f84f51592",
+			"name": "mi_caf_material",
+			"timestamp": 1745419303,
+			"files": [ "user/meshimporter/tmp_meshimporter_uoxeby/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_uoxeby/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "2980f482-1070-f212-95e9-39fd89ba2531",
+			"name": "mi_caf_material",
+			"timestamp": 1743162234,
+			"files": [ "user/meshimporter/tmp_meshimporter_vfvubr/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_vfvubr/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "99f2501c-7c85-a066-dde7-c09285c45e74",
+			"name": "mi_caf_material",
+			"timestamp": 1745063016,
+			"files": [ "user/meshimporter/tmp_meshimporter_zjvmcd/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_zjvmcd/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
 		}
 	]
 }

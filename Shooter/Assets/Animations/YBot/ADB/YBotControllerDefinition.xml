@@ -1,0 +1,14 @@
+<ControllerDef>
+ <Tags filename="Animations/YBot/ADB/YBotTags.xml"/>
+ <Fragments filename="Animations/YBot/ADB/YBotFragmentIds.xml"/>
+ <FragmentDefs>
+  <Idle scopes="ThirdPerson"/>
+  <Walk scopes="ThirdPerson"/>
+ </FragmentDefs>
+ <ScopeContextDefs>
+  <ThirdPersonCharacter />
+ </ScopeContextDefs>
+ <ScopeDefs>
+  <ThirdPerson layer="0" numLayers="1" context="ThirdPersonCharacter"/>
+ </ScopeDefs>
+</ControllerDef>

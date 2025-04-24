@@ -147,6 +147,7 @@ void CWeaponComponent::PickUp(CCharacterComponent* pNewOwner)
 
 void CWeaponComponent::Drop()
 {
+	m_Trigger = ETrigger::UP;
 	Matrix34 NewTM = m_pEntity->GetWorldTM();
 	m_pEntity->DetachThis();
 	m_pOwner = nullptr;
