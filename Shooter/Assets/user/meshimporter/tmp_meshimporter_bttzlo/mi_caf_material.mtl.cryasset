@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="29322358-9d6e-2460-981e-b25b64472057">
+ <Files>
+  <File path="mi_caf_material.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="3">%ENGINE%/EngineAssets/Textures/white.dds</Path>
+  <Path usageCount="3">%ENGINE%/EngineAssets/Textures/white_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

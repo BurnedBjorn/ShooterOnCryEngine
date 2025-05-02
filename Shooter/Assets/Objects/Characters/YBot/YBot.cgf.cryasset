@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="8012c113-ef2e-09f7-7f6b-020f541692f0" source="YBot.fbx">
+ <Files>
+  <File path="YBot.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">55320</Detail>
+  <Detail name="vertexCount">35451</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./YBot.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

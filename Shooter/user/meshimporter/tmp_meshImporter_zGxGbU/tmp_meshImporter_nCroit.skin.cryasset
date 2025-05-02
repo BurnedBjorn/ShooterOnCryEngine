@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="d5366cbf-bfab-d4ab-2d6c-14ac35379a1b" source="YBot.fbx">
+ <Files>
+  <File path="tmp_meshImporter_nCroit.skin"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">34480</Detail>
+  <Detail name="vertexCount">22978</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+  <Detail name="bonesCount">54</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./default.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

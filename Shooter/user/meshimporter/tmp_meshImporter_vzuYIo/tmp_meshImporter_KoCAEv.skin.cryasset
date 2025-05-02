@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="cc3e2166-ce17-f175-8f37-29f445b89e7f" source="YBot.fbx">
+ <Files>
+  <File path="tmp_meshImporter_KoCAEv.skin"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">34480</Detail>
+  <Detail name="vertexCount">22978</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+  <Detail name="bonesCount">54</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./default.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

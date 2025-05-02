@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="6f0cd6ed-384c-8875-db47-54267722c1e9" source="SKM_YBot_Animations.fbx">
+ <Files>
+  <File path="tmp_meshImporter_QonkJL.skin"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">34480</Detail>
+  <Detail name="vertexCount">22978</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+  <Detail name="bonesCount">55</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./default.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

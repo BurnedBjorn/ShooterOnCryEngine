@@ -1,0 +1,13 @@
+<AssetMetadata version="0" type="Material" guid="d3f890d1-2765-fbd8-ff90-051ba0a98493" source="" timestamp="1745938094">
+ <Files>
+  <File path="YBot.mtl"/>
+ </Files>
+ <Details>
+  <Detail name="subMaterialCount">3</Detail>
+  <Detail name="textureCount">2</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="3">%ENGINE%/EngineAssets/Textures/white.dds</Path>
+  <Path usageCount="3">%ENGINE%/EngineAssets/Textures/white_ddn.dds</Path>
+ </Dependencies>
+</AssetMetadata>

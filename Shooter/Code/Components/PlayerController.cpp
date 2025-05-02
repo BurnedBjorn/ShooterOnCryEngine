@@ -45,6 +45,8 @@ void CPlayerController::ProcessEvent(const SEntityEvent& event)
     {
     case Cry::Entity::EEvent::Update:
     {
+        AimTargetUpdate();
+        
         /*
         ray_hit ViewRay;
         Vec3 CamDir = gEnv->pSystem->GetViewCamera().GetViewdir();
@@ -164,6 +166,21 @@ void CPlayerController::Drop()
 
 void CPlayerController::Attack(int activationMode)
 {
+   
+    if (m_pControlledCharacter)
+    {
+        
+        m_pControlledCharacter->Attack(activationMode);
+    }
+    /*
+    gEnv->pRenderer->GetIRenderAuxGeom()->DrawLine(AttackTarget - Vec3(0, 0, 0.5), ColorB(255, 0, 0), AttackTarget + Vec3(0, 0, 0.5), ColorB(0, 0, 255), 6.0f);
+    gEnv->pRenderer->GetIRenderAuxGeom()->DrawLine(AttackTarget - Vec3(0, 0.5, 0), ColorB(255, 0, 0), AttackTarget + Vec3(0, 0.5, 0), ColorB(0, 0, 255), 6.0f);
+    gEnv->pRenderer->GetIRenderAuxGeom()->DrawLine(AttackTarget - Vec3(0.5, 0, 0), ColorB(255, 0, 0), AttackTarget+ Vec3(0.5, 0, 0), ColorB(0, 0, 255), 6.0f);
+    */
+}
+
+void CPlayerController::AimTargetUpdate()
+{
     ray_hit target;
     Vec3 CamDir = gEnv->pSystem->GetViewCamera().GetViewdir();
     Vec3 CamLoc = gEnv->pSystem->GetViewCamera().GetPosition();
@@ -179,14 +196,8 @@ void CPlayerController::Attack(int activationMode)
     }
     if (m_pControlledCharacter)
     {
-        
-        m_pControlledCharacter->Attack(AttackTarget, activationMode);
+        m_pControlledCharacter->SetAimTarget(AttackTarget);
     }
-    /*
-    gEnv->pRenderer->GetIRenderAuxGeom()->DrawLine(AttackTarget - Vec3(0, 0, 0.5), ColorB(255, 0, 0), AttackTarget + Vec3(0, 0, 0.5), ColorB(0, 0, 255), 6.0f);
-    gEnv->pRenderer->GetIRenderAuxGeom()->DrawLine(AttackTarget - Vec3(0, 0.5, 0), ColorB(255, 0, 0), AttackTarget + Vec3(0, 0.5, 0), ColorB(0, 0, 255), 6.0f);
-    gEnv->pRenderer->GetIRenderAuxGeom()->DrawLine(AttackTarget - Vec3(0.5, 0, 0), ColorB(255, 0, 0), AttackTarget+ Vec3(0.5, 0, 0), ColorB(0, 0, 255), 6.0f);
-    */
 }
 
 void CPlayerController::SendMovementUpdate()

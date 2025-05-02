@@ -2,6 +2,8 @@
 #include "Character.h"
 
 
+
+
 #include <DefaultComponents/Cameras/CameraComponent.h>
 //Start registration stuff
 
@@ -27,7 +29,11 @@ void CCharacterComponent::Initialize()
 {
     m_pCharacterController = m_pEntity->GetOrCreateComponent<Cry::DefaultComponents::CCharacterControllerComponent>();
     m_pAdvancedAnimationController = m_pEntity->GetOrCreateComponent< Cry::DefaultComponents::CAdvancedAnimationComponent>();
- 
+    if (m_pAdvancedAnimationController)
+    {
+        m_movementFragmentID=m_pAdvancedAnimationController->GetFragmentId("Movement");
+        m_aimposeFragmentID = m_pAdvancedAnimationController->GetFragmentId("AimPose");
+    }
 
 }
 
@@ -42,7 +48,7 @@ void CCharacterComponent::ProcessEvent(const SEntityEvent& event)
     break;
     case Cry::Entity::EEvent::Update:
     {
-        
+        AnimationUpdate();
     }
     break;
     case Cry::Entity::EEvent::Reset:
@@ -95,14 +101,31 @@ void CCharacterComponent::PickUpWeapon(CWeaponComponent* NewWeapon)
     {
         m_pWeapon = NewWeapon;
         m_pWeapon->PickUp(this);
-        m_pEntity->AttachChild(m_pWeapon->GetEntity());
         
-        Matrix34 WeaponNewTm = m_pWeapon->GetEntity()->GetWorldTM();
-        Quat NewRotation = m_pEntity->GetWorldRotation();
-        Vec3 NewTranslation = m_pEntity->GetWorldTM().GetTranslation()+gEnv->pSystem->GetViewCamera().GetViewdir() + Vec3(0,0,2);
-        WeaponNewTm.SetTranslation(NewTranslation);
-        WeaponNewTm.SetRotation33(Matrix33(NewRotation));
-        m_pWeapon->GetEntity()->SetWorldTM(WeaponNewTm);
+        if (IAttachment* pAttachmentWeapon = m_pAdvancedAnimationController->GetCharacter()->GetIAttachmentManager()->GetInterfaceByName("Weapon"))
+        {
+            CryLog("FOUND");
+            QuatTS WAbs = pAttachmentWeapon->GetAttWorldAbsolute();
+            Matrix34 NewTransform(WAbs);
+            
+            m_pWeapon->GetEntity()->SetWorldTM(NewTransform);
+
+            CEntityAttachment* pEntityAttachment = new CEntityAttachment;
+            pEntityAttachment->SetEntityId(m_pWeapon->GetEntityId());
+            
+            pAttachmentWeapon->AddBinding(pEntityAttachment);
+
+        }
+        else {
+            m_pEntity->AttachChild(m_pWeapon->GetEntity());
+            Matrix34 WeaponNewTm = m_pWeapon->GetEntity()->GetWorldTM();
+            Quat NewRotation = m_pEntity->GetWorldRotation();
+            Vec3 NewTranslation = m_pEntity->GetWorldTM().GetTranslation() + gEnv->pSystem->GetViewCamera().GetViewdir() + Vec3(0, 0, 2);
+            WeaponNewTm.SetTranslation(NewTranslation);
+            WeaponNewTm.SetRotation33(Matrix33(NewRotation));
+            m_pWeapon->GetEntity()->SetWorldTM(WeaponNewTm);
+        }
+        
     }
     else
     {
@@ -117,22 +140,26 @@ void CCharacterComponent::DropWeapon()
 {
     if (m_pWeapon)
     {
+        if (IAttachment* pAttachmentWeapon = m_pAdvancedAnimationController->GetCharacter()->GetIAttachmentManager()->GetInterfaceByName("Weapon")) {
+            pAttachmentWeapon->ClearBinding();
+        }
         m_pWeapon->Drop();
         m_pWeapon = nullptr;
 
     }
 }
 
-void CCharacterComponent::Attack(Vec3 Target, int activationMode)
+void CCharacterComponent::Attack(int activationMode)
 {
     if (m_pWeapon)
     {
-        m_pWeapon->SetTarget(Target);
+        m_pWeapon->SetTarget(m_AimTarget);
         if ( activationMode == eAAM_OnPress || activationMode == eAAM_OnRelease||true)
         {
             m_pWeapon->Trigger(activationMode);
         }
     }
+    
     
     
     
@@ -159,11 +186,40 @@ void CCharacterComponent::Attack(Vec3 Target, int activationMode)
     */
 }
 
+void CCharacterComponent::SetAimTarget(Vec3 NewTarget)
+{
+    m_AimTarget = NewTarget;
+}
+
 void CCharacterComponent::HitDebug()
 {
     if (string nm = m_pEntity->GetName())
     {
         CryLog("Hit " + nm);
+    }
+}
+
+void CCharacterComponent::AnimationUpdate()
+{
+    if (m_pAdvancedAnimationController)
+    {
+        //m_pAdvancedAnimationController->QueueFragmentWithId(m_aimposeFragmentID);
+        if (m_pAdvancedAnimationController->GetCharacter())
+        {
+            if (ISkeletonPose* pSkeletonPose = m_pAdvancedAnimationController->GetCharacter()->GetISkeletonPose())
+            {
+                if (IAnimationPoseBlenderDir* pAimPoseBlenderDir = pSkeletonPose->GetIPoseBlenderAim()) {
+
+                    pAimPoseBlenderDir->SetState(true);
+                    pAimPoseBlenderDir->SetLayer(14);
+                    pAimPoseBlenderDir->SetTarget(m_AimTarget);
+                    
+                    
+                };
+            }
+        }
+        
+        
     }
 }
 

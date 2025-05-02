@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="2bd01f86-b9bb-b7f2-67d3-9b3b9df9189f" source="SKM_YBot_Animations.fbx">
+ <Files>
+  <File path="tmp_meshImporter_JJlpbc.skin"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">34480</Detail>
+  <Detail name="vertexCount">22978</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+  <Detail name="bonesCount">55</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./default.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

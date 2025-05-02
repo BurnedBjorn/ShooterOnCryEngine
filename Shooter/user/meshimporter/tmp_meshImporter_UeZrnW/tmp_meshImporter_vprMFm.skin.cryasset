@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="82a4847d-62ea-1fbe-3a94-df9120e5f7f3" source="SKM_YBot.fbx">
+ <Files>
+  <File path="tmp_meshImporter_vprMFm.skin"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">34480</Detail>
+  <Detail name="vertexCount">22978</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+  <Detail name="bonesCount">55</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./default.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

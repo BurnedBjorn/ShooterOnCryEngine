@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="217c92cb-4f1a-9004-fdcd-19940ec344a4" source="YBot.fbx">
+ <Files>
+  <File path="tmp_meshImporter_KdCTzB.skin"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">34480</Detail>
+  <Detail name="vertexCount">22978</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+  <Detail name="bonesCount">54</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./default.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

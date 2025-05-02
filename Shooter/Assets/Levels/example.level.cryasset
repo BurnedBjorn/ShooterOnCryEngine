@@ -1,49 +1,25 @@
-<AssetMetadata version="0" type="Level" guid="984fcd77-e594-2b34-fbf5-414a47e0d684" source="" timestamp="1745448796">
+<AssetMetadata version="0" type="Level" guid="984fcd77-e594-2b34-fbf5-414a47e0d684" source="" timestamp="1746224645">
  <Files>
   <File path="example/example.level"/>
  </Files>
  <Dependencies>
   <Path>%editor%/objects/envcube.cgf</Path>
-  <Path>%editor%/objects/envcube.mtl</Path>
+  <Path>%engine%/config/defaultscripts/compressionpolicy.xml</Path>
   <Path>%engine%/engineassets/icons/averagememoryusage.dds</Path>
   <Path>%engine%/engineassets/icons/highmemoryusage.dds</Path>
   <Path>%engine%/engineassets/icons/livepreview.dds</Path>
   <Path>%engine%/engineassets/icons/lowmemoryusage.dds</Path>
-  <Path>%engine%/engineassets/materials/fog/fogvolumebox.mtl</Path>
-  <Path>%engine%/engineassets/materials/fog/fogvolumeellipsoid.mtl</Path>
-  <Path>%engine%/engineassets/materials/fog/oceaninto.mtl</Path>
-  <Path>%engine%/engineassets/materials/fog/oceanintolowspec.mtl</Path>
-  <Path>%engine%/engineassets/materials/fog/oceanoutof.mtl</Path>
-  <Path>%engine%/engineassets/materials/fog/oceanoutoflowspec.mtl</Path>
   <Path>%engine%/engineassets/materials/material_default.mtl</Path>
-  <Path>%engine%/engineassets/materials/material_terrain_default.mtl</Path>
-  <Path>%engine%/engineassets/materials/water/wateroceanbottom.mtl</Path>
   <Path>%engine%/engineassets/objects/primitive_cube.cgf</Path>
-  <Path>%engine%/engineassets/texturemsg/defaultnouvs.dds</Path>
   <Path>%engine%/engineassets/texturemsg/defaultsolids.mtl</Path>
-  <Path>%engine%/engineassets/textures/skys/night/half_moon.dds</Path>
   <Path>%engine%/engineassets/textures/white.dds</Path>
-  <Path>animations/ybot/adb/ybotcontrollerdefinition.xml</Path>
-  <Path>animations/ybot/adb/ybotfragmentids.xml</Path>
-  <Path>animations/ybot/adb/ybottags.xml</Path>
-  <Path>animations/ybot/preview/ybot.xml</Path>
-  <Path>engineassets/materials/water/ocean_default.mtl</Path>
   <Path usageCount="1">libs/environmentpresets/example.env</Path>
-  <Path>objects/characters/ybot/skm_ybot.chr</Path>
-  <Path>objects/characters/ybot/skm_ybot_alpha_joints.skin</Path>
-  <Path>objects/characters/ybot/skm_ybot_alpha_surface.skin</Path>
-  <Path>objects/characters/ybot/skm_ybot_ybot_a_skmybot_b_walk_measured.caf</Path>
-  <Path>objects/characters/ybot/skm_ybot_ybot_a_skmybot_bl_walking_measured.caf</Path>
-  <Path>objects/characters/ybot/skm_ybot_ybot_a_skmybot_br_walking_measured.caf</Path>
-  <Path>objects/characters/ybot/skm_ybot_ybot_a_skmybot_f_walk_measured.caf</Path>
-  <Path>objects/characters/ybot/skm_ybot_ybot_a_skmybot_fl_walk_measured.caf</Path>
-  <Path>objects/characters/ybot/skm_ybot_ybot_a_skmybot_fr_walk_measured.caf</Path>
-  <Path>objects/characters/ybot/skm_ybot_ybot_a_skmybot_l_walking_measured.caf</Path>
-  <Path>objects/characters/ybot/skm_ybot_ybot_a_skmybot_r_walking_measured.caf</Path>
-  <Path>objects/characters/ybot/skm_ybot_ybot_a_ybot_idle_passive_animation.caf</Path>
+  <Path>objects/characters/ybot/ybot.cdf</Path>
+  <Path>objects/characters/ybot/ybot.chr</Path>
+  <Path>objects/characters/ybot/ybot_alpha_joints.skin</Path>
+  <Path>objects/characters/ybot/ybot_alpha_surface.skin</Path>
   <Path>objects/weapons/test/assets.cgf</Path>
   <Path>scripts/ai/factions.xml</Path>
-  <Path>textures/cubemaps/example/environmentprobe1_cm.dds</Path>
-  <Path>textures/cubemaps/example/environmentprobe1_cm_diff.dds</Path>
+  <Path>scripts/network/compressionpolicy.xml</Path>
  </Dependencies>
 </AssetMetadata>

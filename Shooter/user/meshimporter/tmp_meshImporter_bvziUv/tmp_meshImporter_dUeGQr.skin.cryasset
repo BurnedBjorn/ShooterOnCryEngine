@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="b6f5b4cd-db2e-4c09-f8f3-83730192d816" source="YBot.fbx">
+ <Files>
+  <File path="tmp_meshImporter_dUeGQr.skin"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">34480</Detail>
+  <Detail name="vertexCount">22978</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+  <Detail name="bonesCount">54</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./default.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

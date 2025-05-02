@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="7e629af8-1d3a-4594-1453-609f7bffb6f4" source="AimPose.fbx">
+ <Files>
+  <File path="tmp_meshImporter_tMHKWq.skin"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">34480</Detail>
+  <Detail name="vertexCount">22978</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+  <Detail name="bonesCount">55</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./default.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

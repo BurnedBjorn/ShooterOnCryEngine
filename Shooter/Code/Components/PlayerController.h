@@ -40,8 +40,9 @@ public:
 	void PickUp(CWeaponComponent* pWeapon);
 
 	void Drop();
-
 	void Attack(int activationMode);
+
+	void AimTargetUpdate();
 protected:
 	
 private:

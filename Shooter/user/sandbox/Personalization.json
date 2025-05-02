@@ -1,11 +1,13 @@
 {
     "Asset Browser": {
-        "RecentImportPath": "D:/.Blender/Projects/CharacterForShooter/SecondAttempt/BaseModel/"
+        "RecentImportPath": "D:/.Blender/Projects/CharacterForShooter/ThirdAttempt/"
     },
     "AssetFolderModel": {
         "AddedFolders": [
             "Objects/Characters/ybot",
-            "Animations/ybot/measured"
+            "Objects/Characters/ybot/animation/aimpose",
+            "Animations/ybot/walkcycles",
+            "Animations/ybot/additive"
         ]
     },
     "CAssetPicker": {
@@ -1167,11 +1169,13 @@
     },
     "Dependency Graph": {
         "Recent Files": [
+            "Objects/Characters/YBot/skm_ybot_test.caf.cryasset",
             "Objects/Characters/YBot/SKM_YBot.cdf.cryasset"
         ]
     },
     "EngineFileDialog": {
         "favorites": [
+            "/Animations/YBot/Preview/YBot.xml"
         ],
         "history": [
             "/Materials",
@@ -1183,7 +1187,15 @@
             "/Animations/YBot/Measured",
             "/Animations/YBot/Preview",
             "/Animations/YBot/ADB",
-            "/Animations/YBot"
+            "/Animations/YBot",
+            "/Objects/Characters",
+            "/Animations",
+            "/Objects/Characters/dqtest",
+            "/Objects/Characters/YBot/predq",
+            "/Objects/Characters/YBot/Animation",
+            "/Objects/Characters/YBot/Animation/AimPose",
+            "/Objects/Characters/YBot/Animation/add",
+            "/Animations/YBot/additive"
         ]
     },
     "FavoritesHelper": {
@@ -1191,16 +1203,24 @@
     },
     "Import Animation": {
         "Recent Files": [
-            "Objects/Characters/YBot/YBot_A_SKMYbot_BL_Walking_Measured.caf.cryasset",
-            "Objects/Characters/YBot/SKM_YBot.caf.cryasset",
-            "Objects/Characters/YBot/SKM_YBot_YBot_A_SKMYbot_BL_Walking_Measured.caf.cryasset",
-            "Objects/Characters/YBot/SKM_YBot_YBot_A_SKMYbot_F_Walk_Measured.caf.cryasset",
-            "Objects/Characters/MIxamo/Default take.caf.cryasset",
-            "Objects/Characters/MIxamo/YBot_Action.caf.cryasset"
+            "Animations/YBot/additive/YBot_AimposeOmniDir.caf.cryasset",
+            "Animations/YBot/additive/YBot_Aimpose.caf.cryasset",
+            "Animations/YBot/additive/YBot_HeadShot.caf.cryasset",
+            "Animations/YBot/additive/YBot_Recoil.caf.cryasset",
+            "Animations/YBot/walkcycles/YBot_F_WalkCycle.caf.cryasset",
+            "Animations/YBot/YBot_Death_Anim.caf.cryasset",
+            "Animations/YBot/YBot_YBot_BL_WalkCycle.caf.cryasset",
+            "Animations/YBot/YBot_YBot_Aimpose.caf.cryasset",
+            "Animations/YBot/YBot_Idle_Pistol.caf.cryasset",
+            "Animations/YBot/ybot_idle_pistol.caf.cryasset"
         ]
     },
     "Import Mesh": {
         "Recent Files": [
+            "Objects/Characters/YBot/YBot.cgf.cryasset",
+            "Objects/Characters/YBot/predq/SKM_YBot_Alpha_Surface.skin.cryasset",
+            "Objects/Characters/dqtest/DQ_Alpha_Joints.skin.cryasset",
+            "Objects/Characters/YBot/aimpose/SKM_YBot_Animations_Alpha_Joints.skin.cryasset",
             "Objects/Characters/YBot/SKM_YBot.cgf.cryasset",
             "Objects/Characters/MIxamo/MixamoCharacter.cgf.cryasset",
             "Objects/Weapons/Test/assets.cgf.cryasset",
@@ -1211,6 +1231,7 @@
     },
     "Import Skeleton": {
         "Recent Files": [
+            "Objects/Characters/YBot/predq/SKM_YBot.chr.cryasset",
             "Objects/Characters/YBot/SKM_YBot.chr.cryasset",
             "Objects/Weapons/Test/LEPistol.chr.cryasset"
         ]
@@ -1222,6 +1243,8 @@
     },
     "Material Editor": {
         "Recent Files": [
+            "Objects/Characters/YBot/YBot.mtl.cryasset",
+            "Objects/Characters/dqtest/DQ.mtl.cryasset",
             "Objects/Characters/YBot/SKM_YBot.mtl.cryasset",
             "Objects/Characters/YBot/skm_ybot.mtl.cryasset",
             "Objects/Characters/MIxamo/skm_ybot.mtl.cryasset",
@@ -1229,8 +1252,7 @@
             "Objects/Weapons/Test/lepistol_hitmaterial.mtl.cryasset",
             "Objects/Weapons/Test/loweffortpistol_hitmaterial.mtl.cryasset",
             "Objects/Weapons/SampleWeapon/motusWeaponMAT.mtl.cryasset",
-            "Objects/Weapons/SampleWeapon/defaultWeapon.mtl.cryasset",
-            "Materials/gun.mtl.cryasset"
+            "Objects/Weapons/SampleWeapon/defaultWeapon.mtl.cryasset"
         ]
     }
 }

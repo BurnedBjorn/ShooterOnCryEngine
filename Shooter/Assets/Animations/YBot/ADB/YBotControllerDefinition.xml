@@ -2,13 +2,16 @@
  <Tags filename="Animations/YBot/ADB/YBotTags.xml"/>
  <Fragments filename="Animations/YBot/ADB/YBotFragmentIds.xml"/>
  <FragmentDefs>
-  <Idle scopes="ThirdPerson"/>
-  <Walk scopes="ThirdPerson"/>
+  <Movement scopes="FullBody+Aim"/>
+  <AimPose scopes="Aim"/>
  </FragmentDefs>
  <ScopeContextDefs>
   <ThirdPersonCharacter />
+  <MainContext />
  </ScopeContextDefs>
  <ScopeDefs>
-  <ThirdPerson layer="0" numLayers="1" context="ThirdPersonCharacter"/>
+  <FullBody layer="0" numLayers="15" context="MainContext"/>
+  <Aim layer="14" numLayers="15" context="MainContext"/>
+  <Torso layer="4" numLayers="15" context="MainContext"/>
  </ScopeDefs>
 </ControllerDef>

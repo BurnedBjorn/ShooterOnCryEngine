@@ -5101,697 +5101,637 @@
 		},
 		{
 			"type": "Animation",
-			"guid": "55f2f3e1-e350-d4e3-93ff-ea4c383ee5c6",
-			"name": "reference_preview_0",
-			"timestamp": 1652893759,
-			"files": [ "Animations/editor/reference_preview_0.caf" ],
-			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/editor/reference_preview_0.caf.cryasset",
-			"details": [ ],
-			"dependencies": [ ]
-		},
-		{
-			"type": "Xml",
-			"guid": "21388f19-6ece-22a0-efad-d26ff616017c",
-			"name": "FirstPersonControllerDefinition",
-			"timestamp": 1652893759,
-			"files": [ "Animations/Mannequin/ADB/FirstPersonControllerDefinition.xml" ],
-			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/Mannequin/ADB/FirstPersonControllerDefinition.xml.cryasset",
-			"details": [ { "key": "rootTag", "value": "ControllerDef" } ],
-			"dependencies": [ ]
-		},
-		{
-			"type": "Xml",
-			"guid": "aa2410fe-ba1c-4cc3-7248-61a18b51ad8a",
-			"name": "PlayerFragmentIds",
-			"timestamp": 1652893759,
-			"files": [ "Animations/Mannequin/ADB/PlayerFragmentIds.xml" ],
-			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/Mannequin/ADB/PlayerFragmentIds.xml.cryasset",
-			"details": [ { "key": "rootTag", "value": "TagDefinition" } ],
-			"dependencies": [ ]
-		},
-		{
-			"type": "Xml",
-			"guid": "c08b4200-3710-a09c-c2db-db7f82315116",
-			"name": "PlayerTags",
-			"timestamp": 1652893759,
-			"files": [ "Animations/Mannequin/ADB/PlayerTags.xml" ],
-			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/Mannequin/ADB/PlayerTags.xml.cryasset",
-			"details": [ { "key": "rootTag", "value": "TagDefinition" } ],
-			"dependencies": [ ]
-		},
-		{
-			"type": "Xml",
-			"guid": "9f05792b-ae0b-4734-f71c-d0edfb988488",
-			"name": "Player",
-			"timestamp": 1652893759,
-			"files": [ "Animations/Mannequin/Preview/Player.xml" ],
-			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/Mannequin/Preview/Player.xml.cryasset",
-			"details": [ { "key": "rootTag", "value": "MannequinPreview" } ],
-			"dependencies": [ ]
-		},
-		{
-			"type": "Animation",
-			"guid": "7e950349-2411-878a-4600-0dd4e864a3bd",
+			"guid": "7ae25d09-6b02-b39f-5edd-7609eccf686f",
 			"name": "idle_to_jog_3p",
-			"timestamp": 1652893759,
-			"files": [ "Animations/motusAnims/ide2Move/idle_to_jog_3p.caf" ],
+			"timestamp": 1745760619,
+			"files": [ "Animations/motusanims/ide2Move/idle_to_jog_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/ide2Move/idle_to_jog_3p.caf.cryasset",
+			"source": "Animations/motusanims/ide2Move/idle_to_jog_3p.i_caf",
+			"metadata": "Animations/motusanims/ide2Move/idle_to_jog_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "8a4df49c-621c-732f-3434-b525f833f324",
+			"guid": "fa2ddffb-4da4-084e-8e90-b53f48bb1931",
 			"name": "idle_to_run_3p",
-			"timestamp": 1652893759,
-			"files": [ "Animations/motusAnims/ide2Move/idle_to_run_3p.caf" ],
+			"timestamp": 1745760618,
+			"files": [ "Animations/motusanims/ide2Move/idle_to_run_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/ide2Move/idle_to_run_3p.caf.cryasset",
+			"source": "Animations/motusanims/ide2Move/idle_to_run_3p.i_caf",
+			"metadata": "Animations/motusanims/ide2Move/idle_to_run_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "5c64ede3-a3e0-556c-f0e3-95c41697e31c",
+			"guid": "a138ae65-6d22-0294-02e0-dc303e1674e3",
 			"name": "idle_to_walk_3p",
-			"timestamp": 1652893759,
-			"files": [ "Animations/motusAnims/ide2Move/idle_to_walk_3p.caf" ],
+			"timestamp": 1745760617,
+			"files": [ "Animations/motusanims/ide2Move/idle_to_walk_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/ide2Move/idle_to_walk_3p.caf.cryasset",
+			"source": "Animations/motusanims/ide2Move/idle_to_walk_3p.i_caf",
+			"metadata": "Animations/motusanims/ide2Move/idle_to_walk_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "58197c90-6b50-9c92-c106-8afc460c8fe2",
+			"guid": "ee3be919-fa21-7f48-adb6-c8917308bc62",
 			"name": "jog_to_idle_3p",
-			"timestamp": 1652893759,
-			"files": [ "Animations/motusAnims/ide2Move/jog_to_idle_3p.caf" ],
+			"timestamp": 1745760616,
+			"files": [ "Animations/motusanims/ide2Move/jog_to_idle_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/ide2Move/jog_to_idle_3p.caf.cryasset",
+			"source": "Animations/motusanims/ide2Move/jog_to_idle_3p.i_caf",
+			"metadata": "Animations/motusanims/ide2Move/jog_to_idle_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "11558e91-6263-449a-f162-2e1294400e5e",
+			"guid": "146b75fa-9770-9309-6cbc-abe2cc365e5e",
 			"name": "run_to_idle_3p",
-			"timestamp": 1652893759,
-			"files": [ "Animations/motusAnims/ide2Move/run_to_idle_3p.caf" ],
+			"timestamp": 1745760616,
+			"files": [ "Animations/motusanims/ide2Move/run_to_idle_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/ide2Move/run_to_idle_3p.caf.cryasset",
+			"source": "Animations/motusanims/ide2Move/run_to_idle_3p.i_caf",
+			"metadata": "Animations/motusanims/ide2Move/run_to_idle_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "1bd6eab7-6b4c-e99b-21c6-e01415f353eb",
+			"guid": "8b980abb-f08b-2608-b987-6259fb7612a0",
 			"name": "walk_to_idle_3p",
-			"timestamp": 1652893759,
-			"files": [ "Animations/motusAnims/ide2Move/walk_to_idle_3p.caf" ],
+			"timestamp": 1745760615,
+			"files": [ "Animations/motusanims/ide2Move/walk_to_idle_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/ide2Move/walk_to_idle_3p.caf.cryasset",
+			"source": "Animations/motusanims/ide2Move/walk_to_idle_3p.i_caf",
+			"metadata": "Animations/motusanims/ide2Move/walk_to_idle_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "281c0eac-ee8e-09d8-9a90-fcf7a84a2bb9",
+			"guid": "18b08059-747d-8aad-ed98-4ec8c71f4c1d",
 			"name": "idle_3p",
-			"timestamp": 1652893759,
-			"files": [ "Animations/motusAnims/idle_3p.caf" ],
+			"timestamp": 1745760623,
+			"files": [ "Animations/motusanims/idle_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/idle_3p.caf.cryasset",
+			"source": "Animations/motusanims/idle_3p.i_caf",
+			"metadata": "Animations/motusanims/idle_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "127507fd-d79c-1091-33fb-38eac631da57",
+			"guid": "c6a2312b-9d2c-fc15-8bbf-d93871216e5a",
 			"name": "jog_bck_3p",
-			"timestamp": 1652893760,
-			"files": [ "Animations/motusAnims/jog_bck_3p.caf" ],
+			"timestamp": 1745760623,
+			"files": [ "Animations/motusanims/jog_bck_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/jog_bck_3p.caf.cryasset",
+			"source": "Animations/motusanims/jog_bck_3p.i_caf",
+			"metadata": "Animations/motusanims/jog_bck_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "6c73a01b-a00c-fc6f-e86f-4ac82ef866ec",
+			"guid": "8035bfcb-b58c-9df9-404a-02cc4a466aac",
 			"name": "jog_fwd_3p",
-			"timestamp": 1652893760,
-			"files": [ "Animations/motusAnims/jog_fwd_3p.caf" ],
+			"timestamp": 1745760622,
+			"files": [ "Animations/motusanims/jog_fwd_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/jog_fwd_3p.caf.cryasset",
+			"source": "Animations/motusanims/jog_fwd_3p.i_caf",
+			"metadata": "Animations/motusanims/jog_fwd_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "cb177e5e-55d7-6b4b-2b76-ce8cf5a22240",
-			"name": "rifleAim_idle_3p",
-			"timestamp": 1652893760,
-			"files": [ "Animations/motusAnims/rifleAnims/rifleAim_idle_3p.caf" ],
+			"guid": "5f87f994-9add-b56e-46c3-68de20baa8e3",
+			"name": "rifleaim_idle_3p",
+			"timestamp": 1745760614,
+			"files": [ "Animations/motusanims/rifleAnims/rifleaim_idle_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/rifleAnims/rifleAim_idle_3p.caf.cryasset",
+			"source": "Animations/motusanims/rifleAnims/rifleaim_idle_3p.i_caf",
+			"metadata": "Animations/motusanims/rifleAnims/rifleaim_idle_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "dd827a4e-3d8c-b81d-328a-64e8f6da78f7",
-			"name": "rifleWalkAim_bwd_3p",
-			"timestamp": 1652893760,
-			"files": [ "Animations/motusAnims/rifleAnims/rifleWalkAim_bwd_3p.caf" ],
+			"guid": "856d45cf-29b7-a5b6-5abb-20824e3abbb1",
+			"name": "riflewalkaim_bwd_3p",
+			"timestamp": 1745760613,
+			"files": [ "Animations/motusanims/rifleAnims/riflewalkaim_bwd_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/rifleAnims/rifleWalkAim_bwd_3p.caf.cryasset",
+			"source": "Animations/motusanims/rifleAnims/riflewalkaim_bwd_3p.i_caf",
+			"metadata": "Animations/motusanims/rifleAnims/riflewalkaim_bwd_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "594292c5-0bdb-c8e1-8206-c3b59b0011a3",
-			"name": "rifleWalkAim_fwd_3p",
-			"timestamp": 1652893760,
-			"files": [ "Animations/motusAnims/rifleAnims/rifleWalkAim_fwd_3p.caf" ],
+			"guid": "6dfb8012-8250-08fd-6f95-dfc56fa2e5d3",
+			"name": "riflewalkaim_fwd_3p",
+			"timestamp": 1745760613,
+			"files": [ "Animations/motusanims/rifleAnims/riflewalkaim_fwd_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/rifleAnims/rifleWalkAim_fwd_3p.caf.cryasset",
+			"source": "Animations/motusanims/rifleAnims/riflewalkaim_fwd_3p.i_caf",
+			"metadata": "Animations/motusanims/rifleAnims/riflewalkaim_fwd_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "396bc618-57d7-4436-98b4-354bb349fbef",
-			"name": "stepRifleAimRotate_lft_90_3p",
-			"timestamp": 1652893760,
-			"files": [ "Animations/motusAnims/rifleAnims/stepRifleAimRotate_lft_90_3p.caf" ],
+			"guid": "af033e1f-37e7-2420-543b-60582cbf91c8",
+			"name": "steprifleaimrotate_lft_90_3p",
+			"timestamp": 1745760612,
+			"files": [ "Animations/motusanims/rifleAnims/steprifleaimrotate_lft_90_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/rifleAnims/stepRifleAimRotate_lft_90_3p.caf.cryasset",
+			"source": "Animations/motusanims/rifleAnims/steprifleaimrotate_lft_90_3p.i_caf",
+			"metadata": "Animations/motusanims/rifleAnims/steprifleaimrotate_lft_90_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "35d7b1cb-3d2a-a209-3ca6-be73d63f904a",
-			"name": "stepRifleAimRotate_rgt_90_3p",
-			"timestamp": 1652893760,
-			"files": [ "Animations/motusAnims/rifleAnims/stepRifleAimRotate_rgt_90_3p.caf" ],
+			"guid": "dbd8128a-1e6a-3b68-fe4c-0786e77c103d",
+			"name": "steprifleaimrotate_rgt_90_3p",
+			"timestamp": 1745760611,
+			"files": [ "Animations/motusanims/rifleAnims/steprifleaimrotate_rgt_90_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/rifleAnims/stepRifleAimRotate_rgt_90_3p.caf.cryasset",
+			"source": "Animations/motusanims/rifleAnims/steprifleaimrotate_rgt_90_3p.i_caf",
+			"metadata": "Animations/motusanims/rifleAnims/steprifleaimrotate_rgt_90_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "61482c2f-7372-05ea-d139-771e2d8309b1",
-			"name": "walkcrossRifleAim_bck_lft_3p",
-			"timestamp": 1652893760,
-			"files": [ "Animations/motusAnims/rifleAnims/walkcrossRifleAim_bck_lft_3p.caf" ],
+			"guid": "51f88bce-61b5-9f98-c409-26fef2182bbf",
+			"name": "walkcrossrifleaim_bck_lft_3p",
+			"timestamp": 1745760610,
+			"files": [ "Animations/motusanims/rifleAnims/walkcrossrifleaim_bck_lft_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/rifleAnims/walkcrossRifleAim_bck_lft_3p.caf.cryasset",
+			"source": "Animations/motusanims/rifleAnims/walkcrossrifleaim_bck_lft_3p.i_caf",
+			"metadata": "Animations/motusanims/rifleAnims/walkcrossrifleaim_bck_lft_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "6178dc05-6ecc-2ff0-fe38-b0f1e8c373e9",
-			"name": "walkcrossRifleAim_bck_rgt_3p",
-			"timestamp": 1652893760,
-			"files": [ "Animations/motusAnims/rifleAnims/walkcrossRifleAim_bck_rgt_3p.caf" ],
+			"guid": "618906b7-3235-cb90-90cc-df6f722a6514",
+			"name": "walkcrossrifleaim_bck_rgt_3p",
+			"timestamp": 1745760609,
+			"files": [ "Animations/motusanims/rifleAnims/walkcrossrifleaim_bck_rgt_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/rifleAnims/walkcrossRifleAim_bck_rgt_3p.caf.cryasset",
+			"source": "Animations/motusanims/rifleAnims/walkcrossrifleaim_bck_rgt_3p.i_caf",
+			"metadata": "Animations/motusanims/rifleAnims/walkcrossrifleaim_bck_rgt_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "9aa0d7ca-7b33-f2f9-b54f-55b5d4e69eeb",
-			"name": "walkcrossRifleAim_fwd_lft_3p",
-			"timestamp": 1652893760,
-			"files": [ "Animations/motusAnims/rifleAnims/walkcrossRifleAim_fwd_lft_3p.caf" ],
+			"guid": "b2c70612-652b-10d5-d7cd-af28539f2bb1",
+			"name": "walkcrossrifleaim_fwd_lft_3p",
+			"timestamp": 1745760609,
+			"files": [ "Animations/motusanims/rifleAnims/walkcrossrifleaim_fwd_lft_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/rifleAnims/walkcrossRifleAim_fwd_lft_3p.caf.cryasset",
+			"source": "Animations/motusanims/rifleAnims/walkcrossrifleaim_fwd_lft_3p.i_caf",
+			"metadata": "Animations/motusanims/rifleAnims/walkcrossrifleaim_fwd_lft_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "7de63714-625f-0cb6-875a-a7827ea0e318",
-			"name": "walkcrossRifleAim_fwd_rgt_3p",
-			"timestamp": 1652893760,
-			"files": [ "Animations/motusAnims/rifleAnims/walkcrossRifleAim_fwd_rgt_3p.caf" ],
+			"guid": "cf7dfcb3-a50c-684b-4036-322efdf1945a",
+			"name": "walkcrossrifleaim_fwd_rgt_3p",
+			"timestamp": 1745760608,
+			"files": [ "Animations/motusanims/rifleAnims/walkcrossrifleaim_fwd_rgt_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/rifleAnims/walkcrossRifleAim_fwd_rgt_3p.caf.cryasset",
+			"source": "Animations/motusanims/rifleAnims/walkcrossrifleaim_fwd_rgt_3p.i_caf",
+			"metadata": "Animations/motusanims/rifleAnims/walkcrossrifleaim_fwd_rgt_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "4ea170b2-4eb3-137b-6d35-331e6c2e2447",
-			"name": "walkstrafeRifleAim_lft_3p",
-			"timestamp": 1652893760,
-			"files": [ "Animations/motusAnims/rifleAnims/walkstrafeRifleAim_lft_3p.caf" ],
+			"guid": "21549a60-c09a-745b-a413-bf4d3f998c1c",
+			"name": "walkstraferifleaim_lft_3p",
+			"timestamp": 1745760607,
+			"files": [ "Animations/motusanims/rifleAnims/walkstraferifleaim_lft_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/rifleAnims/walkstrafeRifleAim_lft_3p.caf.cryasset",
+			"source": "Animations/motusanims/rifleAnims/walkstraferifleaim_lft_3p.i_caf",
+			"metadata": "Animations/motusanims/rifleAnims/walkstraferifleaim_lft_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "6eba6242-4471-b6d3-3408-c075721daf62",
-			"name": "walkstrafeRifleAim_rgt_3p",
-			"timestamp": 1652893760,
-			"files": [ "Animations/motusAnims/rifleAnims/walkstrafeRifleAim_rgt_3p.caf" ],
+			"guid": "4027ad93-9e44-16b4-46da-8aa4d5bfb501",
+			"name": "walkstraferifleaim_rgt_3p",
+			"timestamp": 1745760606,
+			"files": [ "Animations/motusanims/rifleAnims/walkstraferifleaim_rgt_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/rifleAnims/walkstrafeRifleAim_rgt_3p.caf.cryasset",
+			"source": "Animations/motusanims/rifleAnims/walkstraferifleaim_rgt_3p.i_caf",
+			"metadata": "Animations/motusanims/rifleAnims/walkstraferifleaim_rgt_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "a3cdfce3-5310-44e8-fb24-af1b547f35c6",
+			"guid": "b45c4beb-18bf-04f3-bcbb-8daa7c9f1f86",
 			"name": "run_fwd_3p",
-			"timestamp": 1652893760,
-			"files": [ "Animations/motusAnims/run_fwd_3p.caf" ],
+			"timestamp": 1745760621,
+			"files": [ "Animations/motusanims/run_fwd_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/run_fwd_3p.caf.cryasset",
+			"source": "Animations/motusanims/run_fwd_3p.i_caf",
+			"metadata": "Animations/motusanims/run_fwd_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "b70b4f53-d4c5-71bd-4e90-b2639b50d436",
-			"name": "stepRotate_lft_135_3p",
-			"timestamp": 1652893760,
-			"files": [ "Animations/motusAnims/stepRotate/stepRotate_lft_135_3p.caf" ],
+			"guid": "ae0d9e08-27cd-4777-dcd6-45bc3148adbd",
+			"name": "steprotate_lft_135_3p",
+			"timestamp": 1745760606,
+			"files": [ "Animations/motusanims/steprotate/steprotate_lft_135_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/stepRotate/stepRotate_lft_135_3p.caf.cryasset",
+			"source": "Animations/motusanims/steprotate/steprotate_lft_135_3p.i_caf",
+			"metadata": "Animations/motusanims/steprotate/steprotate_lft_135_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "d5861a50-6837-d6bc-7dac-4037d73a76f0",
-			"name": "stepRotate_lft_180_3p",
-			"timestamp": 132973673610360000,
-			"files": [ "animations/motusanims/steprotate/stepRotate_lft_180_3p.caf" ],
+			"guid": "a24fe259-c289-0e0c-4ba6-9f03c4675fa9",
+			"name": "steprotate_lft_180_3p",
+			"timestamp": 1745760605,
+			"files": [ "Animations/motusanims/steprotate/steprotate_lft_180_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/stepRotate/stepRotate_lft_180_3p.caf.cryasset",
+			"source": "Animations/motusanims/steprotate/steprotate_lft_180_3p.i_caf",
+			"metadata": "Animations/motusanims/steprotate/steprotate_lft_180_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "f70f5b8d-b74e-00e3-0e36-41de90fea140",
-			"name": "stepRotate_lft_45_3p",
-			"timestamp": 1652893761,
-			"files": [ "Animations/motusAnims/stepRotate/stepRotate_lft_45_3p.caf" ],
+			"guid": "c39dbb4a-6604-9973-1f59-ac9040dc78f4",
+			"name": "steprotate_lft_45_3p",
+			"timestamp": 1745760604,
+			"files": [ "Animations/motusanims/steprotate/steprotate_lft_45_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/stepRotate/stepRotate_lft_45_3p.caf.cryasset",
+			"source": "Animations/motusanims/steprotate/steprotate_lft_45_3p.i_caf",
+			"metadata": "Animations/motusanims/steprotate/steprotate_lft_45_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "01d73fc9-1e25-9fce-f861-67e2ecbd2499",
-			"name": "stepRotate_lft_90_3p",
-			"timestamp": 1652893761,
-			"files": [ "Animations/motusAnims/stepRotate/stepRotate_lft_90_3p.caf" ],
+			"guid": "9a965653-c892-e87a-5d1b-6c958063240d",
+			"name": "steprotate_lft_90_3p",
+			"timestamp": 1745760603,
+			"files": [ "Animations/motusanims/steprotate/steprotate_lft_90_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/stepRotate/stepRotate_lft_90_3p.caf.cryasset",
+			"source": "Animations/motusanims/steprotate/steprotate_lft_90_3p.i_caf",
+			"metadata": "Animations/motusanims/steprotate/steprotate_lft_90_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "ae2b5bf4-4dd1-cd61-4c7f-7222d24a55b0",
-			"name": "stepRotate_rgt_135_3p",
-			"timestamp": 1652893761,
-			"files": [ "Animations/motusAnims/stepRotate/stepRotate_rgt_135_3p.caf" ],
+			"guid": "e2b9e2ab-98c2-8e04-3c3b-9e45f69e9d82",
+			"name": "steprotate_rgt_135_3p",
+			"timestamp": 1745760603,
+			"files": [ "Animations/motusanims/steprotate/steprotate_rgt_135_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/stepRotate/stepRotate_rgt_135_3p.caf.cryasset",
+			"source": "Animations/motusanims/steprotate/steprotate_rgt_135_3p.i_caf",
+			"metadata": "Animations/motusanims/steprotate/steprotate_rgt_135_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "2181b4f9-a289-5fae-b144-5168a1dbc3fe",
-			"name": "stepRotate_rgt_180_3p",
-			"timestamp": 1652893761,
-			"files": [ "Animations/motusAnims/stepRotate/stepRotate_rgt_180_3p.caf" ],
+			"guid": "5052cc50-dc6a-9239-7a52-92ec19cf2987",
+			"name": "steprotate_rgt_180_3p",
+			"timestamp": 1745760602,
+			"files": [ "Animations/motusanims/steprotate/steprotate_rgt_180_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/stepRotate/stepRotate_rgt_180_3p.caf.cryasset",
+			"source": "Animations/motusanims/steprotate/steprotate_rgt_180_3p.i_caf",
+			"metadata": "Animations/motusanims/steprotate/steprotate_rgt_180_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "482e5706-6aca-1f71-e95a-ff129332289e",
-			"name": "stepRotate_rgt_45_3p",
-			"timestamp": 1652893761,
-			"files": [ "Animations/motusAnims/stepRotate/stepRotate_rgt_45_3p.caf" ],
+			"guid": "40be4049-8dde-4523-9d1b-622d24e9764e",
+			"name": "steprotate_rgt_45_3p",
+			"timestamp": 1745760601,
+			"files": [ "Animations/motusanims/steprotate/steprotate_rgt_45_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/stepRotate/stepRotate_rgt_45_3p.caf.cryasset",
+			"source": "Animations/motusanims/steprotate/steprotate_rgt_45_3p.i_caf",
+			"metadata": "Animations/motusanims/steprotate/steprotate_rgt_45_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "e91cab9a-b319-48bf-cd6d-cbf090548fc6",
-			"name": "stepRotate_rgt_90_3p",
-			"timestamp": 1652893761,
-			"files": [ "Animations/motusAnims/stepRotate/stepRotate_rgt_90_3p.caf" ],
+			"guid": "8a42b8b2-54aa-8b8d-1f7a-527baca62f57",
+			"name": "steprotate_rgt_90_3p",
+			"timestamp": 1745760600,
+			"files": [ "Animations/motusanims/steprotate/steprotate_rgt_90_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/stepRotate/stepRotate_rgt_90_3p.caf.cryasset",
+			"source": "Animations/motusanims/steprotate/steprotate_rgt_90_3p.i_caf",
+			"metadata": "Animations/motusanims/steprotate/steprotate_rgt_90_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "8c21a1e3-6660-c030-4553-7d5ddd745ea1",
+			"guid": "d562d047-b211-84cf-f11c-b592e15c01a5",
 			"name": "jogcross_bck_lft_3p",
-			"timestamp": 1652893761,
-			"files": [ "Animations/motusAnims/strafe/jogcross_bck_lft_3p.caf" ],
+			"timestamp": 1745760599,
+			"files": [ "Animations/motusanims/strafe/jogcross_bck_lft_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/strafe/jogcross_bck_lft_3p.caf.cryasset",
+			"source": "Animations/motusanims/strafe/jogcross_bck_lft_3p.i_caf",
+			"metadata": "Animations/motusanims/strafe/jogcross_bck_lft_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "52167745-6dcc-9bee-81c3-d338741425ac",
+			"guid": "8f70b6d3-c76a-232d-0d31-df52383d7a5c",
 			"name": "jogcross_bck_rgt_3p",
-			"timestamp": 1652893761,
-			"files": [ "Animations/motusAnims/strafe/jogcross_bck_rgt_3p.caf" ],
+			"timestamp": 1745760599,
+			"files": [ "Animations/motusanims/strafe/jogcross_bck_rgt_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/strafe/jogcross_bck_rgt_3p.caf.cryasset",
+			"source": "Animations/motusanims/strafe/jogcross_bck_rgt_3p.i_caf",
+			"metadata": "Animations/motusanims/strafe/jogcross_bck_rgt_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "5f162bef-3e8d-6d05-1493-e097d0423cd4",
+			"guid": "6d9bf5b4-c521-cac0-3c81-cf51739ab14d",
 			"name": "jogcross_fwd_lft_3p",
-			"timestamp": 1652893761,
-			"files": [ "Animations/motusAnims/strafe/jogcross_fwd_lft_3p.caf" ],
+			"timestamp": 1745760598,
+			"files": [ "Animations/motusanims/strafe/jogcross_fwd_lft_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/strafe/jogcross_fwd_lft_3p.caf.cryasset",
+			"source": "Animations/motusanims/strafe/jogcross_fwd_lft_3p.i_caf",
+			"metadata": "Animations/motusanims/strafe/jogcross_fwd_lft_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "f2931dd9-3d8f-b918-ad76-1a93dbbf5d5e",
+			"guid": "32049b0b-d4c5-f7ac-ca5a-5ca5f5a19c7d",
 			"name": "jogcross_fwd_rgt_3p",
-			"timestamp": 1652893762,
-			"files": [ "Animations/motusAnims/strafe/jogcross_fwd_rgt_3p.caf" ],
+			"timestamp": 1745760597,
+			"files": [ "Animations/motusanims/strafe/jogcross_fwd_rgt_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/strafe/jogcross_fwd_rgt_3p.caf.cryasset",
+			"source": "Animations/motusanims/strafe/jogcross_fwd_rgt_3p.i_caf",
+			"metadata": "Animations/motusanims/strafe/jogcross_fwd_rgt_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "d7c7655e-0cff-c1c2-226c-c7abac0b9946",
+			"guid": "3866fc83-d13e-040e-6d35-4d820a4f7a85",
 			"name": "jogstrafe_lft_3p",
-			"timestamp": 1652893762,
-			"files": [ "Animations/motusAnims/strafe/jogstrafe_lft_3p.caf" ],
+			"timestamp": 1745760596,
+			"files": [ "Animations/motusanims/strafe/jogstrafe_lft_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/strafe/jogstrafe_lft_3p.caf.cryasset",
+			"source": "Animations/motusanims/strafe/jogstrafe_lft_3p.i_caf",
+			"metadata": "Animations/motusanims/strafe/jogstrafe_lft_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "94a35dd0-675e-bdac-f3e8-fcc944b87a51",
+			"guid": "25493adc-d245-0111-414b-de22e17cd688",
 			"name": "jogstrafe_rgt_3p",
-			"timestamp": 1652893762,
-			"files": [ "Animations/motusAnims/strafe/jogstrafe_rgt_3p.caf" ],
+			"timestamp": 1745760595,
+			"files": [ "Animations/motusanims/strafe/jogstrafe_rgt_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/strafe/jogstrafe_rgt_3p.caf.cryasset",
+			"source": "Animations/motusanims/strafe/jogstrafe_rgt_3p.i_caf",
+			"metadata": "Animations/motusanims/strafe/jogstrafe_rgt_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "0dd25441-bb72-477f-583b-66bf65ac8031",
+			"guid": "bec94377-a884-2671-8d08-c19f2a03f5bf",
 			"name": "runcross_fwd_lft_3p",
-			"timestamp": 1652893762,
-			"files": [ "Animations/motusAnims/strafe/runcross_fwd_lft_3p.caf" ],
+			"timestamp": 1745760595,
+			"files": [ "Animations/motusanims/strafe/runcross_fwd_lft_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/strafe/runcross_fwd_lft_3p.caf.cryasset",
+			"source": "Animations/motusanims/strafe/runcross_fwd_lft_3p.i_caf",
+			"metadata": "Animations/motusanims/strafe/runcross_fwd_lft_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "b896262b-a6f3-4f01-6963-ed4527255a49",
+			"guid": "380d9668-7a9c-06f3-2553-601907ffc507",
 			"name": "runcross_fwd_rgt_3p",
-			"timestamp": 1652893762,
-			"files": [ "Animations/motusAnims/strafe/runcross_fwd_rgt_3p.caf" ],
+			"timestamp": 1745760594,
+			"files": [ "Animations/motusanims/strafe/runcross_fwd_rgt_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/strafe/runcross_fwd_rgt_3p.caf.cryasset",
+			"source": "Animations/motusanims/strafe/runcross_fwd_rgt_3p.i_caf",
+			"metadata": "Animations/motusanims/strafe/runcross_fwd_rgt_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "28df1731-dde7-8f5f-a469-d9ff32a447e6",
+			"guid": "e730c42a-da62-5c50-a4a3-30854813b084",
 			"name": "runstrafe_lft_3p",
-			"timestamp": 1652893762,
-			"files": [ "Animations/motusAnims/strafe/runstrafe_lft_3p.caf" ],
+			"timestamp": 1745760593,
+			"files": [ "Animations/motusanims/strafe/runstrafe_lft_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/strafe/runstrafe_lft_3p.caf.cryasset",
+			"source": "Animations/motusanims/strafe/runstrafe_lft_3p.i_caf",
+			"metadata": "Animations/motusanims/strafe/runstrafe_lft_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "793868b3-d812-5846-868a-090be2d927e1",
+			"guid": "007c7d79-fb45-a0eb-c587-95d813192802",
 			"name": "runstrafe_rgt_3p",
-			"timestamp": 1652893762,
-			"files": [ "Animations/motusAnims/strafe/runstrafe_rgt_3p.caf" ],
+			"timestamp": 1745760592,
+			"files": [ "Animations/motusanims/strafe/runstrafe_rgt_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/strafe/runstrafe_rgt_3p.caf.cryasset",
+			"source": "Animations/motusanims/strafe/runstrafe_rgt_3p.i_caf",
+			"metadata": "Animations/motusanims/strafe/runstrafe_rgt_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "b75c6de1-f6b9-6fa7-f81a-8d28a0a6a40a",
+			"guid": "34a2a480-e9bc-acbc-1841-404dcddda4cd",
 			"name": "walkcross_bck_lft_3p",
-			"timestamp": 1652893762,
-			"files": [ "Animations/motusAnims/strafe/walkcross_bck_lft_3p.caf" ],
+			"timestamp": 1745760592,
+			"files": [ "Animations/motusanims/strafe/walkcross_bck_lft_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/strafe/walkcross_bck_lft_3p.caf.cryasset",
+			"source": "Animations/motusanims/strafe/walkcross_bck_lft_3p.i_caf",
+			"metadata": "Animations/motusanims/strafe/walkcross_bck_lft_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "ee174c03-c21d-414f-2fa3-2e6ab7d550d7",
+			"guid": "80acf6aa-f395-a9ed-126c-ff96b6927186",
 			"name": "walkcross_bck_rgt_3p",
-			"timestamp": 1652893762,
-			"files": [ "Animations/motusAnims/strafe/walkcross_bck_rgt_3p.caf" ],
+			"timestamp": 1745760591,
+			"files": [ "Animations/motusanims/strafe/walkcross_bck_rgt_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/strafe/walkcross_bck_rgt_3p.caf.cryasset",
+			"source": "Animations/motusanims/strafe/walkcross_bck_rgt_3p.i_caf",
+			"metadata": "Animations/motusanims/strafe/walkcross_bck_rgt_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "74df591e-f47c-51be-1f3c-2131e18bc49c",
+			"guid": "11885c4c-da8f-a8d3-9f15-5e2f5bc54e81",
 			"name": "walkcross_fwd_lft_3p",
-			"timestamp": 132973673629920000,
-			"files": [ "animations/motusanims/strafe/walkcross_fwd_lft_3p.caf" ],
+			"timestamp": 1745760590,
+			"files": [ "Animations/motusanims/strafe/walkcross_fwd_lft_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/strafe/walkcross_fwd_lft_3p.caf.cryasset",
+			"source": "Animations/motusanims/strafe/walkcross_fwd_lft_3p.i_caf",
+			"metadata": "Animations/motusanims/strafe/walkcross_fwd_lft_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "a67d4268-a9dc-97de-8a2d-c4f7b124b01e",
+			"guid": "9bd92863-8e03-4fa5-76b4-cba68521bf1b",
 			"name": "walkcross_fwd_rgt_3p",
-			"timestamp": 1652893763,
-			"files": [ "Animations/motusAnims/strafe/walkcross_fwd_rgt_3p.caf" ],
+			"timestamp": 1745760589,
+			"files": [ "Animations/motusanims/strafe/walkcross_fwd_rgt_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/strafe/walkcross_fwd_rgt_3p.caf.cryasset",
+			"source": "Animations/motusanims/strafe/walkcross_fwd_rgt_3p.i_caf",
+			"metadata": "Animations/motusanims/strafe/walkcross_fwd_rgt_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "569e2d44-9e00-f8d0-c07d-ea7b699aea51",
+			"guid": "5f0b483a-fe45-b8fa-7665-b7cd66da8f2d",
 			"name": "walkstrafe_lft_3p",
-			"timestamp": 1652893763,
-			"files": [ "Animations/motusAnims/strafe/walkstrafe_lft_3p.caf" ],
+			"timestamp": 1745760589,
+			"files": [ "Animations/motusanims/strafe/walkstrafe_lft_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/strafe/walkstrafe_lft_3p.caf.cryasset",
+			"source": "Animations/motusanims/strafe/walkstrafe_lft_3p.i_caf",
+			"metadata": "Animations/motusanims/strafe/walkstrafe_lft_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "eb3de174-d26d-b663-bf19-99a700c93480",
+			"guid": "84f7640e-763f-86e7-53d9-7385eb96cddd",
 			"name": "walkstrafe_rgt_3p",
-			"timestamp": 1652893763,
-			"files": [ "Animations/motusAnims/strafe/walkstrafe_rgt_3p.caf" ],
+			"timestamp": 1745760588,
+			"files": [ "Animations/motusanims/strafe/walkstrafe_rgt_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/strafe/walkstrafe_rgt_3p.caf.cryasset",
+			"source": "Animations/motusanims/strafe/walkstrafe_rgt_3p.i_caf",
+			"metadata": "Animations/motusanims/strafe/walkstrafe_rgt_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "ada38e8e-9d65-b2c4-6128-419127c5127f",
+			"guid": "26fa2fff-4432-4ab2-45f5-a02de7858a03",
 			"name": "jogturn_lft_3p",
-			"timestamp": 1652893763,
-			"files": [ "Animations/motusAnims/turns/jogturn_lft_3p.caf" ],
+			"timestamp": 1745760587,
+			"files": [ "Animations/motusanims/turns/jogturn_lft_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/turns/jogturn_lft_3p.caf.cryasset",
+			"source": "Animations/motusanims/turns/jogturn_lft_3p.i_caf",
+			"metadata": "Animations/motusanims/turns/jogturn_lft_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "d5efe9d3-6db4-8dea-946d-91e1afb12dc0",
+			"guid": "918b8336-0d76-f6f8-092f-b29b91b09df9",
 			"name": "jogturn_rgt_3p",
-			"timestamp": 1652893763,
-			"files": [ "Animations/motusAnims/turns/jogturn_rgt_3p.caf" ],
+			"timestamp": 1745760586,
+			"files": [ "Animations/motusanims/turns/jogturn_rgt_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/turns/jogturn_rgt_3p.caf.cryasset",
+			"source": "Animations/motusanims/turns/jogturn_rgt_3p.i_caf",
+			"metadata": "Animations/motusanims/turns/jogturn_rgt_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "4beb11af-18f6-af99-d537-b28f5bbfb6a1",
+			"guid": "d665ff46-e8ad-b6ab-3365-aa8002addc0e",
 			"name": "runturn_lft_3p",
-			"timestamp": 1652893763,
-			"files": [ "Animations/motusAnims/turns/runturn_lft_3p.caf" ],
+			"timestamp": 1745760586,
+			"files": [ "Animations/motusanims/turns/runturn_lft_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/turns/runturn_lft_3p.caf.cryasset",
+			"source": "Animations/motusanims/turns/runturn_lft_3p.i_caf",
+			"metadata": "Animations/motusanims/turns/runturn_lft_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "a35c1f91-ca59-5342-eeb2-2851728129ea",
+			"guid": "6985ee47-dcb3-23fa-c155-29a0f610007a",
 			"name": "runturn_rgt_3p",
-			"timestamp": 1652893763,
-			"files": [ "Animations/motusAnims/turns/runturn_rgt_3p.caf" ],
+			"timestamp": 1745760585,
+			"files": [ "Animations/motusanims/turns/runturn_rgt_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/turns/runturn_rgt_3p.caf.cryasset",
+			"source": "Animations/motusanims/turns/runturn_rgt_3p.i_caf",
+			"metadata": "Animations/motusanims/turns/runturn_rgt_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "a27aa9aa-a4e3-3e18-03ca-bcda446e7c5e",
+			"guid": "0a9d368d-6af0-9c81-cee8-7f4b169a1093",
 			"name": "walkturn_lft_3p",
-			"timestamp": 1652893763,
-			"files": [ "Animations/motusAnims/turns/walkturn_lft_3p.caf" ],
+			"timestamp": 1745760584,
+			"files": [ "Animations/motusanims/turns/walkturn_lft_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/turns/walkturn_lft_3p.caf.cryasset",
+			"source": "Animations/motusanims/turns/walkturn_lft_3p.i_caf",
+			"metadata": "Animations/motusanims/turns/walkturn_lft_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "3bb949ee-43f2-e277-a3b7-f142861ec651",
+			"guid": "91f53690-5412-adf2-59b8-14bf1e95475c",
 			"name": "walkturn_rgt_3p",
-			"timestamp": 1652893763,
-			"files": [ "Animations/motusAnims/turns/walkturn_rgt_3p.caf" ],
+			"timestamp": 1745760583,
+			"files": [ "Animations/motusanims/turns/walkturn_rgt_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/turns/walkturn_rgt_3p.caf.cryasset",
+			"source": "Animations/motusanims/turns/walkturn_rgt_3p.i_caf",
+			"metadata": "Animations/motusanims/turns/walkturn_rgt_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "ba50533a-9f5d-f46f-00fd-65f68e9319f1",
+			"guid": "1d7449be-78bb-90ad-975e-be754fc5851c",
 			"name": "walk_bck_3p",
-			"timestamp": 1652893763,
-			"files": [ "Animations/motusAnims/walk_bck_3p.caf" ],
+			"timestamp": 1745760620,
+			"files": [ "Animations/motusanims/walk_bck_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/walk_bck_3p.caf.cryasset",
+			"source": "Animations/motusanims/walk_bck_3p.i_caf",
+			"metadata": "Animations/motusanims/walk_bck_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Animation",
-			"guid": "a41303bf-bc0f-6509-b7c3-a8f3744539d9",
+			"guid": "3f37e516-aaf8-b138-3120-1ce4ec8d99c0",
 			"name": "walk_fwd_3p",
-			"timestamp": 1652893764,
-			"files": [ "Animations/motusAnims/walk_fwd_3p.caf" ],
+			"timestamp": 1745760619,
+			"files": [ "Animations/motusanims/walk_fwd_3p.caf" ],
 			"workFiles": [ ],
-			"source": "",
-			"metadata": "Animations/motusAnims/walk_fwd_3p.caf.cryasset",
+			"source": "Animations/motusanims/walk_fwd_3p.i_caf",
+			"metadata": "Animations/motusanims/walk_fwd_3p.caf.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
@@ -5808,10 +5748,202 @@
 			"dependencies": [ ]
 		},
 		{
+			"type": "Animation",
+			"guid": "e081431a-f3eb-1e6a-99b5-2949b488a170",
+			"name": "YBot_Aimpose",
+			"timestamp": 1746224061,
+			"files": [ "Animations/YBot/additive/YBot_Aimpose.caf" ],
+			"workFiles": [ ],
+			"source": "Animations/YBot/additive/YBot.fbx",
+			"metadata": "Animations/YBot/additive/YBot_Aimpose.caf.cryasset",
+			"details": [ ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Animation",
+			"guid": "6a9f6b19-7974-f269-a5d2-7c24134d2f77",
+			"name": "YBot_AimposeOmniDir",
+			"timestamp": 1746224061,
+			"files": [ "Animations/YBot/additive/YBot_AimposeOmniDir.caf" ],
+			"workFiles": [ ],
+			"source": "Animations/YBot/additive/YBot.fbx",
+			"metadata": "Animations/YBot/additive/YBot_AimposeOmniDir.caf.cryasset",
+			"details": [ ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Animation",
+			"guid": "04e1e90c-213e-ff4e-c331-f197b79b188c",
+			"name": "YBot_HeadShot",
+			"timestamp": 1746224061,
+			"files": [ "Animations/YBot/additive/YBot_HeadShot.caf" ],
+			"workFiles": [ ],
+			"source": "Animations/YBot/additive/YBot.fbx",
+			"metadata": "Animations/YBot/additive/YBot_HeadShot.caf.cryasset",
+			"details": [ ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Animation",
+			"guid": "f35369b3-1a28-5806-03e6-bcf9ff9d9526",
+			"name": "YBot_Hit",
+			"timestamp": 1746224061,
+			"files": [ "Animations/YBot/additive/YBot_Hit.caf" ],
+			"workFiles": [ ],
+			"source": "Animations/YBot/additive/YBot.fbx",
+			"metadata": "Animations/YBot/additive/YBot_Hit.caf.cryasset",
+			"details": [ ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Animation",
+			"guid": "bbb5e7dd-cb7f-5c03-b178-2dece208c2e7",
+			"name": "YBot_Recoil",
+			"timestamp": 1746224062,
+			"files": [ "Animations/YBot/additive/YBot_Recoil.caf" ],
+			"workFiles": [ ],
+			"source": "Animations/YBot/additive/YBot.fbx",
+			"metadata": "Animations/YBot/additive/YBot_Recoil.caf.cryasset",
+			"details": [ ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Animation",
+			"guid": "1ff200be-3c44-929c-4ce8-e07975ccc81c",
+			"name": "YBot_B_WalkCycle",
+			"timestamp": 1745937652,
+			"files": [ "Animations/YBot/walkcycles/YBot_B_WalkCycle.caf" ],
+			"workFiles": [ ],
+			"source": "Animations/YBot/walkcycles/YBot.fbx",
+			"metadata": "Animations/YBot/walkcycles/YBot_B_WalkCycle.caf.cryasset",
+			"details": [ ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Animation",
+			"guid": "e4b05078-a760-e909-2777-fe74cffc3c56",
+			"name": "YBot_BL_WalkCycle",
+			"timestamp": 1745937652,
+			"files": [ "Animations/YBot/walkcycles/YBot_BL_WalkCycle.caf" ],
+			"workFiles": [ ],
+			"source": "Animations/YBot/walkcycles/YBot.fbx",
+			"metadata": "Animations/YBot/walkcycles/YBot_BL_WalkCycle.caf.cryasset",
+			"details": [ ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Animation",
+			"guid": "34f9a073-6916-ff97-9f6d-2f78102383c5",
+			"name": "YBot_BR_WalkCycle",
+			"timestamp": 1745937652,
+			"files": [ "Animations/YBot/walkcycles/YBot_BR_WalkCycle.caf" ],
+			"workFiles": [ ],
+			"source": "Animations/YBot/walkcycles/YBot.fbx",
+			"metadata": "Animations/YBot/walkcycles/YBot_BR_WalkCycle.caf.cryasset",
+			"details": [ ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Animation",
+			"guid": "7088342e-7fe5-21ac-902a-30a306d20e33",
+			"name": "YBot_F_WalkCycle",
+			"timestamp": 1745937652,
+			"files": [ "Animations/YBot/walkcycles/YBot_F_WalkCycle.caf" ],
+			"workFiles": [ ],
+			"source": "Animations/YBot/walkcycles/YBot.fbx",
+			"metadata": "Animations/YBot/walkcycles/YBot_F_WalkCycle.caf.cryasset",
+			"details": [ ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Animation",
+			"guid": "b36032c0-e045-2f36-dc80-960cde4cf96f",
+			"name": "YBot_FL_WalkCycle",
+			"timestamp": 1745937652,
+			"files": [ "Animations/YBot/walkcycles/YBot_FL_WalkCycle.caf" ],
+			"workFiles": [ ],
+			"source": "Animations/YBot/walkcycles/YBot.fbx",
+			"metadata": "Animations/YBot/walkcycles/YBot_FL_WalkCycle.caf.cryasset",
+			"details": [ ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Animation",
+			"guid": "7af3f7cc-adb5-0243-1fbd-03c6a1399168",
+			"name": "YBot_FR_WalkCycle",
+			"timestamp": 1745937652,
+			"files": [ "Animations/YBot/walkcycles/YBot_FR_WalkCycle.caf" ],
+			"workFiles": [ ],
+			"source": "Animations/YBot/walkcycles/YBot.fbx",
+			"metadata": "Animations/YBot/walkcycles/YBot_FR_WalkCycle.caf.cryasset",
+			"details": [ ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Animation",
+			"guid": "cd7cb2f5-93d0-7538-29a3-49c9241b82e2",
+			"name": "YBot_L_WalkCycle",
+			"timestamp": 1745937652,
+			"files": [ "Animations/YBot/walkcycles/YBot_L_WalkCycle.caf" ],
+			"workFiles": [ ],
+			"source": "Animations/YBot/walkcycles/YBot.fbx",
+			"metadata": "Animations/YBot/walkcycles/YBot_L_WalkCycle.caf.cryasset",
+			"details": [ ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Animation",
+			"guid": "09fb4458-7277-f1f5-3b41-c46b311f0175",
+			"name": "YBot_R_WalkCycle",
+			"timestamp": 1745937652,
+			"files": [ "Animations/YBot/walkcycles/YBot_R_WalkCycle.caf" ],
+			"workFiles": [ ],
+			"source": "Animations/YBot/walkcycles/YBot.fbx",
+			"metadata": "Animations/YBot/walkcycles/YBot_R_WalkCycle.caf.cryasset",
+			"details": [ ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Animation",
+			"guid": "74888abb-da2d-11f4-0ba9-a11e7ff687d9",
+			"name": "YBot_Death_Anim",
+			"timestamp": 1745937378,
+			"files": [ "Animations/YBot/YBot_Death_Anim.caf" ],
+			"workFiles": [ ],
+			"source": "Animations/YBot/YBot.fbx",
+			"metadata": "Animations/YBot/YBot_Death_Anim.caf.cryasset",
+			"details": [ ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Animation",
+			"guid": "7138c3ff-4ef8-f922-b23b-9286516ea2c8",
+			"name": "YBot_Death_Pose",
+			"timestamp": 1745937378,
+			"files": [ "Animations/YBot/YBot_Death_Pose.caf" ],
+			"workFiles": [ ],
+			"source": "Animations/YBot/YBot.fbx",
+			"metadata": "Animations/YBot/YBot_Death_Pose.caf.cryasset",
+			"details": [ ],
+			"dependencies": [ ]
+		},
+		{
+			"type": "Animation",
+			"guid": "d346eb19-a2c6-6644-e23a-d61a9c0866b6",
+			"name": "YBot_Idle_Pistol",
+			"timestamp": 1745937379,
+			"files": [ "Animations/YBot/YBot_Idle_Pistol.caf" ],
+			"workFiles": [ ],
+			"source": "Animations/YBot/YBot.fbx",
+			"metadata": "Animations/YBot/YBot_Idle_Pistol.caf.cryasset",
+			"details": [ ],
+			"dependencies": [ ]
+		},
+		{
 			"type": "Level",
 			"guid": "984fcd77-e594-2b34-fbf5-414a47e0d684",
 			"name": "example",
-			"timestamp": 1745448796,
+			"timestamp": 1746217043,
 			"files": [ "Levels/example/example.level" ],
 			"workFiles": [ ],
 			"source": "",
@@ -5819,7 +5951,10 @@
 			"details": [ ],
 			"dependencies": [
 				{ "path": "%editor%/objects/envcube.cgf", "usageCount": 0 },
-				{ "path": "%editor%/objects/envcube.mtl", "usageCount": 0 },
+				{
+					"path": "%engine%/config/defaultscripts/compressionpolicy.xml",
+					"usageCount": 0
+				},
 				{
 					"path": "%engine%/engineassets/icons/averagememoryusage.dds",
 					"usageCount": 0
@@ -5837,39 +5972,7 @@
 					"usageCount": 0
 				},
 				{
-					"path": "%engine%/engineassets/materials/fog/fogvolumebox.mtl",
-					"usageCount": 0
-				},
-				{
-					"path": "%engine%/engineassets/materials/fog/fogvolumeellipsoid.mtl",
-					"usageCount": 0
-				},
-				{
-					"path": "%engine%/engineassets/materials/fog/oceaninto.mtl",
-					"usageCount": 0
-				},
-				{
-					"path": "%engine%/engineassets/materials/fog/oceanintolowspec.mtl",
-					"usageCount": 0
-				},
-				{
-					"path": "%engine%/engineassets/materials/fog/oceanoutof.mtl",
-					"usageCount": 0
-				},
-				{
-					"path": "%engine%/engineassets/materials/fog/oceanoutoflowspec.mtl",
-					"usageCount": 0
-				},
-				{
 					"path": "%engine%/engineassets/materials/material_default.mtl",
-					"usageCount": 0
-				},
-				{
-					"path": "%engine%/engineassets/materials/material_terrain_default.mtl",
-					"usageCount": 0
-				},
-				{
-					"path": "%engine%/engineassets/materials/water/wateroceanbottom.mtl",
 					"usageCount": 0
 				},
 				{
@@ -5877,85 +5980,57 @@
 					"usageCount": 0
 				},
 				{
-					"path": "%engine%/engineassets/texturemsg/defaultnouvs.dds",
-					"usageCount": 0
-				},
-				{
 					"path": "%engine%/engineassets/texturemsg/defaultsolids.mtl",
-					"usageCount": 0
-				},
-				{
-					"path": "%engine%/engineassets/textures/skys/night/half_moon.dds",
 					"usageCount": 0
 				},
 				{ "path": "%engine%/engineassets/textures/white.dds", "usageCount": 0 },
 				{
-					"path": "animations/ybot/adb/ybotcontrollerdefinition.xml",
+					"path": "animations/ybot/walkcycles/ybot_b_walkcycle.caf",
 					"usageCount": 0
 				},
-				{ "path": "animations/ybot/adb/ybotfragmentids.xml", "usageCount": 0 },
-				{ "path": "animations/ybot/adb/ybottags.xml", "usageCount": 0 },
-				{ "path": "animations/ybot/preview/ybot.xml", "usageCount": 0 },
 				{
-					"path": "engineassets/materials/water/ocean_default.mtl",
+					"path": "animations/ybot/walkcycles/ybot_bl_walkcycle.caf",
 					"usageCount": 0
 				},
+				{
+					"path": "animations/ybot/walkcycles/ybot_br_walkcycle.caf",
+					"usageCount": 0
+				},
+				{
+					"path": "animations/ybot/walkcycles/ybot_f_walkcycle.caf",
+					"usageCount": 0
+				},
+				{
+					"path": "animations/ybot/walkcycles/ybot_fl_walkcycle.caf",
+					"usageCount": 0
+				},
+				{
+					"path": "animations/ybot/walkcycles/ybot_fr_walkcycle.caf",
+					"usageCount": 0
+				},
+				{
+					"path": "animations/ybot/walkcycles/ybot_l_walkcycle.caf",
+					"usageCount": 0
+				},
+				{
+					"path": "animations/ybot/walkcycles/ybot_r_walkcycle.caf",
+					"usageCount": 0
+				},
+				{ "path": "animations/ybot/ybot_idle_pistol.caf", "usageCount": 0 },
 				{ "path": "libs/environmentpresets/example.env", "usageCount": 1 },
-				{ "path": "objects/characters/ybot/skm_ybot.chr", "usageCount": 0 },
+				{ "path": "objects/characters/ybot/ybot.cdf", "usageCount": 0 },
+				{ "path": "objects/characters/ybot/ybot.chr", "usageCount": 0 },
 				{
-					"path": "objects/characters/ybot/skm_ybot_alpha_joints.skin",
+					"path": "objects/characters/ybot/ybot_alpha_joints.skin",
 					"usageCount": 0
 				},
 				{
-					"path": "objects/characters/ybot/skm_ybot_alpha_surface.skin",
-					"usageCount": 0
-				},
-				{
-					"path": "objects/characters/ybot/skm_ybot_ybot_a_skmybot_b_walk_measured.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "objects/characters/ybot/skm_ybot_ybot_a_skmybot_bl_walking_measured.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "objects/characters/ybot/skm_ybot_ybot_a_skmybot_br_walking_measured.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "objects/characters/ybot/skm_ybot_ybot_a_skmybot_f_walk_measured.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "objects/characters/ybot/skm_ybot_ybot_a_skmybot_fl_walk_measured.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "objects/characters/ybot/skm_ybot_ybot_a_skmybot_fr_walk_measured.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "objects/characters/ybot/skm_ybot_ybot_a_skmybot_l_walking_measured.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "objects/characters/ybot/skm_ybot_ybot_a_skmybot_r_walking_measured.caf",
-					"usageCount": 0
-				},
-				{
-					"path": "objects/characters/ybot/skm_ybot_ybot_a_ybot_idle_passive_animation.caf",
+					"path": "objects/characters/ybot/ybot_alpha_surface.skin",
 					"usageCount": 0
 				},
 				{ "path": "objects/weapons/test/assets.cgf", "usageCount": 0 },
-				{ "path": "scripts/ai/factions.xml", "usageCount": 0 },
-				{
-					"path": "textures/cubemaps/example/environmentprobe1_cm.dds",
-					"usageCount": 0
-				},
-				{
-					"path": "textures/cubemaps/example/environmentprobe1_cm_diff.dds",
-					"usageCount": 0
-				}
+				{ "path": "objects/weapons/test/assets.cgf", "usageCount": 0 },
+				{ "path": "scripts/network/compressionpolicy.xml", "usageCount": 0 }
 			]
 		},
 		{
@@ -6130,256 +6205,36 @@
 		},
 		{
 			"type": "Character",
-			"guid": "ee332161-d23a-4b8a-4378-55991aa6c1e0",
-			"name": "firstperson",
-			"timestamp": 1652893764,
-			"files": [ "Objects/Characters/SampleCharacter/firstperson.cdf" ],
+			"guid": "71853824-be1d-49d4-925d-1b8fdae61b47",
+			"name": "ybot",
+			"timestamp": 1746021122,
+			"files": [ "Objects/Characters/YBot/ybot.cdf" ],
 			"workFiles": [ ],
 			"source": "",
-			"metadata": "Objects/Characters/SampleCharacter/firstperson.cdf.cryasset",
+			"metadata": "Objects/Characters/YBot/ybot.cdf.cryasset",
 			"details": [ ],
 			"dependencies": [
+				{ "path": "Objects/Characters/YBot/YBot.chr", "usageCount": 0 },
 				{
-					"path": "objects/characters/samplecharacter/skelProxy.chr",
+					"path": "Objects/Characters/YBot/YBot_Alpha_Joints.skin",
 					"usageCount": 0
 				},
 				{
-					"path": "objects/characters/samplecharacter/motusbodymat",
+					"path": "Objects/Characters/YBot/YBot_Alpha_Surface.skin",
 					"usageCount": 0
 				},
-				{
-					"path": "objects/characters/samplecharacter/motusBodyHeadless.skin",
-					"usageCount": 0
-				},
-				{
-					"path": "objects/characters/samplecharacter/motusBodyMAT.mtl",
-					"usageCount": 0
-				},
-				{
-					"path": "Objects/Weapons/SampleWeapon/defaultweapon.cgf",
-					"usageCount": 0
-				},
-				{
-					"path": "Objects/Weapons/SampleWeapon/defaultweapon.mtl",
-					"usageCount": 0
-				}
-			]
-		},
-		{
-			"type": "Texture",
-			"guid": "530db62f-aa70-07a2-a6aa-9e841a3a29ff",
-			"name": "mcg_ddna",
-			"timestamp": 1741081882,
-			"files": [ "Objects/Characters/SampleCharacter/mcg_ddna.dds" ],
-			"workFiles": [ ],
-			"source": "Objects/Characters/SampleCharacter/mcg_ddna.tif",
-			"metadata": "Objects/Characters/SampleCharacter/mcg_ddna.dds.cryasset",
-			"details": [
-				{ "key": "height", "value": "2048" },
-				{ "key": "mipCount", "value": "10" },
-				{ "key": "width", "value": "2048" }
-			],
-			"dependencies": [ ]
-		},
-		{
-			"type": "Texture",
-			"guid": "653b2538-2b21-1764-a8ba-5bd086e64796",
-			"name": "mcg_diff",
-			"timestamp": 1741081882,
-			"files": [ "Objects/Characters/SampleCharacter/mcg_diff.dds" ],
-			"workFiles": [ ],
-			"source": "Objects/Characters/SampleCharacter/mcg_diff.tif",
-			"metadata": "Objects/Characters/SampleCharacter/mcg_diff.dds.cryasset",
-			"details": [
-				{ "key": "height", "value": "2048" },
-				{ "key": "mipCount", "value": "10" },
-				{ "key": "width", "value": "2048" }
-			],
-			"dependencies": [ ]
-		},
-		{
-			"type": "Texture",
-			"guid": "b1df0b22-c902-f160-d6e0-1c7a24c016f9",
-			"name": "mcg_spec",
-			"timestamp": 1741081883,
-			"files": [ "Objects/Characters/SampleCharacter/mcg_spec.dds" ],
-			"workFiles": [ ],
-			"source": "Objects/Characters/SampleCharacter/mcg_spec.tif",
-			"metadata": "Objects/Characters/SampleCharacter/mcg_spec.dds.cryasset",
-			"details": [
-				{ "key": "height", "value": "2048" },
-				{ "key": "mipCount", "value": "10" },
-				{ "key": "width", "value": "2048" }
-			],
-			"dependencies": [ ]
-		},
-		{
-			"type": "SkinnedMesh",
-			"guid": "18627522-21b9-f439-2236-1b6ae86af30e",
-			"name": "motusBody",
-			"timestamp": 1652893765,
-			"files": [ "Objects/Characters/SampleCharacter/motusBody.skin" ],
-			"workFiles": [ ],
-			"source": "",
-			"metadata": "Objects/Characters/SampleCharacter/motusBody.skin.cryasset",
-			"details": [
-				{ "key": "16BitPrecision", "value": "false" },
-				{ "key": "bonesCount", "value": "80" },
-				{ "key": "materialCount", "value": "4" },
-				{ "key": "triangleCount", "value": "19442" },
-				{ "key": "vertexCount", "value": "15683" }
-			],
-			"dependencies": [
-				{
-					"path": "Objects/Characters/SampleCharacter/motusBodyMAT.mtl",
-					"usageCount": 1
-				}
-			]
-		},
-		{
-			"type": "SkinnedMesh",
-			"guid": "1cbe9ca9-5df3-e9d4-b758-25cb5503535c",
-			"name": "motusBodyHeadless",
-			"timestamp": 1652893765,
-			"files": [ "Objects/Characters/SampleCharacter/motusBodyHeadless.skin" ],
-			"workFiles": [ ],
-			"source": "",
-			"metadata": "Objects/Characters/SampleCharacter/motusBodyHeadless.skin.cryasset",
-			"details": [
-				{ "key": "16BitPrecision", "value": "false" },
-				{ "key": "bonesCount", "value": "80" },
-				{ "key": "materialCount", "value": "4" },
-				{ "key": "triangleCount", "value": "17628" },
-				{ "key": "vertexCount", "value": "14023" }
-			],
-			"dependencies": [
-				{
-					"path": "Objects/Characters/SampleCharacter/motusBodyMAT.mtl",
-					"usageCount": 1
-				}
-			]
-		},
-		{
-			"type": "Material",
-			"guid": "e5343df0-8741-46a2-afc8-3ab5377f4e2e",
-			"name": "motusBodyMAT",
-			"timestamp": 1652893765,
-			"files": [ "Objects/Characters/SampleCharacter/motusBodyMAT.mtl" ],
-			"workFiles": [ ],
-			"source": "",
-			"metadata": "Objects/Characters/SampleCharacter/motusBodyMAT.mtl.cryasset",
-			"details": [
-				{ "key": "subMaterialCount", "value": "3" },
-				{ "key": "textureCount", "value": "3" }
-			],
-			"dependencies": [
-				{
-					"path": "Objects/Characters/SampleCharacter/mcg_diff.dds",
-					"usageCount": 1
-				},
-				{
-					"path": "Objects/Characters/SampleCharacter/mcg_ddna.dds",
-					"usageCount": 1
-				},
-				{
-					"path": "Objects/Characters/SampleCharacter/mcg_spec.dds",
-					"usageCount": 1
-				}
-			]
-		},
-		{
-			"type": "Skeleton",
-			"guid": "6a473dd6-3806-bd36-060d-2337e64d5055",
-			"name": "skelProxy",
-			"timestamp": 1652893765,
-			"files": [ "Objects/Characters/SampleCharacter/skelProxy.chr" ],
-			"workFiles": [ ],
-			"source": "",
-			"metadata": "Objects/Characters/SampleCharacter/skelProxy.chr.cryasset",
-			"details": [ ],
-			"dependencies": [ ]
-		},
-		{
-			"type": "Character",
-			"guid": "7a865ba9-7f77-0b32-373d-2a5648f8c680",
-			"name": "thirdperson",
-			"timestamp": 1652893765,
-			"files": [ "Objects/Characters/SampleCharacter/thirdperson.cdf" ],
-			"workFiles": [ ],
-			"source": "",
-			"metadata": "Objects/Characters/SampleCharacter/thirdperson.cdf.cryasset",
-			"details": [ ],
-			"dependencies": [
-				{
-					"path": "objects/characters/samplecharacter/skelProxy.chr",
-					"usageCount": 0
-				},
-				{
-					"path": "objects/characters/samplecharacter/motusbodymat",
-					"usageCount": 0
-				},
-				{
-					"path": "objects/characters/samplecharacter/motusBody.skin",
-					"usageCount": 0
-				},
-				{
-					"path": "objects/characters/samplecharacter/motusBodyMAT.mtl",
-					"usageCount": 0
-				},
-				{
-					"path": "Objects/Weapons/SampleWeapon/defaultweapon.cgf",
-					"usageCount": 0
-				},
-				{
-					"path": "Objects/Weapons/SampleWeapon/defaultweapon.mtl",
-					"usageCount": 0
-				}
-			]
-		},
-		{
-			"type": "Animation",
-			"guid": "4f6b80c1-d07d-e867-6f3d-515fe821713b",
-			"name": "SKM_YBot",
-			"timestamp": 1745458424,
-			"files": [ "Objects/Characters/YBot/OldYBot/SKM_YBot.caf" ],
-			"workFiles": [ ],
-			"source": "Objects/Characters/YBot/OldYBot/SKM_YBot.fbx",
-			"metadata": "Objects/Characters/YBot/OldYBot/SKM_YBot.caf.cryasset",
-			"details": [ ],
-			"dependencies": [ ]
-		},
-		{
-			"type": "Character",
-			"guid": "f3d5bf8f-eb3e-dd21-361a-13886a55f427",
-			"name": "SKM_YBot",
-			"timestamp": 1745445445,
-			"files": [ "Objects/Characters/YBot/OldYBot/SKM_YBot.cdf" ],
-			"workFiles": [ ],
-			"source": "",
-			"metadata": "Objects/Characters/YBot/OldYBot/SKM_YBot.cdf.cryasset",
-			"details": [ ],
-			"dependencies": [
-				{ "path": "Objects/Characters/ybot/SKM_YBot.chr", "usageCount": 0 },
-				{ "path": "Objects/Characters/YBot/SKM_YBot.mtl", "usageCount": 0 },
-				{
-					"path": "Objects/Characters/ybot/SKM_YBot_Alpha_Joints.skin",
-					"usageCount": 0
-				},
-				{
-					"path": "Objects/Characters/ybot/SKM_YBot_Alpha_Surface.skin",
-					"usageCount": 0
-				}
+				{ "path": "Objects/Weapons/Test/assets.cgf", "usageCount": 0 }
 			]
 		},
 		{
 			"type": "Mesh",
-			"guid": "5407081c-2d17-f3e3-730b-35879dcbd704",
-			"name": "SKM_YBot",
-			"timestamp": 1745424339,
-			"files": [ "Objects/Characters/YBot/OldYBot/SKM_YBot.cgf" ],
+			"guid": "8012c113-ef2e-09f7-7f6b-020f541692f0",
+			"name": "YBot",
+			"timestamp": 1745937354,
+			"files": [ "Objects/Characters/YBot/YBot.cgf" ],
 			"workFiles": [ ],
-			"source": "Objects/Characters/YBot/OldYBot/SKM_YBot.fbx",
-			"metadata": "Objects/Characters/YBot/OldYBot/SKM_YBot.cgf.cryasset",
+			"source": "Objects/Characters/YBot/YBot.fbx",
+			"metadata": "Objects/Characters/YBot/YBot.cgf.cryasset",
 			"details": [
 				{ "key": "16BitPrecision", "value": "false" },
 				{ "key": "materialCount", "value": "3" },
@@ -6387,36 +6242,30 @@
 				{ "key": "vertexCount", "value": "35451" }
 			],
 			"dependencies": [
-				{
-					"path": "Objects/Characters/YBot/OldYBot/SKM_YBot.mtl",
-					"usageCount": 1
-				}
+				{ "path": "Objects/Characters/YBot/YBot.mtl", "usageCount": 1 }
 			]
 		},
 		{
 			"type": "Skeleton",
-			"guid": "b3e8eb99-a865-be32-f1c9-2456bb30fa91",
-			"name": "SKM_YBot",
-			"timestamp": 1745424359,
-			"files": [
-				"Objects/Characters/YBot/OldYBot/SKM_YBot.chr",
-				"Objects/Characters/YBot/OldYBot/SKM_YBot.chrparams"
-			],
+			"guid": "b69ce817-bef2-8d52-42fc-c984b4b79599",
+			"name": "YBot",
+			"timestamp": 1745937355,
+			"files": [ "Objects/Characters/YBot/YBot.chr" ],
 			"workFiles": [ ],
-			"source": "Objects/Characters/YBot/OldYBot/SKM_YBot.fbx",
-			"metadata": "Objects/Characters/YBot/OldYBot/SKM_YBot.chr.cryasset",
+			"source": "Objects/Characters/YBot/YBot.fbx",
+			"metadata": "Objects/Characters/YBot/YBot.chr.cryasset",
 			"details": [ ],
 			"dependencies": [ ]
 		},
 		{
 			"type": "Material",
-			"guid": "ccece26d-e417-0f08-2402-f8e4eb2b1bd2",
-			"name": "SKM_YBot",
-			"timestamp": 1745424873,
-			"files": [ "Objects/Characters/YBot/OldYBot/SKM_YBot.mtl" ],
+			"guid": "d3f890d1-2765-fbd8-ff90-051ba0a98493",
+			"name": "YBot",
+			"timestamp": 1745938094,
+			"files": [ "Objects/Characters/YBot/YBot.mtl" ],
 			"workFiles": [ ],
 			"source": "",
-			"metadata": "Objects/Characters/YBot/OldYBot/SKM_YBot.mtl.cryasset",
+			"metadata": "Objects/Characters/YBot/YBot.mtl.cryasset",
 			"details": [
 				{ "key": "subMaterialCount", "value": "3" },
 				{ "key": "textureCount", "value": "2" }
@@ -6431,229 +6280,43 @@
 		},
 		{
 			"type": "SkinnedMesh",
-			"guid": "e4514c5e-0a55-902c-7593-1d6d2b72716a",
-			"name": "SKM_YBot_Alpha_Joints",
-			"timestamp": 1745424343,
-			"files": [ "Objects/Characters/YBot/OldYBot/SKM_YBot_Alpha_Joints.skin" ],
+			"guid": "5c5e957a-8ee8-01ca-0d69-7dd21d353018",
+			"name": "YBot_Alpha_Joints",
+			"timestamp": 1745937357,
+			"files": [ "Objects/Characters/YBot/YBot_Alpha_Joints.skin" ],
 			"workFiles": [ ],
-			"source": "Objects/Characters/YBot/OldYBot/SKM_YBot.fbx",
-			"metadata": "Objects/Characters/YBot/OldYBot/SKM_YBot_Alpha_Joints.skin.cryasset",
+			"source": "Objects/Characters/YBot/YBot.fbx",
+			"metadata": "Objects/Characters/YBot/YBot_Alpha_Joints.skin.cryasset",
 			"details": [
 				{ "key": "16BitPrecision", "value": "false" },
-				{ "key": "bonesCount", "value": "52" },
+				{ "key": "bonesCount", "value": "51" },
 				{ "key": "materialCount", "value": "3" },
 				{ "key": "triangleCount", "value": "20840" },
 				{ "key": "vertexCount", "value": "12473" }
 			],
 			"dependencies": [
-				{
-					"path": "Objects/Characters/YBot/OldYBot/SKM_YBot.mtl",
-					"usageCount": 1
-				}
+				{ "path": "Objects/Characters/YBot/YBot.mtl", "usageCount": 1 }
 			]
 		},
 		{
 			"type": "SkinnedMesh",
-			"guid": "86fc3581-a16c-fa8b-ee0a-fced2f3760dd",
-			"name": "SKM_YBot_Alpha_Surface",
-			"timestamp": 1745424342,
-			"files": [ "Objects/Characters/YBot/OldYBot/SKM_YBot_Alpha_Surface.skin" ],
+			"guid": "004d38f2-fafc-048f-38c8-a5c02312b1b1",
+			"name": "YBot_Alpha_Surface",
+			"timestamp": 1745937356,
+			"files": [ "Objects/Characters/YBot/YBot_Alpha_Surface.skin" ],
 			"workFiles": [ ],
-			"source": "Objects/Characters/YBot/OldYBot/SKM_YBot.fbx",
-			"metadata": "Objects/Characters/YBot/OldYBot/SKM_YBot_Alpha_Surface.skin.cryasset",
+			"source": "Objects/Characters/YBot/YBot.fbx",
+			"metadata": "Objects/Characters/YBot/YBot_Alpha_Surface.skin.cryasset",
 			"details": [
 				{ "key": "16BitPrecision", "value": "false" },
-				{ "key": "bonesCount", "value": "55" },
+				{ "key": "bonesCount", "value": "54" },
 				{ "key": "materialCount", "value": "3" },
 				{ "key": "triangleCount", "value": "34480" },
 				{ "key": "vertexCount", "value": "22978" }
 			],
 			"dependencies": [
-				{
-					"path": "Objects/Characters/YBot/OldYBot/SKM_YBot.mtl",
-					"usageCount": 1
-				}
+				{ "path": "Objects/Characters/YBot/YBot.mtl", "usageCount": 1 }
 			]
-		},
-		{
-			"type": "Animation",
-			"guid": "368d26e8-6672-bd96-c2bc-f330a6108f2a",
-			"name": "SKM_YBot_YBot_A_SKMYbot_B_Walk_Measured",
-			"timestamp": 1745424346,
-			"files": [
-				"Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_A_SKMYbot_B_Walk_Measured.caf"
-			],
-			"workFiles": [ ],
-			"source": "Objects/Characters/YBot/OldYBot/SKM_YBot.fbx",
-			"metadata": "Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_A_SKMYbot_B_Walk_Measured.caf.cryasset",
-			"details": [ ],
-			"dependencies": [ ]
-		},
-		{
-			"type": "Animation",
-			"guid": "352746e8-ed2a-286f-42a5-9e9634a90a3c",
-			"name": "SKM_YBot_YBot_A_SKMYbot_BL_Walking_Measured",
-			"timestamp": 1745424344,
-			"files": [
-				"Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_A_SKMYbot_BL_Walking_Measured.caf"
-			],
-			"workFiles": [ ],
-			"source": "Objects/Characters/YBot/OldYBot/SKM_YBot.fbx",
-			"metadata": "Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_A_SKMYbot_BL_Walking_Measured.caf.cryasset",
-			"details": [ ],
-			"dependencies": [ ]
-		},
-		{
-			"type": "Animation",
-			"guid": "3f42a4be-1c1c-6d28-ff07-5e374b8915fa",
-			"name": "SKM_YBot_YBot_A_SKMYbot_BR_Walking_Measured",
-			"timestamp": 1745424345,
-			"files": [
-				"Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_A_SKMYbot_BR_Walking_Measured.caf"
-			],
-			"workFiles": [ ],
-			"source": "Objects/Characters/YBot/OldYBot/SKM_YBot.fbx",
-			"metadata": "Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_A_SKMYbot_BR_Walking_Measured.caf.cryasset",
-			"details": [ ],
-			"dependencies": [ ]
-		},
-		{
-			"type": "Animation",
-			"guid": "acec89c5-9abb-a3b9-0988-6f29c76ac99c",
-			"name": "SKM_YBot_YBot_A_SKMYbot_F_Walk_Measured",
-			"timestamp": 1745424350,
-			"files": [
-				"Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_A_SKMYbot_F_Walk_Measured.caf"
-			],
-			"workFiles": [ ],
-			"source": "Objects/Characters/YBot/OldYBot/SKM_YBot.fbx",
-			"metadata": "Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_A_SKMYbot_F_Walk_Measured.caf.cryasset",
-			"details": [ ],
-			"dependencies": [ ]
-		},
-		{
-			"type": "Animation",
-			"guid": "d3cbfb97-e66f-9810-c070-934edae72539",
-			"name": "SKM_YBot_YBot_A_SKMYbot_FL_Walk_Measured",
-			"timestamp": 1745424348,
-			"files": [
-				"Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_A_SKMYbot_FL_Walk_Measured.caf"
-			],
-			"workFiles": [ ],
-			"source": "Objects/Characters/YBot/OldYBot/SKM_YBot.fbx",
-			"metadata": "Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_A_SKMYbot_FL_Walk_Measured.caf.cryasset",
-			"details": [ ],
-			"dependencies": [ ]
-		},
-		{
-			"type": "Animation",
-			"guid": "21e29149-eb7e-d7b9-dd93-fe00ae407954",
-			"name": "SKM_YBot_YBot_A_SKMYbot_FR_Walk_Measured",
-			"timestamp": 1745424349,
-			"files": [
-				"Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_A_SKMYbot_FR_Walk_Measured.caf"
-			],
-			"workFiles": [ ],
-			"source": "Objects/Characters/YBot/OldYBot/SKM_YBot.fbx",
-			"metadata": "Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_A_SKMYbot_FR_Walk_Measured.caf.cryasset",
-			"details": [ ],
-			"dependencies": [ ]
-		},
-		{
-			"type": "Animation",
-			"guid": "b1881a8d-a84e-923e-8d31-0a932d483302",
-			"name": "SKM_YBot_YBot_A_SKMYbot_Idle_Measured",
-			"timestamp": 1745424351,
-			"files": [
-				"Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_A_SKMYbot_Idle_Measured.caf"
-			],
-			"workFiles": [ ],
-			"source": "Objects/Characters/YBot/OldYBot/SKM_YBot.fbx",
-			"metadata": "Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_A_SKMYbot_Idle_Measured.caf.cryasset",
-			"details": [ ],
-			"dependencies": [ ]
-		},
-		{
-			"type": "Animation",
-			"guid": "654e00fc-5252-a7c0-4731-3554ead4391a",
-			"name": "SKM_YBot_YBot_A_SKMYbot_L_Walking_Measured",
-			"timestamp": 1745424352,
-			"files": [
-				"Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_A_SKMYbot_L_Walking_Measured.caf"
-			],
-			"workFiles": [ ],
-			"source": "Objects/Characters/YBot/OldYBot/SKM_YBot.fbx",
-			"metadata": "Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_A_SKMYbot_L_Walking_Measured.caf.cryasset",
-			"details": [ ],
-			"dependencies": [ ]
-		},
-		{
-			"type": "Animation",
-			"guid": "2f621df7-f0ab-ab25-2821-fa81c420137d",
-			"name": "SKM_YBot_YBot_A_SKMYbot_R_Walking_Measured",
-			"timestamp": 1745424353,
-			"files": [
-				"Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_A_SKMYbot_R_Walking_Measured.caf"
-			],
-			"workFiles": [ ],
-			"source": "Objects/Characters/YBot/OldYBot/SKM_YBot.fbx",
-			"metadata": "Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_A_SKMYbot_R_Walking_Measured.caf.cryasset",
-			"details": [ ],
-			"dependencies": [ ]
-		},
-		{
-			"type": "Animation",
-			"guid": "d6ab8ab9-6c28-4215-3ca6-9c8edbeddcc6",
-			"name": "SKM_YBot_YBot_A_YBot_Default_Pose",
-			"timestamp": 1745424354,
-			"files": [
-				"Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_A_YBot_Default_Pose.caf"
-			],
-			"workFiles": [ ],
-			"source": "Objects/Characters/YBot/OldYBot/SKM_YBot.fbx",
-			"metadata": "Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_A_YBot_Default_Pose.caf.cryasset",
-			"details": [ ],
-			"dependencies": [ ]
-		},
-		{
-			"type": "Animation",
-			"guid": "8ac7d77f-347a-1ef8-20c2-e85dac1cedb2",
-			"name": "SKM_YBot_YBot_A_YBot_Idle_Passive_Animation",
-			"timestamp": 1745424356,
-			"files": [
-				"Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_A_YBot_Idle_Passive_Animation.caf"
-			],
-			"workFiles": [ ],
-			"source": "Objects/Characters/YBot/OldYBot/SKM_YBot.fbx",
-			"metadata": "Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_A_YBot_Idle_Passive_Animation.caf.cryasset",
-			"details": [ ],
-			"dependencies": [ ]
-		},
-		{
-			"type": "Animation",
-			"guid": "4c8f4b1d-9840-7832-39af-90196ca8f86e",
-			"name": "SKM_YBot_YBot_A_YBot_Idle_Passive_Pose",
-			"timestamp": 1745424357,
-			"files": [
-				"Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_A_YBot_Idle_Passive_Pose.caf"
-			],
-			"workFiles": [ ],
-			"source": "Objects/Characters/YBot/OldYBot/SKM_YBot.fbx",
-			"metadata": "Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_A_YBot_Idle_Passive_Pose.caf.cryasset",
-			"details": [ ],
-			"dependencies": [ ]
-		},
-		{
-			"type": "Animation",
-			"guid": "b86fa904-3b5d-bb42-791f-85ae09886a14",
-			"name": "SKM_YBot_YBot_AllAnimations",
-			"timestamp": 1745424358,
-			"files": [ "Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_AllAnimations.caf" ],
-			"workFiles": [ ],
-			"source": "Objects/Characters/YBot/OldYBot/SKM_YBot.fbx",
-			"metadata": "Objects/Characters/YBot/OldYBot/SKM_YBot_YBot_AllAnimations.caf.cryasset",
-			"details": [ ],
-			"dependencies": [ ]
 		},
 		{
 			"type": "Mesh",
@@ -6845,6 +6508,48 @@
 		},
 		{
 			"type": "Material",
+			"guid": "437ed7f0-e050-2d01-28fe-c24a2a01f668",
+			"name": "mi_caf_material",
+			"timestamp": 1745705819,
+			"files": [ "user/meshimporter/tmp_meshimporter_aathkv/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_aathkv/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "a32a1f8a-2387-f63b-fe57-821bfc78d3be",
+			"name": "mi_caf_material",
+			"timestamp": 1745544064,
+			"files": [ "user/meshimporter/tmp_meshimporter_ajjbsu/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_ajjbsu/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
 			"guid": "29c3be09-0e99-037b-700a-a7aea0df3c18",
 			"name": "mi_caf_material",
 			"timestamp": 1745421069,
@@ -6875,6 +6580,48 @@
 		},
 		{
 			"type": "Material",
+			"guid": "26c06a5c-93ce-d338-35f2-3951bf57b499",
+			"name": "mi_caf_material",
+			"timestamp": 1745541206,
+			"files": [ "user/meshimporter/tmp_meshimporter_azhhee/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_azhhee/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "0" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 1 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 1
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "29322358-9d6e-2460-981e-b25b64472057",
+			"name": "mi_caf_material",
+			"timestamp": 1746223992,
+			"files": [ "user/meshimporter/tmp_meshimporter_bttzlo/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_bttzlo/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
 			"guid": "8800239a-d491-eeb3-02e0-53b1804a8988",
 			"name": "mi_caf_material",
 			"timestamp": 1743162248,
@@ -6890,6 +6637,27 @@
 		},
 		{
 			"type": "Material",
+			"guid": "0457ed49-a3b0-a869-dba7-ff3f102f8ad4",
+			"name": "mi_caf_material",
+			"timestamp": 1745933487,
+			"files": [ "user/meshimporter/tmp_meshimporter_cepugu/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_cepugu/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
 			"guid": "e1727849-3279-06db-2bab-e0829c43a338",
 			"name": "mi_caf_material",
 			"timestamp": 1743504022,
@@ -6897,6 +6665,300 @@
 			"workFiles": [ ],
 			"source": "",
 			"metadata": "user/meshimporter/tmp_meshimporter_cootug/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "a151a300-2a9a-08bf-4d59-1a032831e5e0",
+			"name": "mi_caf_material",
+			"timestamp": 1745759954,
+			"files": [ "user/meshimporter/tmp_meshimporter_davqkf/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_davqkf/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "f029f92e-a5ad-d7a7-9b99-29ed49f09037",
+			"name": "mi_caf_material",
+			"timestamp": 1745705943,
+			"files": [ "user/meshimporter/tmp_meshimporter_dmrrra/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_dmrrra/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "55517cf3-1718-af36-b90e-babd2c9068f4",
+			"name": "mi_caf_material",
+			"timestamp": 1745931048,
+			"files": [ "user/meshimporter/tmp_meshimporter_dopqho/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_dopqho/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "1817f8a5-1be0-b023-d92c-46ad18b81e20",
+			"name": "mi_caf_material",
+			"timestamp": 1746134618,
+			"files": [ "user/meshimporter/tmp_meshimporter_eenpcd/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_eenpcd/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "b936884a-6b74-e998-7413-7fa7c49f183e",
+			"name": "mi_caf_material",
+			"timestamp": 1745705813,
+			"files": [ "user/meshimporter/tmp_meshimporter_eglfzd/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_eglfzd/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "481d7812-6c5f-3f3f-7a71-a4c29cee6fc1",
+			"name": "mi_caf_material",
+			"timestamp": 1745759526,
+			"files": [ "user/meshimporter/tmp_meshimporter_ezyfiy/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_ezyfiy/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "75226b9d-a160-8311-fc9f-58f28ad1fec3",
+			"name": "mi_caf_material",
+			"timestamp": 1746219453,
+			"files": [ "user/meshimporter/tmp_meshimporter_ffqpju/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_ffqpju/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "7b4b7e4a-5d6c-fe1d-b5bb-2b61923f3e02",
+			"name": "mi_caf_material",
+			"timestamp": 1745743985,
+			"files": [ "user/meshimporter/tmp_meshimporter_fiszjf/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_fiszjf/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "8265d687-0409-e146-b559-3dbe57ca0be1",
+			"name": "mi_caf_material",
+			"timestamp": 1746223905,
+			"files": [ "user/meshimporter/tmp_meshimporter_frpkol/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_frpkol/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "e33d1429-8c89-90f8-0f89-ac69ff120493",
+			"name": "mi_caf_material",
+			"timestamp": 1745706172,
+			"files": [ "user/meshimporter/tmp_meshimporter_ftsywv/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_ftsywv/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "6b20044f-67c0-aed9-d794-6887db0e9f8a",
+			"name": "mi_caf_material",
+			"timestamp": 1746219780,
+			"files": [ "user/meshimporter/tmp_meshimporter_gtqifc/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_gtqifc/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "2e5edd1d-b4e9-fcd8-a914-d5eace3c0944",
+			"name": "mi_caf_material",
+			"timestamp": 1745931211,
+			"files": [ "user/meshimporter/tmp_meshimporter_gxpzxx/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_gxpzxx/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "209edaa6-7c63-ffd9-4612-db80d0572ce5",
+			"name": "mi_caf_material",
+			"timestamp": 1745930777,
+			"files": [ "user/meshimporter/tmp_meshimporter_gxqpsz/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_gxqpsz/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "b8616fb4-8315-86f6-eb54-0b5ea3144f4a",
+			"name": "mi_caf_material",
+			"timestamp": 1745931317,
+			"files": [ "user/meshimporter/tmp_meshimporter_hpvfua/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_hpvfua/mi_caf_material.mtl.cryasset",
 			"details": [
 				{ "key": "subMaterialCount", "value": "3" },
 				{ "key": "textureCount", "value": "2" }
@@ -6926,6 +6988,69 @@
 		},
 		{
 			"type": "Material",
+			"guid": "f4ae9bf7-5944-312b-0e06-a6030924d081",
+			"name": "mi_caf_material",
+			"timestamp": 1745926504,
+			"files": [ "user/meshimporter/tmp_meshimporter_hrauze/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_hrauze/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "1e2a39fd-af19-db34-18cc-c908787669d1",
+			"name": "mi_caf_material",
+			"timestamp": 1745932895,
+			"files": [ "user/meshimporter/tmp_meshimporter_hrwmzv/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_hrwmzv/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "6aba003d-8fd2-9abf-dc93-f602c84fed08",
+			"name": "mi_caf_material",
+			"timestamp": 1745922994,
+			"files": [ "user/meshimporter/tmp_meshimporter_iakkis/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_iakkis/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
 			"guid": "84cf0303-7913-1f66-e922-0ae1e95d3ae3",
 			"name": "mi_caf_material",
 			"timestamp": 1745419116,
@@ -6933,6 +7058,174 @@
 			"workFiles": [ ],
 			"source": "",
 			"metadata": "user/meshimporter/tmp_meshimporter_ibbuic/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "1264de3b-d298-6dcd-55e6-9e64b398ccac",
+			"name": "mi_caf_material",
+			"timestamp": 1746219733,
+			"files": [ "user/meshimporter/tmp_meshimporter_ihumdh/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_ihumdh/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "ae3b61ae-bb94-198a-607b-c8ca9d590798",
+			"name": "mi_caf_material",
+			"timestamp": 1746219399,
+			"files": [ "user/meshimporter/tmp_meshimporter_ikszep/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_ikszep/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "506fc282-8d2c-04e7-3c1f-d02ea873095d",
+			"name": "mi_caf_material",
+			"timestamp": 1745706177,
+			"files": [ "user/meshimporter/tmp_meshimporter_ilpnou/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_ilpnou/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "0cf3f2cc-dac4-d01f-cfb9-4795d12d09da",
+			"name": "mi_caf_material",
+			"timestamp": 1745758220,
+			"files": [ "user/meshimporter/tmp_meshimporter_jxzkys/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_jxzkys/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "096c5cbd-2567-99f4-af11-c264d2d527d3",
+			"name": "mi_caf_material",
+			"timestamp": 1745759610,
+			"files": [ "user/meshimporter/tmp_meshimporter_kbvahw/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_kbvahw/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "62b4d287-e255-08e2-1a80-d0ada8b8dc17",
+			"name": "mi_caf_material",
+			"timestamp": 1745544190,
+			"files": [ "user/meshimporter/tmp_meshimporter_kvcxoa/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_kvcxoa/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "07a494fe-6fb8-16cc-af95-80bdc66ac9d8",
+			"name": "mi_caf_material",
+			"timestamp": 1745708337,
+			"files": [ "user/meshimporter/tmp_meshimporter_kwuosz/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_kwuosz/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "f56cf3c7-3c0d-92f3-3fe8-936c421d2886",
+			"name": "mi_caf_material",
+			"timestamp": 1746219386,
+			"files": [ "user/meshimporter/tmp_meshimporter_kyimyw/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_kyimyw/mi_caf_material.mtl.cryasset",
 			"details": [
 				{ "key": "subMaterialCount", "value": "3" },
 				{ "key": "textureCount", "value": "2" }
@@ -6968,6 +7261,111 @@
 		},
 		{
 			"type": "Material",
+			"guid": "3ec159cb-397b-6481-d5c3-f2826facb46e",
+			"name": "mi_caf_material",
+			"timestamp": 1745705628,
+			"files": [ "user/meshimporter/tmp_meshimporter_mbgcja/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_mbgcja/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "cc73b677-e5ba-0355-5353-2a51d4527c0f",
+			"name": "mi_caf_material",
+			"timestamp": 1745541355,
+			"files": [ "user/meshimporter/tmp_meshimporter_mdoufr/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_mdoufr/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "d8680c96-db14-fbc5-8cf3-f8ffc772a28c",
+			"name": "mi_caf_material",
+			"timestamp": 1745758193,
+			"files": [ "user/meshimporter/tmp_meshimporter_nbbzfm/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_nbbzfm/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "48ec854f-49f6-c155-cafd-b53a758ed11f",
+			"name": "mi_caf_material",
+			"timestamp": 1745921346,
+			"files": [ "user/meshimporter/tmp_meshimporter_nltgpr/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_nltgpr/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "81f54752-ba41-c166-efc6-21d2438a78a5",
+			"name": "mi_caf_material",
+			"timestamp": 1745923091,
+			"files": [ "user/meshimporter/tmp_meshimporter_nuicoy/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_nuicoy/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
 			"guid": "3ef9b28e-875e-484a-35dc-c62005854b87",
 			"name": "mi_caf_material",
 			"timestamp": 1742208220,
@@ -6980,6 +7378,27 @@
 				{ "key": "textureCount", "value": "0" }
 			],
 			"dependencies": [ ]
+		},
+		{
+			"type": "Material",
+			"guid": "dd0a5244-2a38-7ac4-8d58-edd41498d31f",
+			"name": "mi_caf_material",
+			"timestamp": 1745706583,
+			"files": [ "user/meshimporter/tmp_meshimporter_nxzvmh/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_nxzvmh/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
 		},
 		{
 			"type": "Material",
@@ -7019,6 +7438,90 @@
 		},
 		{
 			"type": "Material",
+			"guid": "51181561-0704-c4ac-560c-742645b5c335",
+			"name": "mi_caf_material",
+			"timestamp": 1745923037,
+			"files": [ "user/meshimporter/tmp_meshimporter_pmdxqk/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_pmdxqk/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "84a2ca5d-4ee9-c83e-5b32-105620470e16",
+			"name": "mi_caf_material",
+			"timestamp": 1745544027,
+			"files": [ "user/meshimporter/tmp_meshimporter_qepebo/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_qepebo/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "56afbf2d-020a-f4e8-7c88-0cf460366d0b",
+			"name": "mi_caf_material",
+			"timestamp": 1745937372,
+			"files": [ "user/meshimporter/tmp_meshimporter_qhyojz/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_qhyojz/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "ec5b4df2-4c26-199c-b077-518bc75ca440",
+			"name": "mi_caf_material",
+			"timestamp": 1746223928,
+			"files": [ "user/meshimporter/tmp_meshimporter_qldfxy/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_qldfxy/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
 			"guid": "a2139a4c-16c6-54f9-c3f2-ea6b3b0a0481",
 			"name": "mi_caf_material",
 			"timestamp": 1745419246,
@@ -7026,6 +7529,48 @@
 			"workFiles": [ ],
 			"source": "",
 			"metadata": "user/meshimporter/tmp_meshimporter_qmvtha/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "66b51f3c-1b41-3277-8b2e-e28cfa216102",
+			"name": "mi_caf_material",
+			"timestamp": 1746219089,
+			"files": [ "user/meshimporter/tmp_meshimporter_qnsgcb/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_qnsgcb/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "f396dc38-ba0d-b7fa-5b32-115a5695883b",
+			"name": "mi_caf_material",
+			"timestamp": 1745926416,
+			"files": [ "user/meshimporter/tmp_meshimporter_qpbpdz/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_qpbpdz/mi_caf_material.mtl.cryasset",
 			"details": [
 				{ "key": "subMaterialCount", "value": "3" },
 				{ "key": "textureCount", "value": "2" }
@@ -7082,6 +7627,90 @@
 		},
 		{
 			"type": "Material",
+			"guid": "1123ff85-8308-d7db-bb37-7a273990819d",
+			"name": "mi_caf_material",
+			"timestamp": 1746219546,
+			"files": [ "user/meshimporter/tmp_meshimporter_rmdeng/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_rmdeng/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "746ca0a4-43ed-1611-5889-9656c3dee099",
+			"name": "mi_caf_material",
+			"timestamp": 1745706105,
+			"files": [ "user/meshimporter/tmp_meshimporter_rxqeiq/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_rxqeiq/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "5643bc4f-9858-db38-1830-cbc2945a1f8d",
+			"name": "mi_caf_material",
+			"timestamp": 1746219513,
+			"files": [ "user/meshimporter/tmp_meshimporter_sbkaeh/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_sbkaeh/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "6da3b718-3ec1-ecd3-b5ac-98ba74a8c521",
+			"name": "mi_caf_material",
+			"timestamp": 1745705817,
+			"files": [ "user/meshimporter/tmp_meshimporter_slfaaj/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_slfaaj/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
 			"guid": "a7441853-0623-0b1c-3efe-51ea46d26ee0",
 			"name": "mi_caf_material",
 			"timestamp": 1743162035,
@@ -7089,6 +7718,48 @@
 			"workFiles": [ ],
 			"source": "",
 			"metadata": "user/meshimporter/tmp_meshimporter_syopuo/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "92fe94cf-d5a7-70f1-ccdf-8f35d35affe1",
+			"name": "mi_caf_material",
+			"timestamp": 1745760254,
+			"files": [ "user/meshimporter/tmp_meshimporter_tlxznq/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_tlxznq/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "0f481aa8-5f6e-32f2-28bb-4aeb7af622f5",
+			"name": "mi_caf_material",
+			"timestamp": 1745934640,
+			"files": [ "user/meshimporter/tmp_meshimporter_udqkry/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_udqkry/mi_caf_material.mtl.cryasset",
 			"details": [
 				{ "key": "subMaterialCount", "value": "3" },
 				{ "key": "textureCount", "value": "2" }
@@ -7145,6 +7816,174 @@
 		},
 		{
 			"type": "Material",
+			"guid": "796f684d-c4bc-c98e-c4d4-18afcf636f49",
+			"name": "mi_caf_material",
+			"timestamp": 1745543950,
+			"files": [ "user/meshimporter/tmp_meshimporter_vhiwgq/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_vhiwgq/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "105b6d50-f57d-792f-ed98-e81970299b36",
+			"name": "mi_caf_material",
+			"timestamp": 1745705732,
+			"files": [ "user/meshimporter/tmp_meshimporter_wiqgyq/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_wiqgyq/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "fbee7dbb-6f07-0690-805f-6d7bdd002fb6",
+			"name": "mi_caf_material",
+			"timestamp": 1746223868,
+			"files": [ "user/meshimporter/tmp_meshimporter_xuylgv/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_xuylgv/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "d6a817f9-cd9c-1f94-c92d-78e9894c4676",
+			"name": "mi_caf_material",
+			"timestamp": 1745929563,
+			"files": [ "user/meshimporter/tmp_meshimporter_xwxqmm/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_xwxqmm/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "00187df6-fd2d-b21e-e754-b474b1d60689",
+			"name": "mi_caf_material",
+			"timestamp": 1745705971,
+			"files": [ "user/meshimporter/tmp_meshimporter_ynzpxt/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_ynzpxt/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "9c48758a-0e7c-3ad4-34d5-875a907a87c9",
+			"name": "mi_caf_material",
+			"timestamp": 1745706169,
+			"files": [ "user/meshimporter/tmp_meshimporter_yzlmpw/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_yzlmpw/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "16876674-d09b-7dbf-7f74-3ec38aa6cfa0",
+			"name": "mi_caf_material",
+			"timestamp": 1745707963,
+			"files": [ "user/meshimporter/tmp_meshimporter_zbaawo/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_zbaawo/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "418012a2-9a2b-ba59-b7f2-e0c50e6ee766",
+			"name": "mi_caf_material",
+			"timestamp": 1745544167,
+			"files": [ "user/meshimporter/tmp_meshimporter_zhnhav/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_zhnhav/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
 			"guid": "99f2501c-7c85-a066-dde7-c09285c45e74",
 			"name": "mi_caf_material",
 			"timestamp": 1745063016,
@@ -7152,6 +7991,48 @@
 			"workFiles": [ ],
 			"source": "",
 			"metadata": "user/meshimporter/tmp_meshimporter_zjvmcd/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "49fd6252-b563-5f96-1508-5f773bb54bee",
+			"name": "mi_caf_material",
+			"timestamp": 1745708092,
+			"files": [ "user/meshimporter/tmp_meshimporter_znmfbe/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_znmfbe/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "12257a62-d32f-ce8d-9978-f5e6c5144b0b",
+			"name": "mi_caf_material",
+			"timestamp": 1745705756,
+			"files": [ "user/meshimporter/tmp_meshimporter_zvwdjn/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_zvwdjn/mi_caf_material.mtl.cryasset",
 			"details": [
 				{ "key": "subMaterialCount", "value": "3" },
 				{ "key": "textureCount", "value": "2" }

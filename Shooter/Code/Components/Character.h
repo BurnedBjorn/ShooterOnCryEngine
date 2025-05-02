@@ -37,9 +37,12 @@ public:
 	void PickUpWeapon(CWeaponComponent* NewWeapon);
 	void DropWeapon();
 
-	void Attack(Vec3 Target, int activationMode);
+	void Attack(int activationMode);
+	void SetAimTarget(Vec3 NewTarget);
 
 	void HitDebug();
+
+	void AnimationUpdate();
 protected:
 
 	
@@ -52,4 +55,9 @@ private:
 
 	//inventory will be implemented later
 	CWeaponComponent* m_pWeapon = nullptr;
+
+	Vec3 m_AimTarget;
+
+	FragmentID m_movementFragmentID;
+	FragmentID m_aimposeFragmentID;
 };

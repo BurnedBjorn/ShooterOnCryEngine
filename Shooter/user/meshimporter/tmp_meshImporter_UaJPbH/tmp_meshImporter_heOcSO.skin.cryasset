@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="a5e31a1d-516e-e1c9-f5e4-f1b8ec58838d" source="YBot.fbx">
+ <Files>
+  <File path="tmp_meshImporter_heOcSO.skin"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">34480</Detail>
+  <Detail name="vertexCount">22978</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+  <Detail name="bonesCount">54</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./default.mtl</Path>
+ </Dependencies>
+</AssetMetadata>
