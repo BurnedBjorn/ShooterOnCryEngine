@@ -1217,16 +1217,16 @@
     },
     "Import Mesh": {
         "Recent Files": [
+            "Objects/Characters/YBot/Hurtbox_Arms_Hurbox.skin.cryasset",
+            "Objects/Characters/YBot/Hurtbox_Legs_Hurtbox.skin.cryasset",
+            "Objects/Characters/YBot/YBotHurtbox.cgf.cryasset",
             "Objects/Characters/YBot/YBot.cgf.cryasset",
             "Objects/Characters/YBot/predq/SKM_YBot_Alpha_Surface.skin.cryasset",
             "Objects/Characters/dqtest/DQ_Alpha_Joints.skin.cryasset",
             "Objects/Characters/YBot/aimpose/SKM_YBot_Animations_Alpha_Joints.skin.cryasset",
             "Objects/Characters/YBot/SKM_YBot.cgf.cryasset",
             "Objects/Characters/MIxamo/MixamoCharacter.cgf.cryasset",
-            "Objects/Weapons/Test/assets.cgf.cryasset",
-            "Objects/Weapons/Test/LowEffortPistol.cgf.cryasset",
-            "Objects/Weapons/Test/LEP.skin.cryasset",
-            "Objects/Weapons/Test/Gun.cgf.cryasset"
+            "Objects/Weapons/Test/assets.cgf.cryasset"
         ]
     },
     "Import Skeleton": {
@@ -1243,6 +1243,7 @@
     },
     "Material Editor": {
         "Recent Files": [
+            "Objects/Characters/YBot/Hurtbox.mtl.cryasset",
             "Objects/Characters/YBot/YBot.mtl.cryasset",
             "Objects/Characters/dqtest/DQ.mtl.cryasset",
             "Objects/Characters/YBot/SKM_YBot.mtl.cryasset",
@@ -1251,8 +1252,7 @@
             "Objects/Characters/Amogus.mtl.cryasset",
             "Objects/Weapons/Test/lepistol_hitmaterial.mtl.cryasset",
             "Objects/Weapons/Test/loweffortpistol_hitmaterial.mtl.cryasset",
-            "Objects/Weapons/SampleWeapon/motusWeaponMAT.mtl.cryasset",
-            "Objects/Weapons/SampleWeapon/defaultWeapon.mtl.cryasset"
+            "Objects/Weapons/SampleWeapon/motusWeaponMAT.mtl.cryasset"
         ]
     }
 }

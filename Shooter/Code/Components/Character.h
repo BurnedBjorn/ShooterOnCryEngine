@@ -11,6 +11,7 @@ class CCharacterComponent :public IEntityComponent
 {
 private:
 	static constexpr float DEFAULT_MOVEMENT_SPEED = 10.0f;
+	static constexpr int DEFAULT_HEALTH = 100;
 public:
 	CCharacterComponent() = default;
 	virtual ~CCharacterComponent() {};
@@ -22,6 +23,7 @@ public:
 		desc.SetLabel("Base Character Component");
 		desc.SetDescription("Character component that can be controlled with a controller");
 		desc.AddMember(&CCharacterComponent::m_MovementSpeed, 'msd', "movementspeed", "Movement Speed", "Character Movement Speed", DEFAULT_MOVEMENT_SPEED);
+		desc.AddMember(&CCharacterComponent::m_Health, 'hlth', "health", "Health", "amount of health points", DEFAULT_HEALTH);
 	}
 
 	virtual void Initialize() override;
@@ -39,12 +41,14 @@ public:
 
 	void Attack(int activationMode);
 	void SetAimTarget(Vec3 NewTarget);
+	
 
 	void HitDebug();
+	void ResetAimPose();
 
 	void AnimationUpdate();
 protected:
-
+	int m_Health = 100;
 	
 	
 private:

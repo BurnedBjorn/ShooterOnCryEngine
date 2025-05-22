@@ -53,7 +53,7 @@ void CCharacterComponent::ProcessEvent(const SEntityEvent& event)
     break;
     case Cry::Entity::EEvent::Reset:
     {
-
+        ResetAimPose();
         m_MovementDirection = ZERO;
         m_MovementInput = ZERO;
         DropWeapon();
@@ -199,7 +199,7 @@ void CCharacterComponent::HitDebug()
     }
 }
 
-void CCharacterComponent::AnimationUpdate()
+void CCharacterComponent::ResetAimPose()
 {
     if (m_pAdvancedAnimationController)
     {
@@ -211,8 +211,35 @@ void CCharacterComponent::AnimationUpdate()
                 if (IAnimationPoseBlenderDir* pAimPoseBlenderDir = pSkeletonPose->GetIPoseBlenderAim()) {
 
                     pAimPoseBlenderDir->SetState(true);
-                    pAimPoseBlenderDir->SetLayer(14);
+                    pAimPoseBlenderDir->SetLayer(0);
                     pAimPoseBlenderDir->SetTarget(m_AimTarget);
+                    pAimPoseBlenderDir->SetFadeInSpeed(0.001);
+                    pAimPoseBlenderDir->SetPolarCoordinatesSmoothTimeSeconds(0.05);
+                    pAimPoseBlenderDir->SetFadeOutSpeed(0.001);
+
+
+                };
+            }
+        }
+
+
+    }
+}
+
+void CCharacterComponent::AnimationUpdate()
+{
+    if (m_pAdvancedAnimationController)
+    {
+        //m_pAdvancedAnimationController->QueueFragmentWithId(m_aimposeFragmentID);
+        if (m_pAdvancedAnimationController->GetCharacter())
+        {
+            if (ISkeletonPose* pSkeletonPose = m_pAdvancedAnimationController->GetCharacter()->GetISkeletonPose())
+            {
+                if (IAnimationPoseBlenderDir* pAimPoseBlenderDir = pSkeletonPose->GetIPoseBlenderAim()) {
+
+                    
+                    pAimPoseBlenderDir->SetTarget(m_AimTarget);
+                    
                     
                     
                 };

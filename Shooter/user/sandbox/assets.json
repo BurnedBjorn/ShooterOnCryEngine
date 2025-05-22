@@ -5943,7 +5943,7 @@
 			"type": "Level",
 			"guid": "984fcd77-e594-2b34-fbf5-414a47e0d684",
 			"name": "example",
-			"timestamp": 1746217043,
+			"timestamp": 1746242842,
 			"files": [ "Levels/example/example.level" ],
 			"workFiles": [ ],
 			"source": "",
@@ -5951,10 +5951,7 @@
 			"details": [ ],
 			"dependencies": [
 				{ "path": "%editor%/objects/envcube.cgf", "usageCount": 0 },
-				{
-					"path": "%engine%/config/defaultscripts/compressionpolicy.xml",
-					"usageCount": 0
-				},
+				{ "path": "%editor%/objects/envcube.mtl", "usageCount": 0 },
 				{
 					"path": "%engine%/engineassets/icons/averagememoryusage.dds",
 					"usageCount": 0
@@ -5972,7 +5969,39 @@
 					"usageCount": 0
 				},
 				{
+					"path": "%engine%/engineassets/materials/fog/fogvolumebox.mtl",
+					"usageCount": 0
+				},
+				{
+					"path": "%engine%/engineassets/materials/fog/fogvolumeellipsoid.mtl",
+					"usageCount": 0
+				},
+				{
+					"path": "%engine%/engineassets/materials/fog/oceaninto.mtl",
+					"usageCount": 0
+				},
+				{
+					"path": "%engine%/engineassets/materials/fog/oceanintolowspec.mtl",
+					"usageCount": 0
+				},
+				{
+					"path": "%engine%/engineassets/materials/fog/oceanoutof.mtl",
+					"usageCount": 0
+				},
+				{
+					"path": "%engine%/engineassets/materials/fog/oceanoutoflowspec.mtl",
+					"usageCount": 0
+				},
+				{
 					"path": "%engine%/engineassets/materials/material_default.mtl",
+					"usageCount": 0
+				},
+				{
+					"path": "%engine%/engineassets/materials/material_terrain_default.mtl",
+					"usageCount": 0
+				},
+				{
+					"path": "%engine%/engineassets/materials/water/wateroceanbottom.mtl",
 					"usageCount": 0
 				},
 				{
@@ -5980,10 +6009,42 @@
 					"usageCount": 0
 				},
 				{
+					"path": "%engine%/engineassets/objects/primitive_sphere.cgf",
+					"usageCount": 0
+				},
+				{
+					"path": "%engine%/engineassets/texturemsg/defaultnouvs.dds",
+					"usageCount": 0
+				},
+				{
 					"path": "%engine%/engineassets/texturemsg/defaultsolids.mtl",
 					"usageCount": 0
 				},
+				{
+					"path": "%engine%/engineassets/textures/skys/night/half_moon.dds",
+					"usageCount": 0
+				},
 				{ "path": "%engine%/engineassets/textures/white.dds", "usageCount": 0 },
+				{
+					"path": "animations/ybot/adb/ybotcontrollerdefinition.xml",
+					"usageCount": 0
+				},
+				{ "path": "animations/ybot/adb/ybotfragmentids.xml", "usageCount": 0 },
+				{ "path": "animations/ybot/adb/ybottags.xml", "usageCount": 0 },
+				{
+					"path": "animations/ybot/additive/ybot_aimpose.caf",
+					"usageCount": 0
+				},
+				{
+					"path": "animations/ybot/additive/ybot_aimposeomnidir.caf",
+					"usageCount": 0
+				},
+				{
+					"path": "animations/ybot/additive/ybot_headshot.caf",
+					"usageCount": 0
+				},
+				{ "path": "animations/ybot/additive/ybot_hit.caf", "usageCount": 0 },
+				{ "path": "animations/ybot/additive/ybot_recoil.caf", "usageCount": 0 },
 				{
 					"path": "animations/ybot/walkcycles/ybot_b_walkcycle.caf",
 					"usageCount": 0
@@ -6016,10 +6077,17 @@
 					"path": "animations/ybot/walkcycles/ybot_r_walkcycle.caf",
 					"usageCount": 0
 				},
+				{ "path": "animations/ybot/ybot_death_anim.caf", "usageCount": 0 },
+				{ "path": "animations/ybot/ybot_death_pose.caf", "usageCount": 0 },
 				{ "path": "animations/ybot/ybot_idle_pistol.caf", "usageCount": 0 },
+				{
+					"path": "engineassets/materials/water/ocean_default.mtl",
+					"usageCount": 0
+				},
 				{ "path": "libs/environmentpresets/example.env", "usageCount": 1 },
 				{ "path": "objects/characters/ybot/ybot.cdf", "usageCount": 0 },
 				{ "path": "objects/characters/ybot/ybot.chr", "usageCount": 0 },
+				{ "path": "objects/characters/ybot/ybot.mtl", "usageCount": 0 },
 				{
 					"path": "objects/characters/ybot/ybot_alpha_joints.skin",
 					"usageCount": 0
@@ -6030,7 +6098,15 @@
 				},
 				{ "path": "objects/weapons/test/assets.cgf", "usageCount": 0 },
 				{ "path": "objects/weapons/test/assets.cgf", "usageCount": 0 },
-				{ "path": "scripts/network/compressionpolicy.xml", "usageCount": 0 }
+				{ "path": "scripts/ai/factions.xml", "usageCount": 0 },
+				{
+					"path": "textures/cubemaps/example/environmentprobe1_cm.dds",
+					"usageCount": 0
+				},
+				{
+					"path": "textures/cubemaps/example/environmentprobe1_cm_diff.dds",
+					"usageCount": 0
+				}
 			]
 		},
 		{
@@ -6207,7 +6283,7 @@
 			"type": "Character",
 			"guid": "71853824-be1d-49d4-925d-1b8fdae61b47",
 			"name": "ybot",
-			"timestamp": 1746021122,
+			"timestamp": 1747920094,
 			"files": [ "Objects/Characters/YBot/ybot.cdf" ],
 			"workFiles": [ ],
 			"source": "",
@@ -6847,6 +6923,27 @@
 		},
 		{
 			"type": "Material",
+			"guid": "c66aefca-4628-f4f0-4f26-eb6fd0d3dd49",
+			"name": "mi_caf_material",
+			"timestamp": 1746224305,
+			"files": [ "user/meshimporter/tmp_meshimporter_fqngtt/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_fqngtt/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
 			"guid": "8265d687-0409-e146-b559-3dbe57ca0be1",
 			"name": "mi_caf_material",
 			"timestamp": 1746223905,
@@ -7058,6 +7155,27 @@
 			"workFiles": [ ],
 			"source": "",
 			"metadata": "user/meshimporter/tmp_meshimporter_ibbuic/mi_caf_material.mtl.cryasset",
+			"details": [
+				{ "key": "subMaterialCount", "value": "3" },
+				{ "key": "textureCount", "value": "2" }
+			],
+			"dependencies": [
+				{ "path": "%ENGINE%/EngineAssets/Textures/white.dds", "usageCount": 3 },
+				{
+					"path": "%ENGINE%/EngineAssets/Textures/white_ddn.dds",
+					"usageCount": 3
+				}
+			]
+		},
+		{
+			"type": "Material",
+			"guid": "0b43b8ae-4256-eb96-97ed-84f73961d114",
+			"name": "mi_caf_material",
+			"timestamp": 1746224303,
+			"files": [ "user/meshimporter/tmp_meshimporter_iddhbt/mi_caf_material.mtl" ],
+			"workFiles": [ ],
+			"source": "",
+			"metadata": "user/meshimporter/tmp_meshimporter_iddhbt/mi_caf_material.mtl.cryasset",
 			"details": [
 				{ "key": "subMaterialCount", "value": "3" },
 				{ "key": "textureCount", "value": "2" }

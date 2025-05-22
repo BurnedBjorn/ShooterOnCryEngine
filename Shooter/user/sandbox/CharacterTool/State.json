@@ -26,7 +26,7 @@
 				"fps": true,
 				"skeleton": {
 					"jointFilter": "",
-					"showJoints": false,
+					"showJoints": true,
 					"showJointNames": false,
 					"showJointNamesFontSize": 1.9,
 					"showSkeletonBoundingBox": false
@@ -51,8 +51,8 @@
 					"showClothProxies": false
 				},
 				"physics": {
-					"showPhysicalProxies": "none",
-					"showRagdollJointLimits": "none"
+					"showPhysicalProxies": "solid",
+					"showRagdollJointLimits": "all"
 				},
 				"grid": {
 					"showGrid": true,
@@ -80,7 +80,7 @@
 					"bottomColor": { "r": 0, "g": 122, "b": 133, "a": 255 }
 				}
 			},
-			"playbackTime": 0.18584
+			"playbackTime": 0.01603
 		}
 	},
 	"dockWidgetManager": {
@@ -109,8 +109,6 @@
 							"Compression (Animations/)",
 							"Compression (Animations/)|Compression Presets",
 							"Compression (Animations/)|DBA Table",
-							"Animations (animations/ybot/)|additive",
-							"Animations (animations/ybot/)|walkcycles",
 							"Animations (animations/ybot/)|YBot_Death_Anim",
 							"Animations (animations/ybot/)|YBot_Death_Pose",
 							"Animations (animations/ybot/)|YBot_Idle_Pistol",
@@ -119,15 +117,8 @@
 							"Characters|Objects|Characters",
 							"Characters|Objects|Characters|YBot"
 						],
-						"selectedItems": [
-							"Animations (animations/ybot/)|additive|YBot_AimposeOmniDir",
-							"Animations (animations/ybot/)|additive",
-							"Animations (animations/ybot/)|additive|13 KB",
-							"Animations (animations/ybot/)|additive|15",
-							"Animations (animations/ybot/)|additive",
-							"Animations (animations/ybot/)|additive"
-						],
-						"currentItem": "Animations (animations/ybot/)|additive|YBot_AimposeOmniDir",
+						"selectedItems": [ "Characters|Objects|Characters|YBot|ybot.cdf" ],
+						"currentItem": "Characters|Objects|Characters|YBot|ybot.cdf",
 						"sectionsHidden": [ ],
 						"sectionsVisible": [ 0, 1, 2, 3, 4, 5 ]
 					}
@@ -148,7 +139,14 @@
 	"displayOptionsVisible": false,
 	"playbackPanel": { "timeUnits": "seconds" },
 	"propertiesPanel": {
-		"propertyTree": { "focusedRow": [ ], "selection": [ ], "expanded": [ 1, 1 ] },
+		"propertyTree": {
+			"focusedRow": [ 6, 1, 8 ],
+			"selection": [ [ 6, 1, 8 ] ],
+			"expanded": [
+				1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0,
+				0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1
+			]
+		},
 		"outlineMode": "oneTree"
 	},
 	"blendSpacePreview": {
@@ -188,10 +186,10 @@
 		0, 111, 0, 114, 0, 101, 0, 114, 0, 80, 0, 97, 0, 110, 0, 101, 0, 108, 0, 45, 0, 49, 1, 0, 0, 2, 212, 0, 0, 2, 205, 0,
 		0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 3, 188, 0, 0, 5, 161, 252, 2, 0, 0, 0, 4, 251, 0, 0, 0, 32, 0, 115,
 		0, 99, 0, 101, 0, 110, 0, 101, 0, 95, 0, 112, 0, 97, 0, 114, 0, 97, 0, 109, 0, 101, 0, 116, 0, 101, 0, 114, 0, 115, 1, 0,
-		0, 0, 0, 0, 0, 2, 1, 0, 0, 0, 23, 0, 255, 255, 255, 251, 0, 0, 0, 20, 0, 112, 0, 114, 0, 111, 0, 112, 0, 101, 0, 114,
-		0, 116, 0, 105, 0, 101, 0, 115, 1, 0, 0, 2, 8, 0, 0, 0, 108, 0, 0, 0, 81, 0, 255, 255, 255, 251, 0, 0, 0, 38, 0, 98,
+		0, 0, 0, 0, 0, 1, 160, 0, 0, 0, 23, 0, 255, 255, 255, 251, 0, 0, 0, 20, 0, 112, 0, 114, 0, 111, 0, 112, 0, 101, 0, 114,
+		0, 116, 0, 105, 0, 101, 0, 115, 1, 0, 0, 1, 167, 0, 0, 2, 169, 0, 0, 0, 81, 0, 255, 255, 255, 251, 0, 0, 0, 38, 0, 98,
 		0, 108, 0, 101, 0, 110, 0, 100, 0, 95, 0, 115, 0, 112, 0, 97, 0, 99, 0, 101, 0, 95, 0, 112, 0, 114, 0, 101, 0, 118, 0, 105,
-		0, 101, 0, 119, 1, 0, 0, 2, 123, 0, 0, 3, 38, 0, 0, 0, 223, 0, 255, 255, 255, 251, 0, 0, 0, 36, 0, 97, 0, 110, 0, 105,
+		0, 101, 0, 119, 1, 0, 0, 4, 87, 0, 0, 1, 74, 0, 0, 0, 223, 0, 255, 255, 255, 251, 0, 0, 0, 36, 0, 97, 0, 110, 0, 105,
 		0, 109, 0, 95, 0, 101, 0, 118, 0, 101, 0, 110, 0, 116, 0, 95, 0, 112, 0, 114, 0, 101, 0, 115, 0, 101, 0, 116, 0, 115, 0, 0,
 		0, 4, 106, 0, 0, 1, 55, 0, 0, 0, 91, 0, 255, 255, 255, 0, 0, 0, 3, 0, 0, 9, 248, 0, 0, 0, 101, 252, 1, 0, 0, 0,
 		1, 251, 0, 0, 0, 16, 0, 112, 0, 108, 0, 97, 0, 121, 0, 98, 0, 97, 0, 99, 0, 107, 1, 0, 0, 0, 0, 0, 0, 9, 248, 0,

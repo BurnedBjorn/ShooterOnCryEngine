@@ -3,19 +3,13 @@
   <Movement>
    <Fragment BlendOutDuration="0.2" Tags="">
     <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.00011530519"/>
-     <Animation name="WalkCycle" flags="Loop"/>
+     <Blend ExitTime="0" StartTime="0" Duration="0.00011530519" flags="TimeWarping"/>
+     <Animation name="WalkCycle" flags="Loop+ForceSkelUpdate" speed="2"/>
     </AnimLayer>
     <AnimLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.2" flags="TimeWarping"/>
-     <Animation name="YBot_Aimpose" flags="Loop+ForceSkelUpdate"/>
+     <Blend ExitTime="0" StartTime="0" Duration="0" flags="TimeWarping"/>
+     <Animation name="YBot_AimposeOmniDir" flags="Loop+ForceSkelUpdate" speed="20"/>
     </AnimLayer>
-    <ProcLayer>
-     <Blend ExitTime="0" StartTime="0" Duration="0.30000001"/>
-     <Procedural type="AimPose">
-      <ProceduralParams CryXmlVersion="2" Animation="" BlendTime="1" AnimationLayer="14"/>
-     </Procedural>
-    </ProcLayer>
    </Fragment>
   </Movement>
   <AimPose>
