@@ -221,7 +221,7 @@ ray_hit CWeaponComponent::Raycast(Vec3 Start, Vec3 End)
 {
 	Vec3 Direction = End - Start;
 	ray_hit Hit;
-	static const unsigned int RayFlags = rwi_stop_at_pierceable | rwi_colltype_bit;
+	static const unsigned int RayFlags = rwi_stop_at_pierceable | rwi_colltype_any;
 	gEnv->pPhysicalWorld->RayWorldIntersection(Start, Direction, ent_all, RayFlags, &Hit, 1, m_pEntity->GetPhysicalEntity());
 	return Hit;
 }
@@ -237,7 +237,7 @@ void CWeaponComponent::Shoot()
 		RayEnd += GetBarrelWorldPos();
 
 		ray_hit Hit = Raycast(GetBarrelWorldPos(), RayEnd);
-		//Hit.foreignIdx
+		CryLog("%i", Hit.surface_idx);
 		if (IPhysicalEntity* pPhysEntity = Hit.pCollider)
 		{
 			
