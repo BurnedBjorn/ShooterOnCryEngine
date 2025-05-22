@@ -237,7 +237,7 @@ void CWeaponComponent::Shoot()
 		RayEnd += GetBarrelWorldPos();
 
 		ray_hit Hit = Raycast(GetBarrelWorldPos(), RayEnd);
-		Hit.foreignIdx
+		//Hit.foreignIdx
 		if (IPhysicalEntity* pPhysEntity = Hit.pCollider)
 		{
 			
