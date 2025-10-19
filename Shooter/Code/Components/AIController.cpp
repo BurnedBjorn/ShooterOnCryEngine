@@ -32,6 +32,7 @@ CRY_STATIC_AUTO_REGISTER_FUNCTION(&RegisterAIControllerComponent)
 
 void CAIController::Initialize() 
 {
+    //initialize Controlled Character
     m_pControlledCharacter = m_pEntity->GetOrCreateComponent<CCharacterComponent>();
     if (!m_pControlledCharacter)
     {
@@ -41,6 +42,55 @@ void CAIController::Initialize()
     {
         CryLog("Character Component Loaded");
     }
+    //
+    //initialize Behaviour tree
+    m_pBehaviourTree = m_pEntity->GetOrCreateComponent<IEntityBehaviorTreeComponent>();
+    if (m_pBehaviourTree)
+    {
+        
+    }
+    else
+    {
+        CryLog("m_pBehaviourTree not initialized");
+    }
+    //
+    //initialize Cover User
+    m_pCoverUser = m_pEntity->GetOrCreateComponent<IEntityCoverUserComponent>();
+    if (m_pCoverUser)
+    {
+
+    }
+    else
+    {
+        CryLog("m_pCoverUser not initialized");
+
+    }
+    //
+    //initialize Faction Component
+    m_pFactionComponent = m_pEntity->GetOrCreateComponent<IEntityFactionComponent>();
+    if (m_pFactionComponent)
+    {
+
+    }
+    else
+    {
+        CryLog("m_pFactionComponent not initialized");
+
+    }
+    //
+    //initialize Listener Component
+    m_pListenerComponent = m_pEntity->GetOrCreateComponent<IEntityListenerComponent>();
+    if (m_pListenerComponent)
+    {
+
+    }
+    else
+    {
+        CryLog("m_pListenerComponent not initialized");
+
+    }
+    //
+    //initialize Navigation Component
     m_pNavigationComponent = m_pEntity->GetOrCreateComponent<IEntityNavigationComponent>();
     if (m_pNavigationComponent)
     {
@@ -61,6 +111,19 @@ void CAIController::Initialize()
             m_pControlledCharacter->MovementInput(Vec2(recommendedVelocity.x, recommendedVelocity.y));
             }) ;
     }
+    //
+    //intitalize Observer Component
+    m_pObserverComponent = m_pEntity->GetOrCreateComponent<IEntityObserverComponent>();
+    if (m_pObserverComponent)
+    {
+
+    }
+    else
+    {
+        CryLog("m_pObserverComponent not initialized");
+
+    }
+    //
 };
 void CAIController::ProcessEvent(const SEntityEvent& event) 
 {
