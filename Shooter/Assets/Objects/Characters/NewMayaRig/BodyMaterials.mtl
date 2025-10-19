@@ -1,0 +1,12 @@
+<Material MtlFlags="524544" >
+   <SubMaterials>
+      <Material Name="Alpha_Body_MAT" MtlFlags="524416" Shader="Illum" GenMask="0" SurfaceType="" MatTemplate="" Diffuse="0.096570,0.421620,0.522000" Specular="0.478630,0.478630,0.478630" Emissive="0.000000,0.000000,0.000000" Shininess="10" Opacity="1" >
+         <Textures>
+         </Textures>
+      </Material>
+      <Material Name="Alpha_Joints_MAT" MtlFlags="524416" Shader="Illum" GenMask="0" SurfaceType="" MatTemplate="" Diffuse="0.153552,0.212894,0.222217" Specular="0.282048,0.282048,0.282048" Emissive="0.000000,0.000000,0.000000" Shininess="10" Opacity="1" >
+         <Textures>
+         </Textures>
+      </Material>
+   </SubMaterials>
+</Material>

@@ -1,0 +1,10 @@
+<MannequinPreview>
+ <controllerDef filename="Objects/Characters/YBot/Animations/Mannequin/YBotControllerDefinition.xml"/>
+ <contexts>
+  <contextData name="FullBody" enabled="1" database="Objects/Characters/YBot/Animations/Mannequin/YBot.adb" context="MainContext" model="Objects/Characters/NewMayaRig/newrigtest.cdf"/>
+	
+  <contextData name="Aim" enabled="1" database="Objects/Characters/YBot/Animations/Mannequin/YBot.adb" context="MainContext" model="Objects/Characters/NewMayaRig/newrigtest.cdf"/>
+ </contexts>
+ <History StartTime="0" EndTime="0"/>
+</MannequinPreview>
+

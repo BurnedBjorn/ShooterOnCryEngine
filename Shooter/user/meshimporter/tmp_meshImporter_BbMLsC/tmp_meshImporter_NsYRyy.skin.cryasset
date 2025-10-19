@@ -1,0 +1,15 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="2fbd361b-f22f-90c4-ea78-2586e9909330" source="YBotA.fbx">
+ <Files>
+  <File path="tmp_meshImporter_NsYRyy.skin"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">2</Detail>
+  <Detail name="triangleCount">34480</Detail>
+  <Detail name="vertexCount">22978</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+  <Detail name="bonesCount">54</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./default.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

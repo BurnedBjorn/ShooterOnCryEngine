@@ -1,0 +1,20 @@
+<AssetMetadata version="0" type="SkinnedMesh" guid="151b1bdb-f702-28c2-89c9-682307a7a164" source="NewRig.dae.zip">
+ <Files>
+  <File path="Alpha_Surface.skin"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">55320</Detail>
+  <Detail name="vertexCount">35455</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+  <Detail name="bonesCount">63</Detail>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">55320</Detail>
+  <Detail name="vertexCount">35455</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+  <Detail name="bonesCount">63</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">./BodyMaterials.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

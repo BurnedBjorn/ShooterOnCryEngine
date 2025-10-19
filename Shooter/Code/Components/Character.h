@@ -4,6 +4,7 @@
 #include <CryEntitySystem/IEntityComponent.h>
 #include <DefaultComponents/Physics/CharacterControllerComponent.h>
 #include <DefaultComponents/Geometry/AdvancedAnimationComponent.h>
+#include <DefaultComponents/Geometry/StaticMeshComponent.h>
 #include "WeaponComponent.h"
 
 
@@ -43,15 +44,50 @@ public:
 	void SetAimTarget(Vec3 NewTarget);
 	
 
-	void HitDebug();
+	void HitDebug(int ipart);
 	void ResetAimPose();
 
 	void AnimationUpdate();
+	
+	
+	enum BodyPart {
+		HEAD, BODY, ARMS, LEGS, OUTOFRANGE
+	};
+	BodyPart IndexToBodyPart(int index) {
+		switch (index)
+		{
+		case 0:
+		case 1:
+		case 4:
+		case 5:
+		case 6:
+			return BODY;
+			break;
+		case 7:
+			return HEAD;
+			break;
+		case 2:
+		case 3:
+		case 12:
+		case 13:
+			return LEGS;
+			break;
+		case 8:
+		case 9:
+		case 10:
+		case 11:
+			return ARMS;
+			break;
+		default:
+			return OUTOFRANGE;
+		}
+	}
 protected:
 	int m_Health = 100;
 	
 	
 private:
+	Cry::DefaultComponents::CStaticMeshComponent* m_pStaticMesh;
 	Cry::DefaultComponents::CCharacterControllerComponent* m_pCharacterController;
 	Cry::DefaultComponents::CAdvancedAnimationComponent* m_pAdvancedAnimationController;
 

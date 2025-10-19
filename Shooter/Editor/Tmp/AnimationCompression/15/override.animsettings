@@ -1,0 +1,13 @@
+{
+	"build": {
+		"additive": false,
+		"compression": {
+			"compressionValue": 0,
+			"positionEpsilon": 0.0,
+			"rotationEpsilon": 0.0,
+			"scaleEpsilon": 0.0,
+			"perJointSettings": [ ]
+		},
+		"tags": [ ]
+	}
+}

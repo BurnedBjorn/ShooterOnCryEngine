@@ -27,12 +27,17 @@ CRY_STATIC_AUTO_REGISTER_FUNCTION(&RegisterCharacterComponent)
 //end registration stuff
 void CCharacterComponent::Initialize()
 {
+    m_pStaticMesh = m_pEntity->GetOrCreateComponent<Cry::DefaultComponents::CStaticMeshComponent>();
     m_pCharacterController = m_pEntity->GetOrCreateComponent<Cry::DefaultComponents::CCharacterControllerComponent>();
     m_pAdvancedAnimationController = m_pEntity->GetOrCreateComponent< Cry::DefaultComponents::CAdvancedAnimationComponent>();
     if (m_pAdvancedAnimationController)
     {
         m_movementFragmentID=m_pAdvancedAnimationController->GetFragmentId("Movement");
         m_aimposeFragmentID = m_pAdvancedAnimationController->GetFragmentId("AimPose");
+        //Matrix34 NewRot = m_pAdvancedAnimationController->GetTransformMatrix();
+        //NewRot.SetRotationXYZ(Ang3(0, 0, 3.14));
+        
+        //m_pAdvancedAnimationController->SetTransformMatrix(NewRot);
     }
 
 }
@@ -104,6 +109,7 @@ void CCharacterComponent::PickUpWeapon(CWeaponComponent* NewWeapon)
         
         if (IAttachment* pAttachmentWeapon = m_pAdvancedAnimationController->GetCharacter()->GetIAttachmentManager()->GetInterfaceByName("Weapon"))
         {
+            
             CryLog("FOUND");
             QuatTS WAbs = pAttachmentWeapon->GetAttWorldAbsolute();
             Matrix34 NewTransform(WAbs);
@@ -191,11 +197,29 @@ void CCharacterComponent::SetAimTarget(Vec3 NewTarget)
     m_AimTarget = NewTarget;
 }
 
-void CCharacterComponent::HitDebug()
+void CCharacterComponent::HitDebug(int ipart)
 {
-    if (string nm = m_pEntity->GetName())
+    
+
+
+    BodyPart hitPart = IndexToBodyPart(ipart);
+    switch (hitPart)
     {
-        CryLog("Hit " + nm);
+    case CCharacterComponent::HEAD:
+        CryLog("Head");
+        break;
+    case CCharacterComponent::BODY:
+        CryLog("Body");
+        break;
+    case CCharacterComponent::ARMS:
+        CryLog("Arms");
+        break;
+    case CCharacterComponent::LEGS:
+        CryLog("Legs");
+        break;
+    default:
+        CryLog("NotMapped");
+        break;
     }
 }
 
@@ -249,5 +273,7 @@ void CCharacterComponent::AnimationUpdate()
         
     }
 }
+
+
 
 

@@ -1,0 +1,11 @@
+<AssetMetadata version="0" type="Character" guid="978c620b-3b49-5b68-d897-4f94f17cbff3">
+ <Files>
+  <File path="newrigtest.cdf"/>
+ </Files>
+ <Details />
+ <Dependencies>
+  <Path>Objects/Characters/NewMayaRig/Skeleton.chr</Path>
+  <Path>Objects/Characters/NewMayaRig/Alpha_Surface.skin</Path>
+  <Path>Objects/Characters/NewMayaRig/BodyMaterials.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

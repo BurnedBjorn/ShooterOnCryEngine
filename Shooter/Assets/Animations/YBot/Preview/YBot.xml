@@ -1,9 +1,0 @@
-<MannequinPreview>
- <controllerDef filename="Animations/YBot/ADB/YBotControllerDefinition.xml"/>
- <contexts>
-  <contextData name="FullBody" enabled="1" database="Animations/YBot/ADB/YBot.adb" context="MainContext" model="objects/characters/ybot/ybot.cdf"/>
-  <contextData name="Torso" enabled="1" database="Animations/YBot/ADB/YBot.adb" context="MainContext" model="objects/characters/ybot/ybot.cdf"/>
-  <contextData name="Aim" enabled="1" database="Animations/YBot/ADB/YBot.adb" context="MainContext" model="objects/characters/ybot/ybot.cdf"/>
- </contexts>
- <History StartTime="0" EndTime="0"/>
-</MannequinPreview>

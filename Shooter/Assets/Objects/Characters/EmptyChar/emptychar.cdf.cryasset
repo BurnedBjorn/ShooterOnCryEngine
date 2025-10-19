@@ -1,0 +1,9 @@
+<AssetMetadata version="0" type="Character" guid="7f34ca80-931b-e39c-875e-36d33f84dde7">
+ <Files>
+  <File path="emptychar.cdf"/>
+ </Files>
+ <Details />
+ <Dependencies>
+  <Path>Objects/Characters/NewMayaRig/Skeleton.chr</Path>
+ </Dependencies>
+</AssetMetadata>

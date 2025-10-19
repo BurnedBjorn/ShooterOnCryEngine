@@ -5,6 +5,7 @@
 #include <CrySchematyc/Env/Elements/EnvComponent.h>
 #include <CryCore/StaticInstanceList.h>
 #include <CryAction/IActionMapManager.h>
+#include "AIController.h"
 
 
 
@@ -237,18 +238,26 @@ void CWeaponComponent::Shoot()
 		RayEnd += GetBarrelWorldPos();
 
 		ray_hit Hit = Raycast(GetBarrelWorldPos(), RayEnd);
-		CryLog("%i", Hit.surface_idx);
+		//CryLog("%i", Hit.surface_idx);
+		//CryLog("%i", Hit.ipart);
+		
 		if (IPhysicalEntity* pPhysEntity = Hit.pCollider)
 		{
 			
 			if (IEntity* pEntity = gEnv->pEntitySystem->GetEntityFromPhysics(pPhysEntity))
 			{
 				
+				
 				if (CCharacterComponent* pCharacterComponent = pEntity->GetComponent<CCharacterComponent>())
 				{
-					pCharacterComponent->HitDebug();
+					pCharacterComponent->HitDebug(Hit.ipart);
 					
 				}
+				if (CAIController* pAIController = pEntity->GetComponent<CAIController>())
+				{
+					pAIController->RecieveHit(m_pOwner->GetEntity()->GetWorldPos());
+				}
+				
 			}
 		}
 

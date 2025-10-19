@@ -3,6 +3,7 @@
 
 #include <StdAfx.h>
 #include <D:/.GameDev/Projects/CRYENGINE projects/CryShooter/Shooter/Code/Components/PlayerController.cpp>
+#include <D:/.GameDev/Projects/CRYENGINE projects/CryShooter/Shooter/Code/Components/AIController.cpp>
 #include <D:/.GameDev/Projects/CRYENGINE projects/CryShooter/Shooter/Code/Components/Character.cpp>
 #include <D:/.GameDev/Projects/CRYENGINE projects/CryShooter/Shooter/Code/Components/WeaponComponent.cpp>
 

@@ -1,0 +1,17 @@
+<Params>
+ <AnimationList>
+  <Animation name="$AnimEventDatabase" path="Objects/Characters/NewMayaRig/Anims/Test.animevents"/>
+  <Animation name="#filepath" path="Animations/YBot/MayaTestAnim#"/>
+  <Animation name="*" path="*/*.caf"/>
+  <Animation name="*" path="*/*.bspace"/>
+  <Animation name="*" path="*/*.comb"/>
+  <Animation name="#filepath" path="Objects/Characters/NewMayaRig/Anims"/>
+  <Animation name="*" path="*/*.caf"/>
+  <Animation name="*" path="*/*.bspace"/>
+  <Animation name="*" path="*/*.comb"/>
+  <Animation name="#filepath" path="Objects/Characters/YBot/Animations"/>
+  <Animation name="*" path="*/*.caf"/>
+  <Animation name="*" path="*/*.bspace"/>
+  <Animation name="*" path="*/*.comb"/>
+ </AnimationList>
+</Params>
