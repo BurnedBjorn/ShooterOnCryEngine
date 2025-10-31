@@ -3,7 +3,7 @@
 // Copyright 2012-2021 Crytek GmbH / Crytek Group. All rights reserved.
  
 #include "StdAfx.h"
-#include "BehaviorTreeNodes_Game.h"
+#include "BehaviorTreeNodes.h"
 #include <CryAISystem/BehaviorTree/IBehaviorTree.h>
 #include <CryAISystem/BehaviorTree/Action.h	>
 #include <CryAISystem/BehaviorTree/Node.h>

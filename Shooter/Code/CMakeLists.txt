@@ -26,8 +26,8 @@ add_sources("Components_uber.cpp"
     PROJECTS Game
     
     SOURCE_GROUP "AI\\\\BehaviorTree"
-        "AI/BehaviorTree/BehaviorTreeNodes_Game.h"
-        "AI/BehaviorTree/BehaviorTreeNodes_Game.cpp"
+        "AI/BehaviorTree/BehaviorTreeNodes.h"
+        "AI/BehaviorTree/BehaviorTreeNodes_Testing.cpp"
     SOURCE_GROUP "Components\\\\Controllers"
         "Components/PlayerController.h"
         "Components/PlayerController.cpp"

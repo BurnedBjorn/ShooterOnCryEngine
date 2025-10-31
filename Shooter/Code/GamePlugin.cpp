@@ -2,7 +2,7 @@
 #include "StdAfx.h"
 #include "GamePlugin.h"
 #include <CryAISystem/IAISystem.h>
-#include "AI/BehaviorTree/BehaviorTreeNodes_Game.h"
+#include "AI/BehaviorTree/BehaviorTreeNodes_Testing.h"
 
 
 #include <CrySchematyc/Env/IEnvRegistry.h>

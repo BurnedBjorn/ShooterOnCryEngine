@@ -13,10 +13,10 @@
     <ClInclude Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\GamePlugin.cpp" />
     <ClInclude Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\GamePlugin.h" />
     <ClInclude Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\StdAfx.h" />
-    <ClInclude Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\AI\BehaviorTree\BehaviorTreeNodes_Game.h">
+    <ClInclude Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\AI\BehaviorTree\BehaviorTreeNodes.h">
       <Filter>AI\BehaviorTree</Filter>
     </ClInclude>
-    <ClInclude Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\AI\BehaviorTree\BehaviorTreeNodes_Game.cpp">
+    <ClInclude Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\AI\BehaviorTree\BehaviorTreeNodes_Testing.cpp">
       <Filter>AI\BehaviorTree</Filter>
     </ClInclude>
     <ClInclude Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\Components\PlayerController.h">

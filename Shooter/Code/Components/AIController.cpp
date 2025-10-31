@@ -2,7 +2,7 @@
 
 #include <CryAISystem/IAISystem.h>
 #include <CryAISystem/INavigation.h>
-#include <AI/BehaviorTree/BehaviorTreeNodes_Game.h>
+#include <AI/BehaviorTree/BehaviorTreeNodes.h>
 
 #include <DefaultComponents/Physics/CharacterControllerComponent.h>
 //Start registration stuff
