@@ -5,6 +5,7 @@
 #include <DefaultComponents/Physics/CharacterControllerComponent.h>
 #include <DefaultComponents/Geometry/AdvancedAnimationComponent.h>
 #include <DefaultComponents/Geometry/StaticMeshComponent.h>
+#include <CryAISystem/Components/IEntityFactionComponent.h>
 #include "WeaponComponent.h"
 
 
@@ -90,7 +91,7 @@ private:
 	Cry::DefaultComponents::CStaticMeshComponent* m_pStaticMesh;
 	Cry::DefaultComponents::CCharacterControllerComponent* m_pCharacterController;
 	Cry::DefaultComponents::CAdvancedAnimationComponent* m_pAdvancedAnimationController;
-
+	IEntityFactionComponent* m_pFactionComponent;
 	float m_MovementSpeed = 10.0f;
 
 	//inventory will be implemented later

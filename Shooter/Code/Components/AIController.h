@@ -9,7 +9,7 @@
 
 #include <CryAISystem/Components/IEntityBehaviorTreeComponent.h>
 #include <CryAISystem/Components/IEntityCoverUserComponent.h>
-#include <CryAISystem/Components/IEntityFactionComponent.h>
+//#include <CryAISystem/Components/IEntityFactionComponent.h>
 #include <CryAISystem/Components/IEntityListenerComponent.h>
 #include <CryAISystem/Components/IEntityNavigationComponent.h>
 #include <CryAISystem/Components/IEntityObserverComponent.h>
@@ -31,13 +31,19 @@ public:
 	virtual void ProcessEvent(const SEntityEvent& event) override;
 	virtual Cry::Entity::EventFlags GetEventMask() const override;
 	void RecieveHit(Vec3 Location);
+	string GetCode() { return"s"; }
+	void Forward();
+
 private:
 	CCharacterComponent* m_pControlledCharacter = nullptr;
 	IEntityBehaviorTreeComponent* m_pBehaviourTree = nullptr;
 	IEntityCoverUserComponent* m_pCoverUser = nullptr;
-	IEntityFactionComponent* m_pFactionComponent = nullptr;
+	//IEntityFactionComponent* m_pFactionComponent = nullptr;
 	IEntityListenerComponent* m_pListenerComponent = nullptr;
 	IEntityNavigationComponent* m_pNavigationComponent = nullptr;
 	IEntityObserverComponent* m_pObserverComponent = nullptr;
 	Vec3 m_recommendedVelocity;
+	
+
+	bool BTSwitch = false;
 };

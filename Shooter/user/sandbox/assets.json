@@ -5955,7 +5955,7 @@
 			"type": "Level",
 			"guid": "984fcd77-e594-2b34-fbf5-414a47e0d684",
 			"name": "example",
-			"timestamp": 1760721123,
+			"timestamp": 1761896712,
 			"files": [ "Levels/example/example.level" ],
 			"workFiles": [ ],
 			"source": "",
@@ -5963,10 +5963,7 @@
 			"details": [ ],
 			"dependencies": [
 				{ "path": "%editor%/objects/envcube.cgf", "usageCount": 0 },
-				{
-					"path": "%engine%/config/defaultscripts/compressionpolicy.xml",
-					"usageCount": 0
-				},
+				{ "path": "%editor%/objects/envcube.mtl", "usageCount": 0 },
 				{
 					"path": "%engine%/engineassets/icons/averagememoryusage.dds",
 					"usageCount": 0
@@ -5984,7 +5981,39 @@
 					"usageCount": 0
 				},
 				{
+					"path": "%engine%/engineassets/materials/fog/fogvolumebox.mtl",
+					"usageCount": 0
+				},
+				{
+					"path": "%engine%/engineassets/materials/fog/fogvolumeellipsoid.mtl",
+					"usageCount": 0
+				},
+				{
+					"path": "%engine%/engineassets/materials/fog/oceaninto.mtl",
+					"usageCount": 0
+				},
+				{
+					"path": "%engine%/engineassets/materials/fog/oceanintolowspec.mtl",
+					"usageCount": 0
+				},
+				{
+					"path": "%engine%/engineassets/materials/fog/oceanoutof.mtl",
+					"usageCount": 0
+				},
+				{
+					"path": "%engine%/engineassets/materials/fog/oceanoutoflowspec.mtl",
+					"usageCount": 0
+				},
+				{
 					"path": "%engine%/engineassets/materials/material_default.mtl",
+					"usageCount": 0
+				},
+				{
+					"path": "%engine%/engineassets/materials/material_terrain_default.mtl",
+					"usageCount": 0
+				},
+				{
+					"path": "%engine%/engineassets/materials/water/wateroceanbottom.mtl",
 					"usageCount": 0
 				},
 				{
@@ -5992,10 +6021,26 @@
 					"usageCount": 0
 				},
 				{
+					"path": "%engine%/engineassets/objects/primitive_sphere.cgf",
+					"usageCount": 0
+				},
+				{
+					"path": "%engine%/engineassets/texturemsg/defaultnouvs.dds",
+					"usageCount": 0
+				},
+				{
 					"path": "%engine%/engineassets/texturemsg/defaultsolids.mtl",
 					"usageCount": 0
 				},
+				{
+					"path": "%engine%/engineassets/textures/skys/night/half_moon.dds",
+					"usageCount": 0
+				},
 				{ "path": "%engine%/engineassets/textures/white.dds", "usageCount": 0 },
+				{
+					"path": "engineassets/materials/water/ocean_default.mtl",
+					"usageCount": 0
+				},
 				{ "path": "libs/environmentpresets/example.env", "usageCount": 1 },
 				{
 					"path": "objects/characters/emptychar/emptychar.cdf",
@@ -6003,6 +6048,26 @@
 				},
 				{
 					"path": "objects/characters/newmayarig/alpha_surface.skin",
+					"usageCount": 0
+				},
+				{
+					"path": "objects/characters/newmayarig/anims/basean.caf",
+					"usageCount": 0
+				},
+				{
+					"path": "objects/characters/newmayarig/anims/forward.caf",
+					"usageCount": 0
+				},
+				{
+					"path": "objects/characters/newmayarig/anims/ubodytest.caf",
+					"usageCount": 0
+				},
+				{
+					"path": "objects/characters/newmayarig/anims/upperbody.caf",
+					"usageCount": 0
+				},
+				{
+					"path": "objects/characters/newmayarig/bodymaterials.mtl",
 					"usageCount": 0
 				},
 				{
@@ -6014,12 +6079,44 @@
 					"usageCount": 0
 				},
 				{
+					"path": "objects/characters/newmayarig/skeleton1.mtl",
+					"usageCount": 0
+				},
+				{
+					"path": "objects/characters/ybot/animations/b_walk_200cm_s.caf",
+					"usageCount": 0
+				},
+				{
+					"path": "objects/characters/ybot/animations/f_walk_200cm_s.caf",
+					"usageCount": 0
+				},
+				{
+					"path": "objects/characters/ybot/animations/idle_base.caf",
+					"usageCount": 0
+				},
+				{
+					"path": "objects/characters/ybot/animations/l_walk_200cm_s.caf",
+					"usageCount": 0
+				},
+				{
+					"path": "objects/characters/ybot/animations/r_walk_200cm_s.caf",
+					"usageCount": 0
+				},
+				{
 					"path": "objects/weapons/sampleweapon/defaultweapon.mtl",
 					"usageCount": 0
 				},
 				{ "path": "objects/weapons/test/assets.cgf", "usageCount": 0 },
+				{ "path": "scripts/ai/behaviortrees/distance.xml", "usageCount": 0 },
 				{ "path": "scripts/ai/factions.xml", "usageCount": 0 },
-				{ "path": "scripts/network/compressionpolicy.xml", "usageCount": 0 }
+				{
+					"path": "textures/cubemaps/example/environmentprobe1_cm.dds",
+					"usageCount": 0
+				},
+				{
+					"path": "textures/cubemaps/example/environmentprobe1_cm_diff.dds",
+					"usageCount": 0
+				}
 			]
 		},
 		{

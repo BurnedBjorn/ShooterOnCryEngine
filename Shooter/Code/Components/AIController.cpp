@@ -2,6 +2,7 @@
 
 #include <CryAISystem/IAISystem.h>
 #include <CryAISystem/INavigation.h>
+#include <AI/BehaviorTree/BehaviorTreeNodes_Game.h>
 
 #include <DefaultComponents/Physics/CharacterControllerComponent.h>
 //Start registration stuff
@@ -47,7 +48,17 @@ void CAIController::Initialize()
     m_pBehaviourTree = m_pEntity->GetOrCreateComponent<IEntityBehaviorTreeComponent>();
     if (m_pBehaviourTree)
     {
+        // From your Game code, you need to call this function
         
+          //BehaviorTree::IBehaviorTreeManager* pManager = gEnv->pAISystem->GetIBehaviorTreeManager();
+
+          //CRY_ASSERT(pManager);
+
+          //const char* COLOR_GAME = "ff00ff";
+          //REGISTER_BEHAVIOR_TREE_NODE_WITH_SERIALIZATION(manager, MyNewActionNode, "Game\\Custom\\Actions", COLOR_GAME);
+          
+            //...
+        RegisterGameBehaviorTreeNodes();
     }
     else
     {
@@ -66,17 +77,12 @@ void CAIController::Initialize()
 
     }
     //
-    //initialize Faction Component
-    m_pFactionComponent = m_pEntity->GetOrCreateComponent<IEntityFactionComponent>();
-    if (m_pFactionComponent)
-    {
-
-    }
-    else
-    {
-        CryLog("m_pFactionComponent not initialized");
-
-    }
+    // 
+    // 
+    // 
+    //initialize Faction Component (Moved into Character
+    //m_pFactionComponent = m_pEntity->GetOrCreateComponent<IEntityFactionComponent>();
+    
     //
     //initialize Listener Component
     m_pListenerComponent = m_pEntity->GetOrCreateComponent<IEntityListenerComponent>();
@@ -125,6 +131,13 @@ void CAIController::Initialize()
     }
     //
 };
+  ////////////////////////////////////////////////////////////
+
+
+
+
+
+
 void CAIController::ProcessEvent(const SEntityEvent& event) 
 {
     switch (event.event)
@@ -134,6 +147,7 @@ void CAIController::ProcessEvent(const SEntityEvent& event)
     {
         //m_pControlledCharacter->MovementInput(Vec2(1, 0));
         //CryLog("Begin");
+        m_pBehaviourTree->SetBBKeyValue("shot", bool(false));
         break;
     }
     case Cry::Entity::EEvent::Reset:
@@ -142,7 +156,13 @@ void CAIController::ProcessEvent(const SEntityEvent& event)
     }
     case Cry::Entity::EEvent::Update:
     {
-        m_pNavigationComponent->NavigateTo(gEnv->pEntitySystem->FindEntityByName("Player")->GetWorldPos());
+        //m_pNavigationComponent->NavigateTo(gEnv->pEntitySystem->FindEntityByName("Player")->GetWorldPos());    #
+        Vec3 Length = m_pEntity->GetWorldPos() - gEnv->pEntitySystem->FindEntityByName("Player")->GetWorldPos();
+
+        float distance = Length.GetLength();
+        
+        
+        m_pBehaviourTree->SetBBKeyValue("distance", distance);
         break;
     }
     case Cry::Entity::EEvent::TimerExpired:
@@ -158,6 +178,15 @@ void CAIController::ProcessEvent(const SEntityEvent& event)
         break;
     }
 };
+/////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
 
 Cry::Entity::EventFlags CAIController::GetEventMask() const
 {
@@ -169,9 +198,19 @@ Cry::Entity::EventFlags CAIController::GetEventMask() const
 void CAIController::RecieveHit(Vec3 Location)
 {
     //Vec3 Location;
-    
-    m_pNavigationComponent->NavigateTo(Location);
-   
-    CryLog("%i; %i; %i;", Location.x,Location.y, Location.z);
+    BTSwitch = !BTSwitch;
+    m_pBehaviourTree->SetBBKeyValue("shot", BTSwitch);
+    m_pBehaviourTree->SendEvent("Shot");
+    //m_pNavigationComponent->NavigateTo(Location);
+    //m_pCoverUser->MoveToCover(CoverID)
+    //m_pCoverUser->
+    //CryLog("%i; %i; %i;", Location.x,Location.y, Location.z);
+}
+void CAIController::Forward()
+{
+    if (m_pControlledCharacter)
+    {
+       // m_pControlledCharacter->MovementInput(Vec2(1, 0));
+    }
 }
 //Cry::Entity::EventFlags CAIController::GetEventMask() const {};

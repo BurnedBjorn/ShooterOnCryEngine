@@ -1,7 +1,8 @@
 // Copyright 2016-2019 Crytek GmbH / Crytek Group. All rights reserved.
 #include "StdAfx.h"
 #include "GamePlugin.h"
-
+#include <CryAISystem/IAISystem.h>
+#include "AI/BehaviorTree/BehaviorTreeNodes_Game.h"
 
 
 #include <CrySchematyc/Env/IEnvRegistry.h>
@@ -32,6 +33,10 @@ bool CGamePlugin::Initialize(SSystemGlobalEnvironment& env, const SSystemInitPar
 	// Register for engine system events, in our case we need ESYSTEM_EVENT_GAME_POST_INIT to load the map
 	gEnv->pSystem->GetISystemEventDispatcher()->RegisterListener(this, "CGamePlugin");
 	
+	if (gEnv->pAISystem && gEnv->pAISystem->GetIBehaviorTreeManager())
+	{
+		//RegisterGameBehaviorTreeNodes();
+	}
 	return true;
 }
 

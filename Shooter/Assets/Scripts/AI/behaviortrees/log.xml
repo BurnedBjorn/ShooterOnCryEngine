@@ -1,0 +1,10 @@
+<BehaviorTree>
+ 
+ <Root>
+  <Loop>
+   
+	<TestLog/>
+   
+  </Loop>
+ </Root>
+</BehaviorTree>

@@ -24,6 +24,10 @@ add_sources("Code_uber.cpp"
 )
 add_sources("Components_uber.cpp"
     PROJECTS Game
+    
+    SOURCE_GROUP "AI\\\\BehaviorTree"
+        "AI/BehaviorTree/BehaviorTreeNodes_Game.h"
+        "AI/BehaviorTree/BehaviorTreeNodes_Game.cpp"
     SOURCE_GROUP "Components\\\\Controllers"
         "Components/PlayerController.h"
         "Components/PlayerController.cpp"
@@ -33,6 +37,7 @@ add_sources("Components_uber.cpp"
         "Components/Character.h"
         "Components/Character.cpp"
         
+     
     SOURCE_GROUP "Components\\\\Weapons"
         "Components/WeaponComponent.h"
         "Components/WeaponComponent.cpp"

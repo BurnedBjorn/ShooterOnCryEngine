@@ -1,0 +1,13 @@
+<BehaviorTree>
+ 
+ <Root>
+  <Loop>
+   <Selector>
+	<TestSwitch>
+		<PrintDistance/>
+	</TestSwitch>
+	<TestLog/>
+   </Selector>
+  </Loop>
+ </Root>
+</BehaviorTree>

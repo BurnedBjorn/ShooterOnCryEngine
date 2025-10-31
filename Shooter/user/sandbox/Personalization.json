@@ -8,7 +8,15 @@
             "Objects/Characters/ybot/animation/aimpose",
             "Animations/ybot/walkcycles",
             "Animations/ybot/additive",
-            "Scripts/AI/communication"
+            "Scripts/AI/communication",
+            "Libs/ai",
+            "Libs/ai/behavior_trees",
+            "Scripts/AI/behaviortrees"
+        ]
+    },
+    "Behavior Tree Editor": {
+        "Recent Files": [
+            "D:/.GameDev/Projects/CRYENGINE projects/CryShooter/Shooter/Assets/Scripts/AI/behaviortrees/distance.xml"
         ]
     },
     "CAssetPicker": {

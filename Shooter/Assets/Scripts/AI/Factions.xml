@@ -1,2 +1,6 @@
 <Factions>
+	<Faction name="NoSoul" default="neutral"/>
+		
+	<Faction name="Team1" default="hostile"/>
+	<Faction name="Team2" default="hostile"/>
 </Factions>

@@ -13,6 +13,12 @@
     <ClInclude Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\GamePlugin.cpp" />
     <ClInclude Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\GamePlugin.h" />
     <ClInclude Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\StdAfx.h" />
+    <ClInclude Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\AI\BehaviorTree\BehaviorTreeNodes_Game.h">
+      <Filter>AI\BehaviorTree</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\AI\BehaviorTree\BehaviorTreeNodes_Game.cpp">
+      <Filter>AI\BehaviorTree</Filter>
+    </ClInclude>
     <ClInclude Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\Components\PlayerController.h">
       <Filter>Components\Controllers</Filter>
     </ClInclude>
@@ -50,6 +56,12 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
+    <Filter Include="AI">
+      <UniqueIdentifier>{DB46B298-CAA7-3EF8-B934-1FA3EC30EB9C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\BehaviorTree">
+      <UniqueIdentifier>{B1F831A6-CA55-3F75-A69C-DA86A1654FB8}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Components">
       <UniqueIdentifier>{5CC5E0BC-9C42-3F06-A654-6A9C5ED38F8C}</UniqueIdentifier>
     </Filter>

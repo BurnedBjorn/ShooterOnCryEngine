@@ -1,26 +1,51 @@
-<AssetMetadata version="0" type="Level" guid="984fcd77-e594-2b34-fbf5-414a47e0d684" source="" timestamp="1760721123">
+<AssetMetadata version="0" type="Level" guid="984fcd77-e594-2b34-fbf5-414a47e0d684" source="" timestamp="1761896712">
  <Files>
   <File path="example/example.level"/>
  </Files>
  <Dependencies>
   <Path>%editor%/objects/envcube.cgf</Path>
-  <Path>%engine%/config/defaultscripts/compressionpolicy.xml</Path>
+  <Path>%editor%/objects/envcube.mtl</Path>
   <Path>%engine%/engineassets/icons/averagememoryusage.dds</Path>
   <Path>%engine%/engineassets/icons/highmemoryusage.dds</Path>
   <Path>%engine%/engineassets/icons/livepreview.dds</Path>
   <Path>%engine%/engineassets/icons/lowmemoryusage.dds</Path>
+  <Path>%engine%/engineassets/materials/fog/fogvolumebox.mtl</Path>
+  <Path>%engine%/engineassets/materials/fog/fogvolumeellipsoid.mtl</Path>
+  <Path>%engine%/engineassets/materials/fog/oceaninto.mtl</Path>
+  <Path>%engine%/engineassets/materials/fog/oceanintolowspec.mtl</Path>
+  <Path>%engine%/engineassets/materials/fog/oceanoutof.mtl</Path>
+  <Path>%engine%/engineassets/materials/fog/oceanoutoflowspec.mtl</Path>
   <Path>%engine%/engineassets/materials/material_default.mtl</Path>
+  <Path>%engine%/engineassets/materials/material_terrain_default.mtl</Path>
+  <Path>%engine%/engineassets/materials/water/wateroceanbottom.mtl</Path>
   <Path>%engine%/engineassets/objects/primitive_cube.cgf</Path>
+  <Path>%engine%/engineassets/objects/primitive_sphere.cgf</Path>
+  <Path>%engine%/engineassets/texturemsg/defaultnouvs.dds</Path>
   <Path>%engine%/engineassets/texturemsg/defaultsolids.mtl</Path>
+  <Path>%engine%/engineassets/textures/skys/night/half_moon.dds</Path>
   <Path>%engine%/engineassets/textures/white.dds</Path>
+  <Path>engineassets/materials/water/ocean_default.mtl</Path>
   <Path usageCount="1">libs/environmentpresets/example.env</Path>
   <Path>objects/characters/emptychar/emptychar.cdf</Path>
   <Path>objects/characters/newmayarig/alpha_surface.skin</Path>
+  <Path>objects/characters/newmayarig/anims/basean.caf</Path>
+  <Path>objects/characters/newmayarig/anims/forward.caf</Path>
+  <Path>objects/characters/newmayarig/anims/ubodytest.caf</Path>
+  <Path>objects/characters/newmayarig/anims/upperbody.caf</Path>
+  <Path>objects/characters/newmayarig/bodymaterials.mtl</Path>
   <Path>objects/characters/newmayarig/newrigtest.cdf</Path>
   <Path>objects/characters/newmayarig/skeleton.chr</Path>
+  <Path>objects/characters/newmayarig/skeleton1.mtl</Path>
+  <Path>objects/characters/ybot/animations/b_walk_200cm_s.caf</Path>
+  <Path>objects/characters/ybot/animations/f_walk_200cm_s.caf</Path>
+  <Path>objects/characters/ybot/animations/idle_base.caf</Path>
+  <Path>objects/characters/ybot/animations/l_walk_200cm_s.caf</Path>
+  <Path>objects/characters/ybot/animations/r_walk_200cm_s.caf</Path>
   <Path>objects/weapons/sampleweapon/defaultweapon.mtl</Path>
   <Path>objects/weapons/test/assets.cgf</Path>
+  <Path>scripts/ai/behaviortrees/distance.xml</Path>
   <Path>scripts/ai/factions.xml</Path>
-  <Path>scripts/network/compressionpolicy.xml</Path>
+  <Path>textures/cubemaps/example/environmentprobe1_cm.dds</Path>
+  <Path>textures/cubemaps/example/environmentprobe1_cm_diff.dds</Path>
  </Dependencies>
 </AssetMetadata>

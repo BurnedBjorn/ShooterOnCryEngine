@@ -28,6 +28,12 @@ CRY_STATIC_AUTO_REGISTER_FUNCTION(&RegisterCharacterComponent)
 void CCharacterComponent::Initialize()
 {
     m_pStaticMesh = m_pEntity->GetOrCreateComponent<Cry::DefaultComponents::CStaticMeshComponent>();
+    if (m_pStaticMesh)
+    {
+        Matrix34 MeshTransform= m_pStaticMesh->GetTransformMatrix();
+        MeshTransform.SetTranslation(Vec3(0, 0, 1.5));
+        m_pStaticMesh->SetTransformMatrix(MeshTransform);
+    }
     m_pCharacterController = m_pEntity->GetOrCreateComponent<Cry::DefaultComponents::CCharacterControllerComponent>();
     m_pAdvancedAnimationController = m_pEntity->GetOrCreateComponent< Cry::DefaultComponents::CAdvancedAnimationComponent>();
     if (m_pAdvancedAnimationController)
@@ -39,6 +45,7 @@ void CCharacterComponent::Initialize()
         
         //m_pAdvancedAnimationController->SetTransformMatrix(NewRot);
     }
+    m_pFactionComponent = m_pEntity->GetOrCreateComponent<IEntityFactionComponent>();
 
 }
 
@@ -206,19 +213,19 @@ void CCharacterComponent::HitDebug(int ipart)
     switch (hitPart)
     {
     case CCharacterComponent::HEAD:
-        CryLog("Head");
+        //CryLog("Head");
         break;
     case CCharacterComponent::BODY:
-        CryLog("Body");
+        //CryLog("Body");
         break;
     case CCharacterComponent::ARMS:
-        CryLog("Arms");
+        //CryLog("Arms");
         break;
     case CCharacterComponent::LEGS:
-        CryLog("Legs");
+        //CryLog("Legs");
         break;
     default:
-        CryLog("NotMapped");
+        //CryLog("NotMapped");
         break;
     }
 }

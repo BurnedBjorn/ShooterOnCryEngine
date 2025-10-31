@@ -304,6 +304,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ClInclude Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\GamePlugin.h" />
     <ClInclude Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\StdAfx.h" />
+    <ClInclude Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\AI\BehaviorTree\BehaviorTreeNodes_Game.h" />
+    <ClInclude Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\AI\BehaviorTree\BehaviorTreeNodes_Game.cpp" />
     <ClInclude Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\Components\PlayerController.h" />
     <ClInclude Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\Components\PlayerController.cpp" />
     <ClInclude Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\Components\AIController.h" />
