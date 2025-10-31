@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="D:\.GameDev\Engines\Cryengine\CRYENGINE Launcher\Engines\crytek\cryengine-57-lts\5.7.1\Code\CryEngine\CryCommon\CryCore\Platform\platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7B4F37DF-E182-388D-B0A9-11CAE51CD8AC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

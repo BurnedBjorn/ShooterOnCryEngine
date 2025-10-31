@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\StdAfx.cpp" />
+    <ClCompile Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\solutions\win64\Code_uber.cpp">
+      <Filter>UBER FILES</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\solutions\win64\Components_uber.cpp">
+      <Filter>UBER FILES</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\GamePlugin.cpp" />
+    <ClInclude Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\GamePlugin.h" />
+    <ClInclude Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\StdAfx.h" />
+    <ClInclude Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\AI\BehaviorTree\BehaviorTreeNodes_Game.h">
+      <Filter>AI\BehaviorTree</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\AI\BehaviorTree\BehaviorTreeNodes_Game.cpp">
+      <Filter>AI\BehaviorTree</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\Components\PlayerController.h">
+      <Filter>Components\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\Components\PlayerController.cpp">
+      <Filter>Components\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\Components\AIController.h">
+      <Filter>Components\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\Components\AIController.cpp">
+      <Filter>Components\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\Components\Character.h">
+      <Filter>Components\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\Components\Character.cpp">
+      <Filter>Components\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\Components\WeaponComponent.h">
+      <Filter>Components\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\Components\WeaponComponent.cpp">
+      <Filter>Components\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\Components\WeaponProperties.h">
+      <Filter>Components\Weapons</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\Code\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\.GameDev\Projects\CRYENGINE projects\CryShooter\Shooter\solutions\win64\Game.autogen.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="AI">
+      <UniqueIdentifier>{DB46B298-CAA7-3EF8-B934-1FA3EC30EB9C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\BehaviorTree">
+      <UniqueIdentifier>{B1F831A6-CA55-3F75-A69C-DA86A1654FB8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{5CC5E0BC-9C42-3F06-A654-6A9C5ED38F8C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Character">
+      <UniqueIdentifier>{A26324E9-7EA1-3A27-8862-CD95486BFF03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Controllers">
+      <UniqueIdentifier>{11FF94D0-D907-3040-A631-F3A4F9EA5CEA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Weapons">
+      <UniqueIdentifier>{D40FE18F-ED06-3CD3-8036-1A4378DC08C8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{24153BC0-625F-30B2-9C33-E15A6BF50E28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UBER FILES">
+      <UniqueIdentifier>{9EC154B6-EA88-362C-9D84-84331050F6B2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
